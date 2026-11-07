@@ -1,0 +1,53 @@
+{
+  "verdict": "T5R1R2_FINAL_EXTERNAL_REVIEW_CLOSURE_VALIDATED",
+  "check_count": 9,
+  "passed_count": 9,
+  "failed_count": 0,
+  "checks": [
+    {
+      "check": "copied_T5R1R1_exhaustive_baseline_passes",
+      "passed": true,
+      "detail": "85/85"
+    },
+    {
+      "check": "previous_T5R1_core_validator_accepted",
+      "passed": true,
+      "detail": "T5R1_MATCHED_DEEP_ANALYSIS_REPAIR_VALIDATED"
+    },
+    {
+      "check": "all_method_snapshots_exist_and_match_recorded_hashes",
+      "passed": true,
+      "detail": "T5R1_MATCHED_DEEP_ANALYSIS_REPAIR_VALIDATION.json,analyze_t5r1_matched_water.py,build_provenance_receipt.py,validate_t5r1.py"
+    },
+    {
+      "check": "final_interpretation_exists_nonempty_and_has_evidence_limits",
+      "passed": true,
+      "detail": "2038"
+    },
+    {
+      "check": "post_closure_source_hash_groups_are_3_and_6",
+      "passed": true,
+      "detail": "3/6 groups and nine current hashes"
+    },
+    {
+      "check": "coordination_curve_uses_histogram_upper_edges",
+      "passed": true,
+      "detail": "cutoff=EDGES[1:]"
+    },
+    {
+      "check": "coordination_marker_points_match_authoritative_table",
+      "passed": true,
+      "detail": "all 3 exact cutoffs"
+    },
+    {
+      "check": "coordination_upper_edge_curve_matches_table_at_3p5A",
+      "passed": true,
+      "detail": "[3.5        5.20661253 5.11703016]"
+    },
+    {
+      "check": "repaired_coordination_figure_readable",
+      "passed": true,
+      "detail": "1280x840; focused 2.5-4.0 A / 0-9"
+    }
+  ]
+}

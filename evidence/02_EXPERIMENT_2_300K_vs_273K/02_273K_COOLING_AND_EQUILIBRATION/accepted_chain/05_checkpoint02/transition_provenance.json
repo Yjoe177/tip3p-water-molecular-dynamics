@@ -1,0 +1,14 @@
+{
+    "stage":  "tempcomp_273K_equilibration_checkpoint02",
+    "pass":  "T3C2",
+    "coord_source":  "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\05_273K_equilibration_checkpoint02\\input\\tempcomp_273K_equilibration_checkpoint02_start_coordinate.txt",
+    "vel_source":  "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\05_273K_equilibration_checkpoint02\\input\\tempcomp_273K_equilibration_checkpoint02_start_velocity.txt",
+    "coord_source_sha256":  "56BCC4D04047BDE20662C6466313DE09337BFF07000665653DCDE2A1C11EEBAB",
+    "vel_source_sha256":  "2C0C7D8229DFB9E1D29DE44FBE9F5E8AD092883884F7F2C17A2CD63A941CBE26",
+    "coord_copy_sha256":  "56BCC4D04047BDE20662C6466313DE09337BFF07000665653DCDE2A1C11EEBAB",
+    "vel_copy_sha256":  "2C0C7D8229DFB9E1D29DE44FBE9F5E8AD092883884F7F2C17A2CD63A941CBE26",
+    "hashes_match":  true,
+    "synchronized":  true,
+    "velocity_regenerated":  false,
+    "start_header":  "2586 121.6200000000 1999"
+}

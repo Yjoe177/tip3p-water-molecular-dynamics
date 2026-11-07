@@ -1,0 +1,96 @@
+{
+  "validator": "validate_final_tip3p_water_project_package_final.py",
+  "read_only_default": true,
+  "manifest_checked": false,
+  "provenance_path_hash_records_verified": 25,
+  "checks": [
+    {
+      "name": "correct_FINAL_root",
+      "passed": true,
+      "detail": "FINAL_TIP3P_WATER_300K_273K_PROJECT_PACKAGE_FINAL"
+    },
+    {
+      "name": "root_README_final_status_correct",
+      "passed": true,
+      "detail": "FINAL identity"
+    },
+    {
+      "name": "T1_local_validator_PASS",
+      "passed": true,
+      "detail": "PACKAGED_T1_REFERENCE_VALIDATED (5/5)"
+    },
+    {
+      "name": "deep_local_validator_PASS",
+      "passed": true,
+      "detail": "FINAL_DEEP_ANALYSIS_SUBSET_VALIDATED (19/19)"
+    },
+    {
+      "name": "all_provenance_path_hash_records",
+      "passed": true,
+      "detail": "verified=25 bad=[]"
+    },
+    {
+      "name": "Windows_POSIX_provenance_portability",
+      "passed": true,
+      "detail": "9/9 PureWindowsPath resolutions"
+    },
+    {
+      "name": "experiment1_validation_provenance",
+      "passed": true,
+      "detail": "resolves and accepted"
+    },
+    {
+      "name": "method_registry_exact",
+      "passed": true,
+      "detail": "3 snapshots"
+    },
+    {
+      "name": "all_23_PNGs_readable",
+      "passed": true,
+      "detail": "23 figures"
+    },
+    {
+      "name": "all_13_trajectory_box_pairs",
+      "passed": true,
+      "detail": "pairs=13 bad=[]"
+    },
+    {
+      "name": "all_JSON_parse",
+      "passed": true,
+      "detail": "pass"
+    },
+    {
+      "name": "all_CSV_readable",
+      "passed": true,
+      "detail": "pass"
+    },
+    {
+      "name": "all_Python_compile",
+      "passed": true,
+      "detail": "pass"
+    },
+    {
+      "name": "all_NPZ_finite",
+      "passed": true,
+      "detail": "pass"
+    },
+    {
+      "name": "no_zero_byte_files",
+      "passed": true,
+      "detail": "pass"
+    },
+    {
+      "name": "builder_verified_ZIP_safe_extract",
+      "passed": true,
+      "detail": "verified archive, traversal protection, fail closed"
+    },
+    {
+      "name": "no_temporary_or_nested_archive_material",
+      "passed": true,
+      "detail": "[]"
+    }
+  ],
+  "passed": 17,
+  "total": 17,
+  "verdict": "FINAL_TIP3P_WATER_300K_273K_PROJECT_PACKAGE_FINAL_VALIDATED"
+}

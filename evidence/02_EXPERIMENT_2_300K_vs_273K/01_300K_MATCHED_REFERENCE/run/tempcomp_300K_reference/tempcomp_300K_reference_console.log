@@ -1,0 +1,34 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260826110330
+Username: LAPTOP-5BN71S8A\Acer
+RunAs User: LAPTOP-5BN71S8A\Acer
+Configuration Name: 
+Machine: LAPTOP-5BN71S8A (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\Acer\Desktop\Chemistry Research Intern\First Experiment\12_TEMPERATURE_COMPARISON_300K_273K\02_300K_reference\RUN_300K_REFERENCE.ps1
+Process ID: 21952
+PSVersion: 5.1.26100.9168
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9168
+BuildVersion: 10.0.26100.9168
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is tempcomp_300K_reference_console.log
+             LJ =         1189.68,              PM =        -9461.04,            bond =            0.00,
+------------------------------------------------------------------------------------------------------------
+Time Summary:
+Rank   0    |         Initialization         |      0.205279 seconds
+Rank   0    |           Iteration            |     14.134581 seconds
+Rank   0    |       neighbor searching       |     16.217023 seconds
+Rank   0    |        Calculate_Force         |     22.035871 hours
+------------------------------------------------------------------------------------------------------------
+Stop Wall Time: Thu Aug 27 09:06:17 2026
+Core Run Wall Time: 79347.429991 seconds (22.040953 hours)
+Core Run Speed: 0.005445 ns/day
+**********************
+Windows PowerShell transcript end
+End time: 20260827090619
+**********************

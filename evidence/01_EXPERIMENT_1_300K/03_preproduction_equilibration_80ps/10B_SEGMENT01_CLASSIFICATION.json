@@ -1,0 +1,17 @@
+{
+    "classification":  "BUSSI_NPT_EQUILIBRATION_SEGMENT01_80PS_ACCEPTED_RUNTIME_STALL_AFTER_RESTART",
+    "note":  "The 10B 100 ps Bussi-NPT run developed abnormal runtime behavior after the 80,000-step synchronized restart. The process continued consuming heavy CPU but useful MD output progressed extremely slowly / effectively stalled around step 80,900 for several hours. The user stopped the process after safely preserving the synchronized 80,000-step restart. Only the synchronized first 80,000 steps are treated as restartable scientific state. The mdout records after the 80,000-step restart through approximately step 80,900 are preserved as diagnostic evidence but excluded from the continuation trajectory.",
+    "accepted_restart":  {
+                             "coordinate_file":  "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\10B_bussi_npt_equilibration_100ps_20260808_161936\\run\\saved_restart_80000\\restart_80000_coordinate.txt",
+                             "velocity_sha256":  "B4D10C5061547E6E6B9960C4BC2559A3F0A0544174C4F30E6C6634744C0766DC",
+                             "header":  "2586 102.6200000000 79999",
+                             "velocity_file":  "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\10B_bussi_npt_equilibration_100ps_20260808_161936\\run\\saved_restart_80000\\restart_80000_velocity.txt",
+                             "coordinate_sha256":  "7AB6E6C7EFFF0BE8E5518D67993C40ACE8CEB5C4B9A1477A96F8C607FD3155BA"
+                         },
+    "discarded_tail":  {
+                           "description":  "Approximately 900 unsynchronized steps after the 80,000-step restart, preserved as diagnostic evidence only.",
+                           "reason":  "No synchronized restart exists at that point; continuation starts from the 80,000-step restart."
+                       },
+    "scientific_claim":  "Do not claim uninterrupted 100 ps equilibration. This is a segmented stochastic NPT equilibration.",
+    "created_at":  "2026-08-09T16:30:10+08:00"
+}

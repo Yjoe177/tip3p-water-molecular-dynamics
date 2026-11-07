@@ -1,0 +1,12 @@
+{
+  "classification": "NPT_PRODUCTION_SEGMENT02_4PS_ACCEPTED",
+  "accepted_steps": "100-4000",
+  "absolute_time_range_ps": [
+    108.72,
+    112.62
+  ],
+  "final_restart_header": "2586 112.6200000000 3999",
+  "coordinate_sha256": "E6DDAF9DEB248D5076B2AD783843456AB697D8456B1E42B85130D82A57DFAA81",
+  "velocity_sha256": "E43EA18C0569294A4FD644C80479AAF855D1737DCE8EA6808FDCBF6D2C71277B",
+  "exit_code": 0
+}

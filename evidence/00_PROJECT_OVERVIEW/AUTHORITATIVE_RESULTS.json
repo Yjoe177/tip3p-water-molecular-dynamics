@@ -1,0 +1,692 @@
+{
+  "authorities": {
+    "experiment_1_r7r_zip": {
+      "filename": "FINAL_MD_PROJECT_PACKAGE_R7R.zip",
+      "sha256": "91463032E3CF1BC5A718EAA767383CBC56CD2752631E9CD63C3865F96BC31186"
+    },
+    "experiment_2_t5r1r2_zip": {
+      "filename": "T5R1R2_FINAL_EXTERNAL_REVIEW_PACKAGE.zip",
+      "sha256": "13DCE2F09D9F0E64B1A86A2F690EC8FA305ED263AEC8366DDA835258AE65B8BE"
+    }
+  },
+  "experiment_1": {
+    "system": {
+      "waters": 862,
+      "atoms": 2586,
+      "timestep_fs": 1,
+      "electrostatics": "PME",
+      "cutoff_A": 8,
+      "constraints": "runtime SETTLE",
+      "thermostat": "Middle Langevin",
+      "production": "Bussi-NPT; segmented 6 ps + 4 ps"
+    },
+    "primary_thermodynamics": {
+      "temperature_K": {
+        "mean": 300.38620000000003,
+        "sd": 5.681579577001089,
+        "n": 50,
+        "units": "K",
+        "source_path": "01_EXPERIMENT_1_ORIGINAL_300K/04_analysis_data/final_analysis_summary.json",
+        "source_locator": "thermodynamic_statistics.primary_5_10ps.temperature_K"
+      },
+      "pressure_bar": {
+        "mean": 9.369000000000007,
+        "sd": 483.5997160253466,
+        "n": 50,
+        "units": "bar",
+        "source_path": "01_EXPERIMENT_1_ORIGINAL_300K/04_analysis_data/final_analysis_summary.json",
+        "source_locator": "thermodynamic_statistics.primary_5_10ps.pressure_bar"
+      },
+      "density_g_cm3": {
+        "mean": 0.974238,
+        "sd": 0.0009791479011083467,
+        "n": 50,
+        "units": "g/cm3",
+        "source_path": "01_EXPERIMENT_1_ORIGINAL_300K/04_analysis_data/final_analysis_summary.json",
+        "source_locator": "thermodynamic_statistics.primary_5_10ps.density_g_cm3"
+      },
+      "potential_kcal_mol": {
+        "mean": -8203.522599999998,
+        "sd": 34.10459037928423,
+        "n": 50,
+        "units": "kcal/mol",
+        "source_path": "01_EXPERIMENT_1_ORIGINAL_300K/04_analysis_data/final_analysis_summary.json",
+        "source_locator": "thermodynamic_statistics.primary_5_10ps.potential_kcal_mol"
+      }
+    },
+    "volume": {
+      "mean": 26468.729434781675,
+      "sd": 32.49716972440443,
+      "n": 9,
+      "units": "A3",
+      "source_path": "01_EXPERIMENT_1_ORIGINAL_300K/04_analysis_data/final_analysis_summary.json",
+      "source_locator": "box_statistics.primary_5_10ps.volume_A3"
+    },
+    "rigid_water_geometry": {
+      "OH": {
+        "mean": 0.957196580481961,
+        "sd": 4.712624672208185e-05,
+        "n": 24136,
+        "units": "A",
+        "source_path": "01_EXPERIMENT_1_ORIGINAL_300K/04_analysis_data/final_analysis_summary.json",
+        "source_locator": "structure.OH_distance_A"
+      },
+      "HH": {
+        "mean": 1.5135945827147457,
+        "sd": 7.449993226327945e-05,
+        "n": 12068,
+        "units": "A",
+        "source_path": "01_EXPERIMENT_1_ORIGINAL_300K/04_analysis_data/final_analysis_summary.json",
+        "source_locator": "structure.HH_distance_A"
+      },
+      "HOH": {
+        "mean": 104.49060172796257,
+        "sd": 9.125152444318046e-05,
+        "n": 12068,
+        "units": "deg",
+        "source_path": "01_EXPERIMENT_1_ORIGINAL_300K/04_analysis_data/final_analysis_summary.json",
+        "source_locator": "structure.HOH_angle_deg"
+      }
+    },
+    "rdf_14_frame_illustrative": {
+      "source_path": "01_EXPERIMENT_1_ORIGINAL_300K/04_analysis_data/final_analysis_summary.json",
+      "source_locator": "rdf_peaks",
+      "OO_peak_A": 2.75,
+      "OO_peak_g": 2.6072626899744287,
+      "OO_min_A": 3.45,
+      "OH_peak_A": 1.85,
+      "OH_peak_g": 1.2420078832973755,
+      "OH_min_A": 2.45,
+      "HH_peak_A": 2.45,
+      "HH_peak_g": 1.2472646952454705,
+      "HH_min_A": 2.95,
+      "large_r_means": {
+        "OO": 0.9996999247581704,
+        "OH": 0.9995659067551882,
+        "HH": 0.9998610905729608
+      }
+    }
+  },
+  "experiment_2": {
+    "target_temperature_K": {
+      "300K": 300,
+      "273K": 273
+    },
+    "sampled_temperature_K": {
+      "300K": {
+        "mean": 301.78670000000005,
+        "sd": 5.303134208592446,
+        "n": 100,
+        "units": "K",
+        "source_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/04_FINAL_DEEP_ANALYSIS/ANALYSIS_RESULTS.json",
+        "source_locator": "thermodynamics.300K.temperature"
+      },
+      "273K": {
+        "mean": 269.9610101010101,
+        "sd": 4.760413396332147,
+        "n": 99,
+        "units": "K",
+        "source_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/04_FINAL_DEEP_ANALYSIS/ANALYSIS_RESULTS.json",
+        "source_locator": "thermodynamics.273K.temperature"
+      }
+    },
+    "pressure_bar": {
+      "300K": {
+        "mean": -75.2467,
+        "sd": 395.94319657400655,
+        "n": 100,
+        "units": "bar",
+        "source_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/04_FINAL_DEEP_ANALYSIS/ANALYSIS_RESULTS.json",
+        "source_locator": "thermodynamics.300K.pressure"
+      },
+      "273K": {
+        "mean": -592.7020202020202,
+        "sd": 357.78335525840043,
+        "n": 99,
+        "units": "bar",
+        "source_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/04_FINAL_DEEP_ANALYSIS/ANALYSIS_RESULTS.json",
+        "source_locator": "thermodynamics.273K.pressure"
+      }
+    },
+    "density_g_cm3": {
+      "300K": {
+        "mean": 0.9763189999999998,
+        "sd": 0.001365867837491951,
+        "n": 100,
+        "units": "g/cm3",
+        "source_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/04_FINAL_DEEP_ANALYSIS/ANALYSIS_RESULTS.json",
+        "source_locator": "thermodynamics.300K.density"
+      },
+      "273K": {
+        "mean": 0.9760656565656567,
+        "sd": 0.0007862545695868707,
+        "n": 99,
+        "units": "g/cm3",
+        "source_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/04_FINAL_DEEP_ANALYSIS/ANALYSIS_RESULTS.json",
+        "source_locator": "thermodynamics.273K.density"
+      }
+    },
+    "potential_kcal_mol": {
+      "300K": {
+        "mean": -8214.394400000001,
+        "sd": 36.21316263627378,
+        "n": 100,
+        "units": "kcal/mol",
+        "source_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/04_FINAL_DEEP_ANALYSIS/ANALYSIS_RESULTS.json",
+        "source_locator": "thermodynamics.300K.potential"
+      },
+      "273K": {
+        "mean": -8518.883939393938,
+        "sd": 27.191893930863035,
+        "n": 99,
+        "units": "kcal/mol",
+        "source_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/04_FINAL_DEEP_ANALYSIS/ANALYSIS_RESULTS.json",
+        "source_locator": "thermodynamics.273K.potential"
+      }
+    },
+    "volume_A3": {
+      "300K": {
+        "mean": 26409.265424108926,
+        "sd": 36.92305301572169,
+        "n": 100,
+        "units": "A3",
+        "source_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/04_FINAL_DEEP_ANALYSIS/ANALYSIS_RESULTS.json",
+        "source_locator": "box_volumes_A3.300K"
+      },
+      "273K": {
+        "mean": 26415.944483628093,
+        "sd": 21.316665956014283,
+        "n": 100,
+        "units": "A3",
+        "source_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/04_FINAL_DEEP_ANALYSIS/ANALYSIS_RESULTS.json",
+        "source_locator": "box_volumes_A3.273K"
+      }
+    },
+    "hbond_events_per_frame": {
+      "300K": {
+        "mean": 1108.7,
+        "sd": 17.002376542142812,
+        "n": 100,
+        "units": "events/frame",
+        "source_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/04_FINAL_DEEP_ANALYSIS/ANALYSIS_RESULTS.json",
+        "source_locator": "hbonds.300K.mean_events",
+        "n_frames": 100
+      },
+      "273K": {
+        "mean": 1195.86,
+        "sd": 17.18939066736083,
+        "n": 100,
+        "units": "events/frame",
+        "source_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/04_FINAL_DEEP_ANALYSIS/ANALYSIS_RESULTS.json",
+        "source_locator": "hbonds.273K.mean_events",
+        "n_frames": 100
+      }
+    },
+    "hbond_per_water": {
+      "300K": {
+        "mean": 2.5723897911832942,
+        "sd": 0.03944866947132903,
+        "n": 100,
+        "units": "bonds/water",
+        "source_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/04_FINAL_DEEP_ANALYSIS/ANALYSIS_RESULTS.json",
+        "source_locator": "hbonds.300K.mean_per_water"
+      },
+      "273K": {
+        "mean": 2.7746171693735495,
+        "sd": 0.03988257695443347,
+        "n": 100,
+        "units": "bonds/water",
+        "source_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/04_FINAL_DEEP_ANALYSIS/ANALYSIS_RESULTS.json",
+        "source_locator": "hbonds.273K.mean_per_water"
+      }
+    },
+    "hbond_geometry": {
+      "300K": {
+        "OO_distance_A": {
+          "mean": 2.861434742033037,
+          "sd": 0.19097307050329224,
+          "n": 110870,
+          "units": "A",
+          "source_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/04_FINAL_DEEP_ANALYSIS/ANALYSIS_RESULTS.json",
+          "source_locator": "hbonds.300K.distance_mean",
+          "n_frames": 100,
+          "statistical_population": "pooled accepted H-bond events"
+        },
+        "angle_deg": {
+          "mean": 162.9912855252467,
+          "sd": 7.31083271094736,
+          "n": 110870,
+          "units": "deg",
+          "source_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/04_FINAL_DEEP_ANALYSIS/ANALYSIS_RESULTS.json",
+          "source_locator": "hbonds.300K.angle_mean",
+          "n_frames": 100,
+          "statistical_population": "pooled accepted H-bond events"
+        }
+      },
+      "273K": {
+        "OO_distance_A": {
+          "mean": 2.8522657937539004,
+          "sd": 0.1808537223367308,
+          "n": 119586,
+          "units": "A",
+          "source_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/04_FINAL_DEEP_ANALYSIS/ANALYSIS_RESULTS.json",
+          "source_locator": "hbonds.273K.distance_mean",
+          "n_frames": 100,
+          "statistical_population": "pooled accepted H-bond events"
+        },
+        "angle_deg": {
+          "mean": 163.39335862996217,
+          "sd": 7.276526368623243,
+          "n": 119586,
+          "units": "deg",
+          "source_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/04_FINAL_DEEP_ANALYSIS/ANALYSIS_RESULTS.json",
+          "source_locator": "hbonds.273K.angle_mean",
+          "n_frames": 100,
+          "statistical_population": "pooled accepted H-bond events"
+        }
+      }
+    },
+    "tetrahedral_q": {
+      "300K": {
+        "mean": 0.5616971529057351,
+        "sd": 0.19470849478907304,
+        "n": 86200,
+        "units": "dimensionless",
+        "source_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/04_FINAL_DEEP_ANALYSIS/ANALYSIS_RESULTS.json",
+        "source_locator": "tetra_q.300K.mean",
+        "n_frames": 100,
+        "waters_per_frame": 862,
+        "statistical_population": "pooled raw per-water q values"
+      },
+      "273K": {
+        "mean": 0.5908397458127614,
+        "sd": 0.19222643704427084,
+        "n": 86200,
+        "units": "dimensionless",
+        "source_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/04_FINAL_DEEP_ANALYSIS/ANALYSIS_RESULTS.json",
+        "source_locator": "tetra_q.273K.mean",
+        "n_frames": 100,
+        "waters_per_frame": 862,
+        "statistical_population": "pooled raw per-water q values"
+      }
+    },
+    "coordination_3p5_A": {
+      "300K": {
+        "mean": 5.206612529002319,
+        "sd": null,
+        "n": 100,
+        "units": "neighbors",
+        "source_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/04_FINAL_DEEP_ANALYSIS/ANALYSIS_RESULTS.json",
+        "source_locator": "coordination.common_3p5_A.300K.direct"
+      },
+      "273K": {
+        "mean": 5.117030162412992,
+        "sd": null,
+        "n": 100,
+        "units": "neighbors",
+        "source_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/04_FINAL_DEEP_ANALYSIS/ANALYSIS_RESULTS.json",
+        "source_locator": "coordination.common_3p5_A.273K.direct"
+      }
+    },
+    "records": {
+      "structural_frames": {
+        "300K": 100,
+        "273K": 100
+      },
+      "box_records": {
+        "300K": 100,
+        "273K": 100
+      },
+      "thermo_records": {
+        "300K": 100,
+        "273K": 99
+      },
+      "missing_273K_time_ps": 127.62
+    },
+    "deep_source_hashes": {
+      "300K": {
+        "trajectory_files": [
+          {
+            "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\02_300K_reference\\run\\tempcomp_300K_reference\\tempcomp_300K_reference_traj.dat",
+            "bytes": 3103200,
+            "sha256": "5D0378EFC122A9CB34E1999AD9D2BB3DEC04BECC3FA338E701AF6F25A47EA8A1"
+          }
+        ],
+        "box_files": [
+          {
+            "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\02_300K_reference\\run\\tempcomp_300K_reference\\tempcomp_300K_reference_traj.box",
+            "bytes": 6100,
+            "sha256": "D2552807AF8627AAD6EE7CC95113CDCFC7AD66783A01C651D8885E2050FD04D1"
+          }
+        ],
+        "mdout_files": [
+          {
+            "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\02_300K_reference\\run\\tempcomp_300K_reference\\tempcomp_300K_reference.mdout",
+            "bytes": 29189,
+            "sha256": "BEA8001AF75187CE09DB1488A82AD1732DA46A4E533E88365A65C2142556431B"
+          }
+        ],
+        "structural_frame_count": 100,
+        "box_record_count": 100,
+        "mdout_record_count": 100,
+        "start_time_ps": 112.62,
+        "structural_times_ps": [
+          112.67,
+          117.62
+        ]
+      },
+      "273K": {
+        "trajectory_files": [
+          {
+            "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps\\tempcomp_273K_production_5ps_traj.dat",
+            "bytes": 1861920,
+            "sha256": "559FD6DE0659FDEB805E2DB06CF08127BAB75397143FB579B9A27DC692404FE2"
+          },
+          {
+            "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps_resume\\tempcomp_273K_production_5ps_resume_traj.dat",
+            "bytes": 1241280,
+            "sha256": "0D5FC88D8205750619A9854BB73D205E618A210C28E739D189DA90A17621EF78"
+          }
+        ],
+        "box_files": [
+          {
+            "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps\\tempcomp_273K_production_5ps_traj.box",
+            "bytes": 3660,
+            "sha256": "96FCD1E237811585EC1C4A4E7B66FF2295EC229990981770B5E4017FE2A20C0B"
+          },
+          {
+            "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps_resume\\tempcomp_273K_production_5ps_resume_traj.box",
+            "bytes": 2440,
+            "sha256": "5EDAFD1B07AC60F74C8F547A319E3B4C81F71A1B3669DF782DB0AFEF2CF7619B"
+          }
+        ],
+        "mdout_files": [
+          {
+            "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps\\tempcomp_273K_production_5ps.mdout",
+            "bytes": 17340,
+            "sha256": "E95EEDB805B8089028AD086761C5AB3B530DB05C53F04FE76D2069F6262CD070"
+          },
+          {
+            "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps_resume\\tempcomp_273K_production_5ps_resume.mdout",
+            "bytes": 11849,
+            "sha256": "9C65423B991B99F6DE1701F2D1BB66F1850556B87D812DCF7170F6104233D1B7"
+          }
+        ],
+        "structural_frame_count": 100,
+        "box_record_count": 100,
+        "mdout_record_count": 99,
+        "start_time_ps": 124.62,
+        "structural_times_ps": [
+          124.67,
+          129.62
+        ],
+        "known_missing_thermo_record": "Step-3000 mdout record was buffered/lost at laptop restart; it is not fabricated."
+      }
+    },
+    "rdf": {
+      "300K": {
+        "OO": {
+          "units": {
+            "r_A": "A",
+            "g_raw": "dimensionless",
+            "g_smoothed": "dimensionless"
+          },
+          "source_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/04_FINAL_DEEP_ANALYSIS/ANALYSIS_RESULTS.json",
+          "source_locator": "rdf.300K.OO.features",
+          "first_peak": {
+            "r_A": 2.7750000000000004,
+            "g_raw": 2.7082021093798248,
+            "g_smoothed": 2.625882319650557,
+            "prominence_smoothed": 1.6939117943722508,
+            "local_block_sd": 0.034287561456597206,
+            "robust": true
+          },
+          "first_minimum": {
+            "r_A": 3.5250000000000004,
+            "g_raw": 0.9313013197458585,
+            "g_smoothed": 0.9319705252783061,
+            "block_sd": 0.028438018406303674
+          },
+          "later_robust_features": [],
+          "later_robust_feature_status": "none accepted; later candidates unresolved"
+        },
+        "OH": {
+          "units": {
+            "r_A": "A",
+            "g_raw": "dimensionless",
+            "g_smoothed": "dimensionless"
+          },
+          "source_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/04_FINAL_DEEP_ANALYSIS/ANALYSIS_RESULTS.json",
+          "source_locator": "rdf.300K.OH.features",
+          "first_peak": {
+            "r_A": 1.8250000000000002,
+            "g_raw": 1.2555171411711001,
+            "g_smoothed": 1.2211063782368135,
+            "prominence_smoothed": 0.9367540249793013,
+            "local_block_sd": 0.023200570951657153,
+            "robust": true
+          },
+          "first_minimum": {
+            "r_A": 2.4250000000000003,
+            "g_raw": 0.2869204029750898,
+            "g_smoothed": 0.2843523532575122,
+            "block_sd": 0.015137231396922213
+          },
+          "later_robust_features": [
+            {
+              "r_A": 3.225,
+              "g_raw": 1.434102154847194,
+              "g_smoothed": 1.431247740250233,
+              "prominence_smoothed": 0.45864983379735724,
+              "local_block_sd": 0.020045190324108158,
+              "robust": true
+            }
+          ],
+          "later_robust_feature_status": "present"
+        },
+        "HH": {
+          "units": {
+            "r_A": "A",
+            "g_raw": "dimensionless",
+            "g_smoothed": "dimensionless"
+          },
+          "source_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/04_FINAL_DEEP_ANALYSIS/ANALYSIS_RESULTS.json",
+          "source_locator": "rdf.300K.HH.features",
+          "first_peak": {
+            "r_A": 2.475,
+            "g_raw": 1.2516853938342571,
+            "g_smoothed": 1.2499015336294304,
+            "prominence_smoothed": 0.40307643369158674,
+            "local_block_sd": 0.028247262565470364,
+            "robust": true
+          },
+          "first_minimum": {
+            "r_A": 3.0250000000000004,
+            "g_raw": 0.8434204205923614,
+            "g_smoothed": 0.8468250999378436,
+            "block_sd": 0.020744220965334327
+          },
+          "later_robust_features": [
+            {
+              "r_A": 3.7750000000000004,
+              "g_raw": 1.1191080822989257,
+              "g_smoothed": 1.1179142064911733,
+              "prominence_smoothed": 0.12233865875910621,
+              "local_block_sd": 0.020744220965334327,
+              "robust": true
+            }
+          ],
+          "later_robust_feature_status": "present"
+        }
+      },
+      "273K": {
+        "OO": {
+          "units": {
+            "r_A": "A",
+            "g_raw": "dimensionless",
+            "g_smoothed": "dimensionless"
+          },
+          "source_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/04_FINAL_DEEP_ANALYSIS/ANALYSIS_RESULTS.json",
+          "source_locator": "rdf.273K.OO.features",
+          "first_peak": {
+            "r_A": 2.7750000000000004,
+            "g_raw": 2.9210158509993853,
+            "g_smoothed": 2.8383654309648447,
+            "prominence_smoothed": 1.9609733564214413,
+            "local_block_sd": 0.0684944386814645,
+            "robust": true
+          },
+          "first_minimum": {
+            "r_A": 3.375,
+            "g_raw": 0.8698861732508644,
+            "g_smoothed": 0.8773920745434034,
+            "block_sd": 0.025737315883276362
+          },
+          "later_robust_features": [],
+          "later_robust_feature_status": "none accepted; later candidates unresolved"
+        },
+        "OH": {
+          "units": {
+            "r_A": "A",
+            "g_raw": "dimensionless",
+            "g_smoothed": "dimensionless"
+          },
+          "source_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/04_FINAL_DEEP_ANALYSIS/ANALYSIS_RESULTS.json",
+          "source_locator": "rdf.273K.OH.features",
+          "first_peak": {
+            "r_A": 1.8250000000000002,
+            "g_raw": 1.4014511211993204,
+            "g_smoothed": 1.362064768061098,
+            "prominence_smoothed": 1.12335286316272,
+            "local_block_sd": 0.027283272667479846,
+            "robust": true
+          },
+          "first_minimum": {
+            "r_A": 2.4250000000000003,
+            "g_raw": 0.2391246692651301,
+            "g_smoothed": 0.23871190489837787,
+            "block_sd": 0.010993587475455261
+          },
+          "later_robust_features": [
+            {
+              "r_A": 3.225,
+              "g_raw": 1.4973465066001344,
+              "g_smoothed": 1.4800047918154757,
+              "prominence_smoothed": 0.49737041942430116,
+              "local_block_sd": 0.01996862424754857,
+              "robust": true
+            }
+          ],
+          "later_robust_feature_status": "present"
+        },
+        "HH": {
+          "units": {
+            "r_A": "A",
+            "g_raw": "dimensionless",
+            "g_smoothed": "dimensionless"
+          },
+          "source_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/04_FINAL_DEEP_ANALYSIS/ANALYSIS_RESULTS.json",
+          "source_locator": "rdf.273K.HH.features",
+          "first_peak": {
+            "r_A": 2.4250000000000003,
+            "g_raw": 1.3152123671018479,
+            "g_smoothed": 1.3045429262408281,
+            "prominence_smoothed": 0.5133009447957524,
+            "local_block_sd": 0.024467425717502597,
+            "robust": true
+          },
+          "first_minimum": {
+            "r_A": 3.0250000000000004,
+            "g_raw": 0.7881828020093552,
+            "g_smoothed": 0.7912419814450757,
+            "block_sd": 0.012395997463613435
+          },
+          "later_robust_features": [
+            {
+              "r_A": 3.7750000000000004,
+              "g_raw": 1.1381399821179887,
+              "g_smoothed": 1.1345934338317716,
+              "prominence_smoothed": 0.13764331159053067,
+              "local_block_sd": 0.014791862581681364,
+              "robust": true
+            },
+            {
+              "r_A": 4.825000000000001,
+              "g_raw": 1.0253509162990004,
+              "g_smoothed": 1.0244675468990516,
+              "prominence_smoothed": 0.027517424657810707,
+              "local_block_sd": 0.00831292528176977,
+              "robust": true
+            }
+          ],
+          "later_robust_feature_status": "present"
+        }
+      }
+    },
+    "immutable_raw_source_hashes": {
+      "300K": [
+        {
+          "package_relative_current_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/01_300K_MATCHED_REFERENCE/run/tempcomp_300K_reference/tempcomp_300K_reference_traj.dat",
+          "original_path_from_provenance": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\02_300K_reference\\run\\tempcomp_300K_reference\\tempcomp_300K_reference_traj.dat",
+          "sha256": "5D0378EFC122A9CB34E1999AD9D2BB3DEC04BECC3FA338E701AF6F25A47EA8A1",
+          "role": "trajectory"
+        },
+        {
+          "package_relative_current_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/01_300K_MATCHED_REFERENCE/run/tempcomp_300K_reference/tempcomp_300K_reference_traj.box",
+          "original_path_from_provenance": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\02_300K_reference\\run\\tempcomp_300K_reference\\tempcomp_300K_reference_traj.box",
+          "sha256": "D2552807AF8627AAD6EE7CC95113CDCFC7AD66783A01C651D8885E2050FD04D1",
+          "role": "box"
+        },
+        {
+          "package_relative_current_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/01_300K_MATCHED_REFERENCE/run/tempcomp_300K_reference/tempcomp_300K_reference.mdout",
+          "original_path_from_provenance": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\02_300K_reference\\run\\tempcomp_300K_reference\\tempcomp_300K_reference.mdout",
+          "sha256": "BEA8001AF75187CE09DB1488A82AD1732DA46A4E533E88365A65C2142556431B",
+          "role": "mdout"
+        }
+      ],
+      "273K": [
+        {
+          "package_relative_current_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/03_273K_PRODUCTION/segment01_60_frames/tempcomp_273K_production_5ps_traj.dat",
+          "original_path_from_provenance": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps\\tempcomp_273K_production_5ps_traj.dat",
+          "sha256": "559FD6DE0659FDEB805E2DB06CF08127BAB75397143FB579B9A27DC692404FE2",
+          "role": "trajectory"
+        },
+        {
+          "package_relative_current_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/03_273K_PRODUCTION/segment02_40_frames/tempcomp_273K_production_5ps_resume_traj.dat",
+          "original_path_from_provenance": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps_resume\\tempcomp_273K_production_5ps_resume_traj.dat",
+          "sha256": "0D5FC88D8205750619A9854BB73D205E618A210C28E739D189DA90A17621EF78",
+          "role": "trajectory"
+        },
+        {
+          "package_relative_current_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/03_273K_PRODUCTION/segment01_60_frames/tempcomp_273K_production_5ps_traj.box",
+          "original_path_from_provenance": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps\\tempcomp_273K_production_5ps_traj.box",
+          "sha256": "96FCD1E237811585EC1C4A4E7B66FF2295EC229990981770B5E4017FE2A20C0B",
+          "role": "box"
+        },
+        {
+          "package_relative_current_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/03_273K_PRODUCTION/segment02_40_frames/tempcomp_273K_production_5ps_resume_traj.box",
+          "original_path_from_provenance": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps_resume\\tempcomp_273K_production_5ps_resume_traj.box",
+          "sha256": "5EDAFD1B07AC60F74C8F547A319E3B4C81F71A1B3669DF782DB0AFEF2CF7619B",
+          "role": "box"
+        },
+        {
+          "package_relative_current_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/03_273K_PRODUCTION/segment01_60_frames/tempcomp_273K_production_5ps.mdout",
+          "original_path_from_provenance": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps\\tempcomp_273K_production_5ps.mdout",
+          "sha256": "E95EEDB805B8089028AD086761C5AB3B530DB05C53F04FE76D2069F6262CD070",
+          "role": "mdout"
+        },
+        {
+          "package_relative_current_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/03_273K_PRODUCTION/segment02_40_frames/tempcomp_273K_production_5ps_resume.mdout",
+          "original_path_from_provenance": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps_resume\\tempcomp_273K_production_5ps_resume.mdout",
+          "sha256": "9C65423B991B99F6DE1701F2D1BB66F1850556B87D812DCF7170F6104233D1B7",
+          "role": "mdout"
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "Short, correlated trajectories; related trajectory lineages; no independent temperature replicates, p-values, CIs, or causal claim.",
+    "Pressure mean is not equilibration proof. No diffusion, long-time convergence, phase-transition, ice, or rigorous-equilibrium claim.",
+    "273 K has a real missing restart-boundary thermo record; stochastic RNG continuity across that laptop restart is not claimed."
+  ]
+}

@@ -1,0 +1,13 @@
+{
+    "stage":  "stage01_290K",
+    "coord_source":  "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\03_273K_cooling\\input\\tempcomp_273K_cooling_stage01_start_coordinate.txt",
+    "vel_source":  "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\03_273K_cooling\\input\\tempcomp_273K_cooling_stage01_start_velocity.txt",
+    "coord_source_sha256":  "D976FE2AC58286EE802C9D2C27F18476F2A078A8AB91F3A758B74E51F3CE8CB3",
+    "vel_source_sha256":  "981C1252C5457F589A7AE003FCE5DEDB118ED7F01E01F5A3EB90540B8896664F",
+    "coord_copy_sha256":  "D976FE2AC58286EE802C9D2C27F18476F2A078A8AB91F3A758B74E51F3CE8CB3",
+    "vel_copy_sha256":  "981C1252C5457F589A7AE003FCE5DEDB118ED7F01E01F5A3EB90540B8896664F",
+    "hashes_match":  true,
+    "synchronized":  true,
+    "velocity_regenerated":  false,
+    "start_header":  "2586 117.6200000000 4999"
+}

@@ -1,0 +1,319 @@
+{
+  "hbond_criterion": "donor-acceptor O...O distance < 3.5 A AND angle O_donor-H...O_acceptor > 150 deg (vertex at H), acceptor on a different molecule than donor",
+  "dash_definition": "dashes connect donor-H (the donor-water hydrogen satisfying the angle criterion) to acceptor-O; PDB atom serials of analysis/cluster_<tag>.pdb",
+  "dual_H_policy": "if both donor hydrogens satisfy the angle criterion, the one with the larger angle is drawn and recorded",
+  "branches": {
+    "300K": {
+      "frame_index": 7,
+      "time_ps": 113.02,
+      "n_events_expected": 15,
+      "n_events_HtoO": 15,
+      "count_matches_original_OO_list": true,
+      "events_with_both_H_satisfied": 0,
+      "events": [
+        {
+          "donor_water": 252,
+          "acceptor_water": 342,
+          "donor_H_local": 2,
+          "r_OO_A": 3.0286720774382934,
+          "angle_deg": 164.90683270584802,
+          "both_H_satisfied": false,
+          "donor_H_serial": 6,
+          "acceptor_O_serial": 1
+        },
+        {
+          "donor_water": 252,
+          "acceptor_water": 678,
+          "donor_H_local": 1,
+          "r_OO_A": 2.970582894113637,
+          "angle_deg": 158.43720193651697,
+          "both_H_satisfied": false,
+          "donor_H_serial": 5,
+          "acceptor_O_serial": 22
+        },
+        {
+          "donor_water": 327,
+          "acceptor_water": 338,
+          "donor_H_local": 1,
+          "r_OO_A": 2.769419622197078,
+          "angle_deg": 167.7579586636736,
+          "both_H_satisfied": false,
+          "donor_H_serial": 29,
+          "acceptor_O_serial": 7
+        },
+        {
+          "donor_water": 338,
+          "acceptor_water": 342,
+          "donor_H_local": 2,
+          "r_OO_A": 3.011527960053983,
+          "angle_deg": 166.38805551801195,
+          "both_H_satisfied": false,
+          "donor_H_serial": 9,
+          "acceptor_O_serial": 1
+        },
+        {
+          "donor_water": 338,
+          "acceptor_water": 476,
+          "donor_H_local": 1,
+          "r_OO_A": 2.7344729358632085,
+          "angle_deg": 160.4005355038265,
+          "both_H_satisfied": false,
+          "donor_H_serial": 8,
+          "acceptor_O_serial": 31
+        },
+        {
+          "donor_water": 342,
+          "acceptor_water": 373,
+          "donor_H_local": 2,
+          "r_OO_A": 2.763367585771874,
+          "angle_deg": 154.51852586951915,
+          "both_H_satisfied": false,
+          "donor_H_serial": 3,
+          "acceptor_O_serial": 10
+        },
+        {
+          "donor_water": 342,
+          "acceptor_water": 803,
+          "donor_H_local": 1,
+          "r_OO_A": 2.763604212936071,
+          "angle_deg": 156.14386072495674,
+          "both_H_satisfied": false,
+          "donor_H_serial": 2,
+          "acceptor_O_serial": 16
+        },
+        {
+          "donor_water": 373,
+          "acceptor_water": 316,
+          "donor_H_local": 1,
+          "r_OO_A": 2.753704749054681,
+          "angle_deg": 157.86605639134967,
+          "both_H_satisfied": false,
+          "donor_H_serial": 11,
+          "acceptor_O_serial": 19
+        },
+        {
+          "donor_water": 373,
+          "acceptor_water": 730,
+          "donor_H_local": 2,
+          "r_OO_A": 2.867827950013187,
+          "angle_deg": 159.0188429812393,
+          "both_H_satisfied": false,
+          "donor_H_serial": 12,
+          "acceptor_O_serial": 40
+        },
+        {
+          "donor_water": 642,
+          "acceptor_water": 373,
+          "donor_H_local": 2,
+          "r_OO_A": 2.9967514192470737,
+          "angle_deg": 165.44444136266472,
+          "both_H_satisfied": false,
+          "donor_H_serial": 36,
+          "acceptor_O_serial": 10
+        },
+        {
+          "donor_water": 666,
+          "acceptor_water": 803,
+          "donor_H_local": 1,
+          "r_OO_A": 2.8948105700905735,
+          "angle_deg": 162.30449264121904,
+          "both_H_satisfied": false,
+          "donor_H_serial": 38,
+          "acceptor_O_serial": 16
+        },
+        {
+          "donor_water": 801,
+          "acceptor_water": 316,
+          "donor_H_local": 2,
+          "r_OO_A": 2.9169155134060936,
+          "angle_deg": 173.27876420055145,
+          "both_H_satisfied": false,
+          "donor_H_serial": 15,
+          "acceptor_O_serial": 19
+        },
+        {
+          "donor_water": 801,
+          "acceptor_water": 342,
+          "donor_H_local": 1,
+          "r_OO_A": 2.795351904859287,
+          "angle_deg": 166.66877649168785,
+          "both_H_satisfied": false,
+          "donor_H_serial": 14,
+          "acceptor_O_serial": 1
+        },
+        {
+          "donor_water": 803,
+          "acceptor_water": 16,
+          "donor_H_local": 2,
+          "r_OO_A": 2.8448067635622953,
+          "angle_deg": 165.5775777520605,
+          "both_H_satisfied": false,
+          "donor_H_serial": 18,
+          "acceptor_O_serial": 25
+        },
+        {
+          "donor_water": 803,
+          "acceptor_water": 678,
+          "donor_H_local": 1,
+          "r_OO_A": 2.906367428723819,
+          "angle_deg": 155.74230750423703,
+          "both_H_satisfied": false,
+          "donor_H_serial": 17,
+          "acceptor_O_serial": 22
+        }
+      ],
+      "pair_file": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\15R_HBOND_NETWORK_VISUALIZATION_PRESENTATION_REPAIR_20260922_181921\\analysis\\hbonds_300K_HtoO.txt"
+    },
+    "273K": {
+      "frame_index": 52,
+      "time_ps": 127.27,
+      "n_events_expected": 14,
+      "n_events_HtoO": 14,
+      "count_matches_original_OO_list": true,
+      "events_with_both_H_satisfied": 0,
+      "events": [
+        {
+          "donor_water": 8,
+          "acceptor_water": 659,
+          "donor_H_local": 2,
+          "r_OO_A": 2.7749327388702834,
+          "angle_deg": 171.5190560749732,
+          "both_H_satisfied": false,
+          "donor_H_serial": 3,
+          "acceptor_O_serial": 10
+        },
+        {
+          "donor_water": 8,
+          "acceptor_water": 753,
+          "donor_H_local": 1,
+          "r_OO_A": 2.907263394563898,
+          "angle_deg": 165.71587395542343,
+          "both_H_satisfied": false,
+          "donor_H_serial": 2,
+          "acceptor_O_serial": 16
+        },
+        {
+          "donor_water": 118,
+          "acceptor_water": 659,
+          "donor_H_local": 1,
+          "r_OO_A": 2.631407444602219,
+          "angle_deg": 170.87903130821746,
+          "both_H_satisfied": false,
+          "donor_H_serial": 23,
+          "acceptor_O_serial": 10
+        },
+        {
+          "donor_water": 349,
+          "acceptor_water": 8,
+          "donor_H_local": 1,
+          "r_OO_A": 2.8309979409669395,
+          "angle_deg": 150.54249899417556,
+          "both_H_satisfied": false,
+          "donor_H_serial": 5,
+          "acceptor_O_serial": 1
+        },
+        {
+          "donor_water": 349,
+          "acceptor_water": 373,
+          "donor_H_local": 2,
+          "r_OO_A": 2.9288305901418834,
+          "angle_deg": 164.5441279323663,
+          "both_H_satisfied": false,
+          "donor_H_serial": 6,
+          "acceptor_O_serial": 28
+        },
+        {
+          "donor_water": 399,
+          "acceptor_water": 349,
+          "donor_H_local": 2,
+          "r_OO_A": 2.6215750170269274,
+          "angle_deg": 175.34081018682804,
+          "both_H_satisfied": false,
+          "donor_H_serial": 33,
+          "acceptor_O_serial": 4
+        },
+        {
+          "donor_water": 399,
+          "acceptor_water": 402,
+          "donor_H_local": 1,
+          "r_OO_A": 3.0182882232744928,
+          "angle_deg": 154.09334567035697,
+          "both_H_satisfied": false,
+          "donor_H_serial": 32,
+          "acceptor_O_serial": 34
+        },
+        {
+          "donor_water": 402,
+          "acceptor_water": 745,
+          "donor_H_local": 2,
+          "r_OO_A": 2.763179100301427,
+          "angle_deg": 161.67046957161753,
+          "both_H_satisfied": false,
+          "donor_H_serial": 36,
+          "acceptor_O_serial": 13
+        },
+        {
+          "donor_water": 419,
+          "acceptor_water": 526,
+          "donor_H_local": 1,
+          "r_OO_A": 3.1238057457072546,
+          "angle_deg": 158.2764532301792,
+          "both_H_satisfied": false,
+          "donor_H_serial": 38,
+          "acceptor_O_serial": 7
+        },
+        {
+          "donor_water": 526,
+          "acceptor_water": 8,
+          "donor_H_local": 2,
+          "r_OO_A": 3.4367714610735725,
+          "angle_deg": 163.2686077727927,
+          "both_H_satisfied": false,
+          "donor_H_serial": 9,
+          "acceptor_O_serial": 1
+        },
+        {
+          "donor_water": 659,
+          "acceptor_water": 6,
+          "donor_H_local": 1,
+          "r_OO_A": 2.607176363350209,
+          "angle_deg": 156.00022339627583,
+          "both_H_satisfied": false,
+          "donor_H_serial": 11,
+          "acceptor_O_serial": 19
+        },
+        {
+          "donor_water": 745,
+          "acceptor_water": 8,
+          "donor_H_local": 2,
+          "r_OO_A": 2.857813073887903,
+          "angle_deg": 168.96448001057647,
+          "both_H_satisfied": false,
+          "donor_H_serial": 15,
+          "acceptor_O_serial": 1
+        },
+        {
+          "donor_water": 745,
+          "acceptor_water": 439,
+          "donor_H_local": 1,
+          "r_OO_A": 2.8458919032525127,
+          "angle_deg": 174.09280555498145,
+          "both_H_satisfied": false,
+          "donor_H_serial": 14,
+          "acceptor_O_serial": 40
+        },
+        {
+          "donor_water": 753,
+          "acceptor_water": 199,
+          "donor_H_local": 2,
+          "r_OO_A": 2.631014427029888,
+          "angle_deg": 163.51065898709143,
+          "both_H_satisfied": false,
+          "donor_H_serial": 18,
+          "acceptor_O_serial": 25
+        }
+      ],
+      "pair_file": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\15R_HBOND_NETWORK_VISUALIZATION_PRESENTATION_REPAIR_20260922_181921\\analysis\\hbonds_273K_HtoO.txt"
+    }
+  }
+}

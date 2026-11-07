@@ -1,0 +1,160 @@
+{
+  "stages": [
+    {
+      "stage": "energy_minimization",
+      "purpose": "Accepted energy minimization endpoint (7600 steps total). The 04H velocity file is archived for provenance but was NOT the direct input to the low-temperature chain; 05ARR used a separately generated 50 K seed velocity.",
+      "source_pass": "04H_continuous_minimisation_5000_20260803_211028",
+      "coordinate_file": "02_accepted_stage_states/energy_minimization/coordinate.txt",
+      "velocity_file": "02_accepted_stage_states/energy_minimization/velocity.txt",
+      "coordinate_header": "2586 0.0000000000 4999",
+      "velocity_header": "2586 0.0000000000 4999",
+      "coordinate_sha256": "255035EA24B59ABED88A6846D9974A84B5A12091386D6CD17038562CA314E65E",
+      "velocity_sha256": "8172FDDA4FB6A19AE2645AC9301C58BD706A265A3BA20FD655B6192AEF4AE869",
+      "used_as_input_for": "05ARR quench_10K (coordinate only; seed velocity from 05AR)"
+    },
+    {
+      "stage": "05ARR_start_inputs",
+      "purpose": "Actual coordinate and velocity supplied to the first accepted/used 05ARR low-temperature stage (quench_10K): 04H minimised coordinate plus 05AR valid rigid-water 50 K seed velocity",
+      "source_pass": "05ARR_staged_low_temperature_conditioning_20260804_114924 (input copies)",
+      "coordinate_file": "02_accepted_stage_states/05ARR_start_inputs/coordinate.txt",
+      "velocity_file": "02_accepted_stage_states/05ARR_start_inputs/velocity.txt",
+      "coordinate_header": "2586 0.0000000000 4999",
+      "velocity_header": "2586 0.0000000000 0",
+      "coordinate_sha256": "255035EA24B59ABED88A6846D9974A84B5A12091386D6CD17038562CA314E65E",
+      "velocity_sha256": "C89EB95C26260FBF8B05DCB5451A7164B4099F4FE077CA6C47452FE251E028A4",
+      "used_as_input_for": "05ARR quench_10K"
+    },
+    {
+      "stage": "quench_10K_transition",
+      "purpose": "Accepted 05ARR quench_10K endpoint (200 steps, 0.02 ps at 10 K); used as the direct input for warm_25K",
+      "source_pass": "05ARR_staged_low_temperature_conditioning_20260804_114924",
+      "coordinate_file": "02_accepted_stage_states/quench_10K_transition/coordinate.txt",
+      "velocity_file": "02_accepted_stage_states/quench_10K_transition/velocity.txt",
+      "coordinate_header": "2586 0.0200000000 199",
+      "velocity_header": "2586 0.0200000000 199",
+      "coordinate_sha256": "F688360480AD475A0AB35D44E8C4A7D5628F5FF58EE519DB736F6B21C2C457E6",
+      "velocity_sha256": "DB0C75CFA5F4C9DD265B8D5CE2C0A8CCDC516EB6FB9D9CEB150DC8660662F025",
+      "used_as_input_for": "05ARR warm_25K"
+    },
+    {
+      "stage": "warm_25K_continuation",
+      "purpose": "Accepted warm / low-temperature relaxation state from 05ARR warm_25K (400 steps, 0.1 ps); exact 25 K equilibrium was NOT demonstrated, but the endpoint was accepted as the input for 50 K conditioning",
+      "source_pass": "05ARR_staged_low_temperature_conditioning_20260804_114924",
+      "coordinate_file": "02_accepted_stage_states/warm_25K_continuation/coordinate.txt",
+      "velocity_file": "02_accepted_stage_states/warm_25K_continuation/velocity.txt",
+      "coordinate_header": "2586 0.1200000000 399",
+      "velocity_header": "2586 0.1200000000 399",
+      "coordinate_sha256": "6A6D06EE9AA6775EC8D6CEA59BFD5F1213585D4DBA65F46A95F7223D4F490486",
+      "velocity_sha256": "318C1D6DE8F94062FF4B9E8BDA4959A967960E8F12AA35D946A02FEFD3F30B34",
+      "used_as_input_for": "05ARRR condition_50K"
+    },
+    {
+      "stage": "low_temperature_conditioning",
+      "purpose": "50 K NVT conditioning endpoint (600 steps, 0.3 ps) starting from the accepted 05ARR warm state",
+      "source_pass": "05ARRR_relaxed_50K_conditioning_1fs_nvt_preflight_20260804_163049",
+      "coordinate_file": "02_accepted_stage_states/low_temperature_conditioning/coordinate.txt",
+      "velocity_file": "02_accepted_stage_states/low_temperature_conditioning/velocity.txt",
+      "coordinate_header": "2586 0.4200000000 599",
+      "velocity_header": "2586 0.4200000000 599",
+      "coordinate_sha256": "E21BB6BAC125D144333C364E7ABA4D09FF4FCB39A1BD5919E4E867736CDF3BE3",
+      "velocity_sha256": "CBB12EC5993EE95F06D60FE7254206CC7C5E742FC967F4ECD435C54CD10ED100",
+      "used_as_input_for": "heating_ready_50K_preflight"
+    },
+    {
+      "stage": "heating_ready_50K_preflight",
+      "purpose": "Accepted 1 fs NVT 50 K heating-ready preflight endpoint (200 steps, 0.2 ps)",
+      "source_pass": "05ARRR_relaxed_50K_conditioning_1fs_nvt_preflight_20260804_163049",
+      "coordinate_file": "02_accepted_stage_states/heating_ready_50K_preflight/coordinate.txt",
+      "velocity_file": "02_accepted_stage_states/heating_ready_50K_preflight/velocity.txt",
+      "coordinate_header": "2586 0.6200000000 199",
+      "velocity_header": "2586 0.6200000000 199",
+      "coordinate_sha256": "722A83876244FAF24BC6A06595789A80C1D9F7E2D62BD36CE3AB7FDF72D55BAA",
+      "velocity_sha256": "4ED3935C7FC7C15F92BC37C3844636123F8949D85412E9AECE5085CE242CF494",
+      "used_as_input_for": "heating_300K"
+    },
+    {
+      "stage": "heating_300K",
+      "purpose": "Final 300 K heating endpoint after 7 ps staged NVT heating (5 ps ramp + 2 ps hold); input from the 1 fs 50 K preflight state",
+      "source_pass": "06AR_runtime_efficient_staged_nvt_heating_7ps_20260804_212029",
+      "coordinate_file": "02_accepted_stage_states/heating_300K/coordinate.txt",
+      "velocity_file": "02_accepted_stage_states/heating_300K/velocity.txt",
+      "coordinate_header": "2586 7.6200000000 1999",
+      "velocity_header": "2586 7.6200000000 1999",
+      "coordinate_sha256": "2AE5E2DCA467B6A866C5493905D561568BE1CFB3A2B491F13056E5EC758CA5DA",
+      "velocity_sha256": "04615125CA18991A95250A6B16A245B9DC35816A47105BC440C598D1268DED81",
+      "used_as_input_for": "nvt_10ps"
+    },
+    {
+      "stage": "nvt_10ps",
+      "purpose": "300 K NVT stabilization endpoint (10 ps)",
+      "source_pass": "07A_practical_300K_nvt_stabilization_10ps_20260805_072400",
+      "coordinate_file": "02_accepted_stage_states/nvt_10ps/coordinate.txt",
+      "velocity_file": "02_accepted_stage_states/nvt_10ps/velocity.txt",
+      "coordinate_header": "2586 17.6200000000 9999",
+      "velocity_header": "2586 17.6200000000 9999",
+      "coordinate_sha256": "A27E0C1F5CE676FAAD47EE521535732499DFA5CACEBB3C736BC4D23990745A23",
+      "velocity_sha256": "060E5286CD5D439738895B8950DD59A1F9938D5229D8277683F2780889D730F1",
+      "used_as_input_for": "practical_npt_5ps"
+    },
+    {
+      "stage": "practical_npt_5ps",
+      "purpose": "Practical NPT density relaxation endpoint",
+      "source_pass": "08ARRR_evidence_and_package_repair_20260807_093000",
+      "coordinate_file": "02_accepted_stage_states/practical_npt_5ps/coordinate.txt",
+      "velocity_file": "02_accepted_stage_states/practical_npt_5ps/velocity.txt",
+      "coordinate_header": "2586 22.6200000000 249",
+      "velocity_header": "2586 22.6200000000 249",
+      "coordinate_sha256": "B43CC97C3D2006BE7E43D60E78CDC17694E92A295916051ADE88F0DB88FFA076",
+      "velocity_sha256": "2220F704411C99B0E5BC6FA621B19EFBC13691481E08A099F909FD34CCFE8CF2",
+      "used_as_input_for": "nve_2ps_diagnostic (diagnostic only) and bussi_npt_80ps (production path)"
+    },
+    {
+      "stage": "nve_2ps_diagnostic",
+      "purpose": "Short NVE numerical-stability diagnostic (2 ps)",
+      "source_pass": "09A_short_nve_diagnostic_20260807_101008",
+      "coordinate_file": "02_accepted_stage_states/nve_2ps_diagnostic/coordinate.txt",
+      "velocity_file": "02_accepted_stage_states/nve_2ps_diagnostic/velocity.txt",
+      "coordinate_header": "2586 24.6200000000 1999",
+      "velocity_header": "2586 24.6200000000 1999",
+      "coordinate_sha256": "0C5AABBFF5D97408E9E1D33794EF3FF4CD0E130D1BA6F041C9DBB1290FE6F041",
+      "velocity_sha256": "EECAE552391F85B14E926222DC618BB4B90BACC241532AB94351B28D6F807D15",
+      "used_as_input_for": "DIAGNOSTIC ONLY \u2014 NOT USED AS PRODUCTION INPUT"
+    },
+    {
+      "stage": "bussi_npt_80ps",
+      "purpose": "Accepted 80 ps Bussi-NPT equilibration endpoint",
+      "source_pass": "10B_bussi_npt_equilibration_100ps_20260808_161936",
+      "coordinate_file": "02_accepted_stage_states/bussi_npt_80ps/coordinate.txt",
+      "velocity_file": "02_accepted_stage_states/bussi_npt_80ps/velocity.txt",
+      "coordinate_header": "2586 102.6200000000 79999",
+      "velocity_header": "2586 102.6200000000 79999",
+      "coordinate_sha256": "7AB6E6C7EFFF0BE8E5518D67993C40ACE8CEB5C4B9A1477A96F8C607FD3155BA",
+      "velocity_sha256": "B4D10C5061547E6E6B9960C4BC2559A3F0A0544174C4F30E6C6634744C0766DC",
+      "used_as_input_for": "production_segment01_6ps"
+    },
+    {
+      "stage": "production_segment01_6ps",
+      "purpose": "Accepted 6 ps Segment 01 production endpoint (interrupted by laptop/system restart)",
+      "source_pass": "11A_npt_production_200ps_20260813_143000",
+      "coordinate_file": "02_accepted_stage_states/production_segment01_6ps/coordinate.txt",
+      "velocity_file": "02_accepted_stage_states/production_segment01_6ps/velocity.txt",
+      "coordinate_header": "2586 108.6200000000 5999",
+      "velocity_header": "2586 108.6200000000 5999",
+      "coordinate_sha256": "B4AC947DF619322B15C6F2FF4728E77664348C29CC741B94F012D7271074477D",
+      "velocity_sha256": "FCD42A09943905EF22877E4AC1E92AE0ACD13FF330304E1CD0D02E9F8711667A",
+      "used_as_input_for": "production_segment02_4ps"
+    },
+    {
+      "stage": "final_production_10ps",
+      "purpose": "Final accepted 10 ps production endpoint (Segment 02, 4 ps)",
+      "source_pass": "11B_npt_production_segment02_4ps_20260815_100551",
+      "coordinate_file": "02_accepted_stage_states/final_production_10ps/coordinate.txt",
+      "velocity_file": "02_accepted_stage_states/final_production_10ps/velocity.txt",
+      "coordinate_header": "2586 112.6200000000 3999",
+      "velocity_header": "2586 112.6200000000 3999",
+      "coordinate_sha256": "E6DDAF9DEB248D5076B2AD783843456AB697D8456B1E42B85130D82A57DFAA81",
+      "velocity_sha256": "E43EA18C0569294A4FD644C80479AAF855D1737DCE8EA6808FDCBF6D2C71277B",
+      "used_as_input_for": "NONE \u2014 this is the final state"
+    }
+  ]
+}

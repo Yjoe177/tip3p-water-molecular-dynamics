@@ -1,0 +1,24 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260827215514
+Username: LAPTOP-5BN71S8A\Acer
+RunAs User: LAPTOP-5BN71S8A\Acer
+Configuration Name: 
+Machine: LAPTOP-5BN71S8A (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\Acer\Desktop\Chemistry Research Intern\First Experiment\12_TEMPERATURE_COMPARISON_300K_273K\04_273K_equilibration\RUN_273K_EQUILIBRATION_CHECKPOINT.ps1
+Process ID: 32796
+PSVersion: 5.1.26100.9168
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9168
+BuildVersion: 10.0.26100.9168
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\Acer\Desktop\Chemistry Research Intern\First Experiment\12_TEMPERATURE_COMPARISON_300K_273K\04_273K_equilibration\run\tempcomp_273K_equilibration_checkpoint01\tempcomp_273K_equilibration_checkpoint01_console.log
+
+**********************
+Windows PowerShell transcript end
+End time: 20260828075104
+**********************

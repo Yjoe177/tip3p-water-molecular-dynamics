@@ -1,0 +1,52 @@
+{
+  "verdict": "HBOND_NETWORK_VISUALIZATION_VALIDATED",
+  "branch": "15R_HBOND_NETWORK_VISUALIZATION_PRESENTATION_REPAIR_20260922_181921",
+  "repair_of": "15_HBOND_NETWORK_VISUALIZATION_20260922_104453",
+  "hbond_criterion": "donor-acceptor O...O distance < 3.5 A AND angle O_donor-H...O_acceptor > 150 deg (vertex at H), acceptor on a different molecule than donor",
+  "dash_definition": "dashes connect donor-H (the donor-water hydrogen satisfying the angle criterion) to acceptor-O; PDB atom serials of analysis/cluster_<tag>.pdb",
+  "selected": {
+    "300K": {
+      "frame_index": 7,
+      "time_ps": 113.02,
+      "whole_frame_hbonds": 1109,
+      "intra_cluster_hbonds_drawn": 15
+    },
+    "273K": {
+      "frame_index": 52,
+      "time_ps": 127.27,
+      "whole_frame_hbonds": 1196,
+      "intra_cluster_hbonds_drawn": 14
+    }
+  },
+  "h2o_counts": {
+    "300K": {
+      "n_events": 15,
+      "matches_OO_list": true,
+      "dual_H_events": 0
+    },
+    "273K": {
+      "n_events": 14,
+      "matches_OO_list": true,
+      "dual_H_events": 0
+    }
+  },
+  "connectivity_disclaimer": "Drawn local clusters have 15 (300 K) vs 14 (273 K) drawn H-bonds; the quantitative 273 K increase (2.775\u00b10.040 vs 2.572\u00b10.039 H-bonds/water) comes from the full 100-frame accepted analysis, not these snapshots.",
+  "outputs": [
+    "renders/hbond_network_300K.png",
+    "renders/hbond_network_273K.png",
+    "renders/hbond_network_300K_zoom.png",
+    "renders/hbond_network_273K_zoom.png",
+    "renders/hbond_network_300K_labeled.png",
+    "renders/hbond_network_273K_labeled.png",
+    "renders/hbond_network_comparison_sidebyside.png"
+  ],
+  "validation": "PASS",
+  "substeps": [
+    "repair dir created; valid inputs copied (not moved)",
+    "donor-H...acceptor-O pairs re-derived from raw trajectories (15/14, matches O...O lists; 0 dual-H)",
+    "re-rendered identical style, tighter framing, dashes H->O",
+    "captions = whole-frame counts; footer disclaimer on all panels and side-by-side",
+    "independent validation PASS",
+    "all PNGs visually verified with ReadMediaFile"
+  ]
+}

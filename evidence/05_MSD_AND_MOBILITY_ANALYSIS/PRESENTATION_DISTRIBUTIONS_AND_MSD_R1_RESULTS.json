@@ -1,0 +1,977 @@
+{
+  "scope": "Analysis-only external-review R1 repair; frozen package and branch 13 unchanged.",
+  "prospective_acceptance_rule": {
+    "positive_slope": true,
+    "minimum_R2": 0.995,
+    "alpha_range_inclusive": [
+      0.9,
+      1.1
+    ],
+    "maximum_curvature_ratio": 0.1,
+    "maximum_local_slope_CV": 0.2,
+    "minimum_lag_points": 21,
+    "minimum_273K_valid_origins_at_any_lag": 20,
+    "require_both_273K_segments_contribute_through_window": true,
+    "selection": "Choose the earliest common candidate passing every rule for both temperatures; never maximize R2."
+  },
+  "authoritative_package": {
+    "path": "FINAL_TIP3P_WATER_300K_273K_PROJECT_PACKAGE_FINAL.zip",
+    "sha256": "82B687D8DCD423E7AFC4121DB5E6F15C7C28D3C40D60B6B2DE7B14314D29AFCB"
+  },
+  "source_hashes": {
+    "300K": [
+      {
+        "package_relative_current_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/01_300K_MATCHED_REFERENCE/run/tempcomp_300K_reference/tempcomp_300K_reference_traj.dat",
+        "original_path_from_provenance": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\02_300K_reference\\run\\tempcomp_300K_reference\\tempcomp_300K_reference_traj.dat",
+        "sha256": "5D0378EFC122A9CB34E1999AD9D2BB3DEC04BECC3FA338E701AF6F25A47EA8A1",
+        "role": "trajectory",
+        "verified_sha256": "5D0378EFC122A9CB34E1999AD9D2BB3DEC04BECC3FA338E701AF6F25A47EA8A1"
+      },
+      {
+        "package_relative_current_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/01_300K_MATCHED_REFERENCE/run/tempcomp_300K_reference/tempcomp_300K_reference_traj.box",
+        "original_path_from_provenance": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\02_300K_reference\\run\\tempcomp_300K_reference\\tempcomp_300K_reference_traj.box",
+        "sha256": "D2552807AF8627AAD6EE7CC95113CDCFC7AD66783A01C651D8885E2050FD04D1",
+        "role": "box",
+        "verified_sha256": "D2552807AF8627AAD6EE7CC95113CDCFC7AD66783A01C651D8885E2050FD04D1"
+      },
+      {
+        "package_relative_current_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/01_300K_MATCHED_REFERENCE/run/tempcomp_300K_reference/tempcomp_300K_reference.mdout",
+        "original_path_from_provenance": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\02_300K_reference\\run\\tempcomp_300K_reference\\tempcomp_300K_reference.mdout",
+        "sha256": "BEA8001AF75187CE09DB1488A82AD1732DA46A4E533E88365A65C2142556431B",
+        "role": "mdout",
+        "verified_sha256": "BEA8001AF75187CE09DB1488A82AD1732DA46A4E533E88365A65C2142556431B"
+      }
+    ],
+    "273K": [
+      {
+        "package_relative_current_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/03_273K_PRODUCTION/segment01_60_frames/tempcomp_273K_production_5ps_traj.dat",
+        "original_path_from_provenance": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps\\tempcomp_273K_production_5ps_traj.dat",
+        "sha256": "559FD6DE0659FDEB805E2DB06CF08127BAB75397143FB579B9A27DC692404FE2",
+        "role": "trajectory",
+        "verified_sha256": "559FD6DE0659FDEB805E2DB06CF08127BAB75397143FB579B9A27DC692404FE2"
+      },
+      {
+        "package_relative_current_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/03_273K_PRODUCTION/segment02_40_frames/tempcomp_273K_production_5ps_resume_traj.dat",
+        "original_path_from_provenance": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps_resume\\tempcomp_273K_production_5ps_resume_traj.dat",
+        "sha256": "0D5FC88D8205750619A9854BB73D205E618A210C28E739D189DA90A17621EF78",
+        "role": "trajectory",
+        "verified_sha256": "0D5FC88D8205750619A9854BB73D205E618A210C28E739D189DA90A17621EF78"
+      },
+      {
+        "package_relative_current_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/03_273K_PRODUCTION/segment01_60_frames/tempcomp_273K_production_5ps_traj.box",
+        "original_path_from_provenance": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps\\tempcomp_273K_production_5ps_traj.box",
+        "sha256": "96FCD1E237811585EC1C4A4E7B66FF2295EC229990981770B5E4017FE2A20C0B",
+        "role": "box",
+        "verified_sha256": "96FCD1E237811585EC1C4A4E7B66FF2295EC229990981770B5E4017FE2A20C0B"
+      },
+      {
+        "package_relative_current_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/03_273K_PRODUCTION/segment02_40_frames/tempcomp_273K_production_5ps_resume_traj.box",
+        "original_path_from_provenance": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps_resume\\tempcomp_273K_production_5ps_resume_traj.box",
+        "sha256": "5EDAFD1B07AC60F74C8F547A319E3B4C81F71A1B3669DF782DB0AFEF2CF7619B",
+        "role": "box",
+        "verified_sha256": "5EDAFD1B07AC60F74C8F547A319E3B4C81F71A1B3669DF782DB0AFEF2CF7619B"
+      },
+      {
+        "package_relative_current_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/03_273K_PRODUCTION/segment01_60_frames/tempcomp_273K_production_5ps.mdout",
+        "original_path_from_provenance": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps\\tempcomp_273K_production_5ps.mdout",
+        "sha256": "E95EEDB805B8089028AD086761C5AB3B530DB05C53F04FE76D2069F6262CD070",
+        "role": "mdout",
+        "verified_sha256": "E95EEDB805B8089028AD086761C5AB3B530DB05C53F04FE76D2069F6262CD070"
+      },
+      {
+        "package_relative_current_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/03_273K_PRODUCTION/segment02_40_frames/tempcomp_273K_production_5ps_resume.mdout",
+        "original_path_from_provenance": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps_resume\\tempcomp_273K_production_5ps_resume.mdout",
+        "sha256": "9C65423B991B99F6DE1701F2D1BB66F1850556B87D812DCF7170F6104233D1B7",
+        "role": "mdout",
+        "verified_sha256": "9C65423B991B99F6DE1701F2D1BB66F1850556B87D812DCF7170F6104233D1B7"
+      }
+    ]
+  },
+  "hbond_source": {
+    "path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/04_FINAL_DEEP_ANALYSIS/outputs/hbond_timeseries.csv",
+    "sha256": "2D84D077B9067BACD7170A6CBB7FB524144FE6F4519DE9DDBFCFE5A7A4DCB58F"
+  },
+  "mdout_header_driven_parsing": {
+    "300K": {
+      "header": [
+        "step",
+        "time",
+        "temperature",
+        "pressure",
+        "Pxx",
+        "Pyy",
+        "Pzz",
+        "Pxy",
+        "Pxz",
+        "Pyz",
+        "potential",
+        "density",
+        "pressure",
+        "LJ_short",
+        "LJ_long",
+        "LJ",
+        "PM",
+        "bond"
+      ],
+      "resolved_zero_based_indices": {
+        "temperature": 2,
+        "pressure": 3,
+        "potential": 10,
+        "density": 11
+      },
+      "record_count": 100,
+      "duplicate_pressure_resolution": "Selected the unique pressure-named column numeric in every row; the other pressure-named column contains nonnumeric overflow markers."
+    },
+    "273K": [
+      {
+        "header": [
+          "step",
+          "time",
+          "temperature",
+          "pressure",
+          "Pxx",
+          "Pyy",
+          "Pzz",
+          "Pxy",
+          "Pxz",
+          "Pyz",
+          "potential",
+          "density",
+          "pressure",
+          "LJ_short",
+          "LJ_long",
+          "LJ",
+          "PM",
+          "bond"
+        ],
+        "resolved_zero_based_indices": {
+          "temperature": 2,
+          "pressure": 3,
+          "potential": 10,
+          "density": 11
+        },
+        "record_count": 59,
+        "duplicate_pressure_resolution": "Selected the unique pressure-named column numeric in every row; the other pressure-named column contains nonnumeric overflow markers."
+      },
+      {
+        "header": [
+          "step",
+          "time",
+          "temperature",
+          "pressure",
+          "Pxx",
+          "Pyy",
+          "Pzz",
+          "Pxy",
+          "Pxz",
+          "Pyz",
+          "potential",
+          "density",
+          "pressure",
+          "LJ_short",
+          "LJ_long",
+          "LJ",
+          "PM",
+          "bond"
+        ],
+        "resolved_zero_based_indices": {
+          "temperature": 2,
+          "pressure": 3,
+          "potential": 10,
+          "density": 11
+        },
+        "record_count": 40,
+        "duplicate_pressure_resolution": "Selected the unique pressure-named column numeric in every row; the other pressure-named column contains nonnumeric overflow markers."
+      }
+    ]
+  },
+  "records": {
+    "trajectory_300K": 100,
+    "box_300K": 100,
+    "trajectory_273K_segments": [
+      60,
+      40
+    ],
+    "box_273K_segments": [
+      60,
+      40
+    ],
+    "thermo_300K": 100,
+    "thermo_273K": 99
+  },
+  "accepted_distributions": {
+    "status": "independently source-recomputed and numerically unchanged",
+    "statistics": {
+      "temperature": {
+        "n": {
+          "300K": 100,
+          "273K": 99
+        },
+        "mean": {
+          "300K": 301.78670000000005,
+          "273K": 269.9610101010101
+        },
+        "sd": {
+          "300K": 5.303134208592446,
+          "273K": 4.760413396332147
+        }
+      },
+      "density": {
+        "n": {
+          "300K": 100,
+          "273K": 99
+        },
+        "mean": {
+          "300K": 0.9763189999999998,
+          "273K": 0.9760656565656567
+        },
+        "sd": {
+          "300K": 0.001365867837491951,
+          "273K": 0.0007862545695868707
+        }
+      },
+      "potential": {
+        "n": {
+          "300K": 100,
+          "273K": 99
+        },
+        "mean": {
+          "300K": -8214.394400000001,
+          "273K": -8518.883939393938
+        },
+        "sd": {
+          "300K": 36.21316263627378,
+          "273K": 27.191893930863035
+        }
+      },
+      "box_volume": {
+        "n": {
+          "300K": 100,
+          "273K": 100
+        },
+        "mean": {
+          "300K": 26409.265424108926,
+          "273K": 26415.944483628093
+        },
+        "sd": {
+          "300K": 36.92305301572169,
+          "273K": 21.316665956014283
+        }
+      },
+      "pressure": {
+        "n": {
+          "300K": 100,
+          "273K": 99
+        },
+        "mean": {
+          "300K": -75.2467,
+          "273K": -592.7020202020202
+        },
+        "sd": {
+          "300K": 395.94319657400655,
+          "273K": 357.78335525840043
+        }
+      },
+      "hbond_count": {
+        "n": {
+          "300K": 100,
+          "273K": 100
+        },
+        "mean": {
+          "300K": 1108.7,
+          "273K": 1195.86
+        },
+        "sd": {
+          "300K": 17.002376542142812,
+          "273K": 17.18939066736083
+        }
+      },
+      "hbonds_per_water": {
+        "n": {
+          "300K": 100,
+          "273K": 100
+        },
+        "mean": {
+          "300K": 2.5723897911832942,
+          "273K": 2.7746171693735495
+        },
+        "sd": {
+          "300K": 0.03944866947132903,
+          "273K": 0.03988257695443347
+        }
+      }
+    },
+    "names": [
+      "temperature",
+      "density",
+      "potential",
+      "box_volume",
+      "pressure",
+      "hbond_count",
+      "hbonds_per_water"
+    ],
+    "copied_files": [
+      "temperature_raw_values.csv",
+      "temperature_distribution.csv",
+      "fig_temperature_distribution.png",
+      "density_raw_values.csv",
+      "density_distribution.csv",
+      "fig_density_distribution.png",
+      "potential_raw_values.csv",
+      "potential_distribution.csv",
+      "fig_potential_distribution.png",
+      "box_volume_raw_values.csv",
+      "box_volume_distribution.csv",
+      "fig_box_volume_distribution.png",
+      "pressure_raw_values.csv",
+      "pressure_distribution.csv",
+      "fig_pressure_distribution.png",
+      "hbond_count_raw_values.csv",
+      "hbond_count_distribution.csv",
+      "fig_hbond_count_distribution.png",
+      "hbonds_per_water_raw_values.csv",
+      "hbonds_per_water_distribution.csv",
+      "fig_hbonds_per_water_distribution.png"
+    ]
+  },
+  "COM_drift": {
+    "definition": "Euclidean magnitude of the all-oxygen centroid displacement relative to frame 0, computed independently per continuous segment.",
+    "300K_final_A": 0.6520818712146933,
+    "273K_segment1_final_A": 0.3156328925473707,
+    "273K_segment2_final_A": 0.19734591839452362,
+    "MSD_uncorrected_minus_corrected": {
+      "1.0": {
+        "300K_uncorrected_minus_corrected_A2": 0.04894632827451195,
+        "273K_uncorrected_minus_corrected_A2": 0.015162952972895827
+      },
+      "2.0": {
+        "300K_uncorrected_minus_corrected_A2": 0.1667614331305547,
+        "273K_uncorrected_minus_corrected_A2": 0.05878534676433933
+      },
+      "2.95": {
+        "300K_uncorrected_minus_corrected_A2": 0.298523740434268,
+        "273K_uncorrected_minus_corrected_A2": 0.09962412285781586
+      }
+    }
+  },
+  "repaired_primary_MSD_at_lags_A2": {
+    "1.0": {
+      "300K_A2": 3.414453310995765,
+      "273K_A2": 2.3802957303435046
+    },
+    "2.0": {
+      "300K_A2": 6.436169410557528,
+      "273K_A2": 4.344786081589235
+    },
+    "2.95": {
+      "300K_A2": 9.403774412758217,
+      "273K_A2": 6.265633772754647
+    }
+  },
+  "common_window_fits": [
+    {
+      "start_ps": 0.5,
+      "end_ps": 1.5,
+      "300K": {
+        "start_ps": 0.5,
+        "end_ps": 1.5,
+        "n_lag_points": 21,
+        "slope_A2_per_ps": 3.179823242656431,
+        "intercept_A2": 0.21389450330880885,
+        "D_A2_per_ps": 0.5299705404427385,
+        "D_cm2_per_s": 5.2997054044273845e-05,
+        "R2": 0.9996776534039395,
+        "residual_RMSE_A2": 0.01728782076292223,
+        "Durbin_Watson_descriptive_only": 0.1123379103875257,
+        "alpha_loglog": 0.9355585719077549,
+        "loglog_intercept": 1.2248767955580961,
+        "curvature_ratio": 0.06634105970813374,
+        "local_interval_slope_CV": 0.03829622899345657,
+        "valid_origin_count_range": [
+          70,
+          90
+        ],
+        "strong_lag_to_lag_residual_correlation": true,
+        "prospective_checks": {
+          "positive_slope": true,
+          "R2": true,
+          "alpha": true,
+          "curvature": true,
+          "local_slope_plateau": true,
+          "lag_points": true,
+          "valid_origins": true
+        },
+        "passes_prospective_rule": true
+      },
+      "273K": {
+        "start_ps": 0.5,
+        "end_ps": 1.5,
+        "n_lag_points": 21,
+        "slope_A2_per_ps": 1.9707068751749917,
+        "intercept_A2": 0.4057064762346632,
+        "D_A2_per_ps": 0.32845114586249863,
+        "D_cm2_per_s": 3.284511458624986e-05,
+        "R2": 0.9998391756966913,
+        "residual_RMSE_A2": 0.007567257561161724,
+        "Durbin_Watson_descriptive_only": 0.2802040190926006,
+        "alpha_loglog": 0.8133948898590849,
+        "loglog_intercept": 0.8727224533947686,
+        "curvature_ratio": 0.04182781798404965,
+        "local_interval_slope_CV": 0.04230825057251913,
+        "valid_origin_count_range": [
+          40,
+          80
+        ],
+        "strong_lag_to_lag_residual_correlation": true,
+        "valid_origin_count_ranges_by_273K_segment": [
+          [
+            30,
+            50
+          ],
+          [
+            10,
+            30
+          ]
+        ],
+        "both_273K_segments_contribute_through_window": true,
+        "prospective_checks": {
+          "positive_slope": true,
+          "R2": true,
+          "alpha": false,
+          "curvature": true,
+          "local_slope_plateau": true,
+          "lag_points": true,
+          "valid_origins": true,
+          "both_273K_segments": true
+        },
+        "passes_prospective_rule": false
+      },
+      "D300_over_D273": 1.6135445015758998,
+      "common_pass": false,
+      "273K_second_segment_note": "Segment 2 contributes throughout this window."
+    },
+    {
+      "start_ps": 0.75,
+      "end_ps": 1.75,
+      "300K": {
+        "start_ps": 0.75,
+        "end_ps": 1.75,
+        "n_lag_points": 21,
+        "slope_A2_per_ps": 3.0877822807888253,
+        "intercept_A2": 0.31847903680605416,
+        "D_A2_per_ps": 0.5146303801314709,
+        "D_cm2_per_s": 5.146303801314709e-05,
+        "R2": 0.9997568215586551,
+        "residual_RMSE_A2": 0.014580342887347799,
+        "Durbin_Watson_descriptive_only": 0.11893257443694508,
+        "alpha_loglog": 0.9224949020057602,
+        "loglog_intercept": 1.2262155592637514,
+        "curvature_ratio": 0.05679206048699829,
+        "local_interval_slope_CV": 0.034030576026381314,
+        "valid_origin_count_range": [
+          65,
+          85
+        ],
+        "strong_lag_to_lag_residual_correlation": true,
+        "prospective_checks": {
+          "positive_slope": true,
+          "R2": true,
+          "alpha": true,
+          "curvature": true,
+          "local_slope_plateau": true,
+          "lag_points": true,
+          "valid_origins": true
+        },
+        "passes_prospective_rule": true
+      },
+      "273K": {
+        "start_ps": 0.75,
+        "end_ps": 1.75,
+        "n_lag_points": 21,
+        "slope_A2_per_ps": 1.9420868457223124,
+        "intercept_A2": 0.4382890908558088,
+        "D_A2_per_ps": 0.32368114095371875,
+        "D_cm2_per_s": 3.2368114095371876e-05,
+        "R2": 0.9999427003946695,
+        "residual_RMSE_A2": 0.004451051552500367,
+        "Durbin_Watson_descriptive_only": 0.17824785897844242,
+        "alpha_loglog": 0.8375455196780873,
+        "loglog_intercept": 0.8700253618907254,
+        "curvature_ratio": 0.02023152587111757,
+        "local_interval_slope_CV": 0.019986049878185454,
+        "valid_origin_count_range": [
+          30,
+          70
+        ],
+        "strong_lag_to_lag_residual_correlation": true,
+        "valid_origin_count_ranges_by_273K_segment": [
+          [
+            25,
+            45
+          ],
+          [
+            5,
+            25
+          ]
+        ],
+        "both_273K_segments_contribute_through_window": true,
+        "prospective_checks": {
+          "positive_slope": true,
+          "R2": true,
+          "alpha": false,
+          "curvature": true,
+          "local_slope_plateau": true,
+          "lag_points": true,
+          "valid_origins": true,
+          "both_273K_segments": true
+        },
+        "passes_prospective_rule": false
+      },
+      "D300_over_D273": 1.589930073204527,
+      "common_pass": false,
+      "273K_second_segment_note": "Segment 2 contributes throughout this window."
+    },
+    {
+      "start_ps": 1.0,
+      "end_ps": 2.0,
+      "300K": {
+        "start_ps": 1.0,
+        "end_ps": 2.0,
+        "n_lag_points": 21,
+        "slope_A2_per_ps": 3.016252083260445,
+        "intercept_A2": 0.4188636502656336,
+        "D_A2_per_ps": 0.5027086805434074,
+        "D_cm2_per_s": 5.027086805434075e-05,
+        "R2": 0.999908818507245,
+        "residual_RMSE_A2": 0.008720602761470764,
+        "Durbin_Watson_descriptive_only": 0.14836846329397402,
+        "alpha_loglog": 0.9130695125940737,
+        "loglog_intercept": 1.2294500105713058,
+        "curvature_ratio": 0.03471065930581049,
+        "local_interval_slope_CV": 0.023299904117247066,
+        "valid_origin_count_range": [
+          60,
+          80
+        ],
+        "strong_lag_to_lag_residual_correlation": true,
+        "prospective_checks": {
+          "positive_slope": true,
+          "R2": true,
+          "alpha": true,
+          "curvature": true,
+          "local_slope_plateau": true,
+          "lag_points": true,
+          "valid_origins": true
+        },
+        "passes_prospective_rule": true
+      },
+      "273K": {
+        "start_ps": 1.0,
+        "end_ps": 2.0,
+        "n_lag_points": 21,
+        "slope_A2_per_ps": 1.9532244834963346,
+        "intercept_A2": 0.42634473117454275,
+        "D_A2_per_ps": 0.3255374139160558,
+        "D_cm2_per_s": 3.2553741391605576e-05,
+        "R2": 0.9998480273711207,
+        "residual_RMSE_A2": 0.0072907728903661186,
+        "Durbin_Watson_descriptive_only": 0.14279289393107214,
+        "alpha_loglog": 0.8648437314143039,
+        "loglog_intercept": 0.8625037088489956,
+        "curvature_ratio": 0.033043661822879024,
+        "local_interval_slope_CV": 0.028894666931883833,
+        "valid_origin_count_range": [
+          20,
+          60
+        ],
+        "strong_lag_to_lag_residual_correlation": true,
+        "valid_origin_count_ranges_by_273K_segment": [
+          [
+            20,
+            40
+          ],
+          [
+            0,
+            20
+          ]
+        ],
+        "both_273K_segments_contribute_through_window": false,
+        "prospective_checks": {
+          "positive_slope": true,
+          "R2": true,
+          "alpha": false,
+          "curvature": true,
+          "local_slope_plateau": true,
+          "lag_points": true,
+          "valid_origins": true,
+          "both_273K_segments": false
+        },
+        "passes_prospective_rule": false
+      },
+      "D300_over_D273": 1.544242409792681,
+      "common_pass": false,
+      "273K_second_segment_note": "Segment 2 does not contribute at lags >= 2.00 ps; after 1.95 ps only segment 1 contributes."
+    },
+    {
+      "start_ps": 1.25,
+      "end_ps": 2.25,
+      "300K": {
+        "start_ps": 1.25,
+        "end_ps": 2.25,
+        "n_lag_points": 21,
+        "slope_A2_per_ps": 2.9757634457295694,
+        "intercept_A2": 0.4856583979535692,
+        "D_A2_per_ps": 0.49596057428826157,
+        "D_cm2_per_s": 4.959605742882616e-05,
+        "R2": 0.9999692346769087,
+        "residual_RMSE_A2": 0.0049973704566240165,
+        "Durbin_Watson_descriptive_only": 0.11907219081567286,
+        "alpha_loglog": 0.9124954716631573,
+        "loglog_intercept": 1.2298389178050202,
+        "curvature_ratio": 0.01912304432171248,
+        "local_interval_slope_CV": 0.011988125093967548,
+        "valid_origin_count_range": [
+          55,
+          75
+        ],
+        "strong_lag_to_lag_residual_correlation": true,
+        "prospective_checks": {
+          "positive_slope": true,
+          "R2": true,
+          "alpha": true,
+          "curvature": true,
+          "local_slope_plateau": true,
+          "lag_points": true,
+          "valid_origins": true
+        },
+        "passes_prospective_rule": true
+      },
+      "273K": {
+        "start_ps": 1.25,
+        "end_ps": 2.25,
+        "n_lag_points": 21,
+        "slope_A2_per_ps": 1.977795655493242,
+        "intercept_A2": 0.3865795947607627,
+        "D_A2_per_ps": 0.32963260924887366,
+        "D_cm2_per_s": 3.296326092488737e-05,
+        "R2": 0.9998431864812838,
+        "residual_RMSE_A2": 0.007499165572720789,
+        "Durbin_Watson_descriptive_only": 0.146517016339991,
+        "alpha_loglog": 0.893521173006555,
+        "loglog_intercept": 0.848853610735116,
+        "curvature_ratio": 0.036352607217605463,
+        "local_interval_slope_CV": 0.03005012424538631,
+        "valid_origin_count_range": [
+          15,
+          50
+        ],
+        "strong_lag_to_lag_residual_correlation": true,
+        "valid_origin_count_ranges_by_273K_segment": [
+          [
+            15,
+            35
+          ],
+          [
+            0,
+            15
+          ]
+        ],
+        "both_273K_segments_contribute_through_window": false,
+        "prospective_checks": {
+          "positive_slope": true,
+          "R2": true,
+          "alpha": false,
+          "curvature": true,
+          "local_slope_plateau": true,
+          "lag_points": true,
+          "valid_origins": false,
+          "both_273K_segments": false
+        },
+        "passes_prospective_rule": false
+      },
+      "D300_over_D273": 1.5045858946370496,
+      "common_pass": false,
+      "273K_second_segment_note": "Segment 2 does not contribute at lags >= 2.00 ps; after 1.95 ps only segment 1 contributes."
+    },
+    {
+      "start_ps": 1.5,
+      "end_ps": 2.5,
+      "300K": {
+        "start_ps": 1.5,
+        "end_ps": 2.5,
+        "n_lag_points": 21,
+        "slope_A2_per_ps": 2.972491316704917,
+        "intercept_A2": 0.4943930547691191,
+        "D_A2_per_ps": 0.4954152194508195,
+        "D_cm2_per_s": 4.9541521945081955e-05,
+        "R2": 0.9999710191303821,
+        "residual_RMSE_A2": 0.00484493900503111,
+        "Durbin_Watson_descriptive_only": 0.23081826333601355,
+        "alpha_loglog": 0.9204367260250619,
+        "loglog_intercept": 1.2252688133323117,
+        "curvature_ratio": 0.012275729899108204,
+        "local_interval_slope_CV": 0.015609986143008455,
+        "valid_origin_count_range": [
+          50,
+          70
+        ],
+        "strong_lag_to_lag_residual_correlation": true,
+        "prospective_checks": {
+          "positive_slope": true,
+          "R2": true,
+          "alpha": true,
+          "curvature": true,
+          "local_slope_plateau": true,
+          "lag_points": true,
+          "valid_origins": true
+        },
+        "passes_prospective_rule": true
+      },
+      "273K": {
+        "start_ps": 1.5,
+        "end_ps": 2.5,
+        "n_lag_points": 21,
+        "slope_A2_per_ps": 1.9872283215602569,
+        "intercept_A2": 0.36510028781263826,
+        "D_A2_per_ps": 0.33120472026004283,
+        "D_cm2_per_s": 3.312047202600428e-05,
+        "R2": 0.9999272306906862,
+        "residual_RMSE_A2": 0.005132670869934983,
+        "Durbin_Watson_descriptive_only": 0.21739453384826737,
+        "alpha_loglog": 0.9143077500702591,
+        "loglog_intercept": 0.8349259039395353,
+        "curvature_ratio": 0.02137142986058187,
+        "local_interval_slope_CV": 0.025129846276334113,
+        "valid_origin_count_range": [
+          10,
+          40
+        ],
+        "strong_lag_to_lag_residual_correlation": true,
+        "valid_origin_count_ranges_by_273K_segment": [
+          [
+            10,
+            30
+          ],
+          [
+            0,
+            10
+          ]
+        ],
+        "both_273K_segments_contribute_through_window": false,
+        "prospective_checks": {
+          "positive_slope": true,
+          "R2": true,
+          "alpha": true,
+          "curvature": true,
+          "local_slope_plateau": true,
+          "lag_points": true,
+          "valid_origins": false,
+          "both_273K_segments": false
+        },
+        "passes_prospective_rule": false
+      },
+      "D300_over_D273": 1.4957975812115483,
+      "common_pass": false,
+      "273K_second_segment_note": "Segment 2 does not contribute at lags >= 2.00 ps; after 1.95 ps only segment 1 contributes."
+    },
+    {
+      "start_ps": 1.75,
+      "end_ps": 2.75,
+      "300K": {
+        "start_ps": 1.75,
+        "end_ps": 2.75,
+        "n_lag_points": 21,
+        "slope_A2_per_ps": 3.0249881324854777,
+        "intercept_A2": 0.38657177021960093,
+        "D_A2_per_ps": 0.5041646887475796,
+        "D_cm2_per_s": 5.041646887475796e-05,
+        "R2": 0.9997283192310163,
+        "residual_RMSE_A2": 0.01509794525865215,
+        "Durbin_Watson_descriptive_only": 0.13825124858377522,
+        "alpha_loglog": 0.9423991176228801,
+        "loglog_intercept": 1.2093341587675575,
+        "curvature_ratio": 0.05842665173063241,
+        "local_interval_slope_CV": 0.038273449821000255,
+        "valid_origin_count_range": [
+          45,
+          65
+        ],
+        "strong_lag_to_lag_residual_correlation": true,
+        "prospective_checks": {
+          "positive_slope": true,
+          "R2": true,
+          "alpha": true,
+          "curvature": true,
+          "local_slope_plateau": true,
+          "lag_points": true,
+          "valid_origins": true
+        },
+        "passes_prospective_rule": true
+      },
+      "273K": {
+        "start_ps": 1.75,
+        "end_ps": 2.75,
+        "n_lag_points": 21,
+        "slope_A2_per_ps": 2.014474138455674,
+        "intercept_A2": 0.3113792811792367,
+        "D_A2_per_ps": 0.3357456897426123,
+        "D_cm2_per_s": 3.3574568974261234e-05,
+        "R2": 0.9995754009451686,
+        "residual_RMSE_A2": 0.012570401448315453,
+        "Durbin_Watson_descriptive_only": 0.1939621007477979,
+        "alpha_loglog": 0.9323307625441823,
+        "loglog_intercept": 0.8222323509802746,
+        "curvature_ratio": 0.0485050440793642,
+        "local_interval_slope_CV": 0.0554950938455552,
+        "valid_origin_count_range": [
+          5,
+          30
+        ],
+        "strong_lag_to_lag_residual_correlation": true,
+        "valid_origin_count_ranges_by_273K_segment": [
+          [
+            5,
+            25
+          ],
+          [
+            0,
+            5
+          ]
+        ],
+        "both_273K_segments_contribute_through_window": false,
+        "prospective_checks": {
+          "positive_slope": true,
+          "R2": true,
+          "alpha": true,
+          "curvature": true,
+          "local_slope_plateau": true,
+          "lag_points": true,
+          "valid_origins": false,
+          "both_273K_segments": false
+        },
+        "passes_prospective_rule": false
+      },
+      "D300_over_D273": 1.5016266899333237,
+      "common_pass": false,
+      "273K_second_segment_note": "Segment 2 does not contribute at lags >= 2.00 ps; after 1.95 ps only segment 1 contributes."
+    }
+  ],
+  "common_window_decision": {
+    "exists": false,
+    "selected_window_ps": null,
+    "selection_reason": "No candidate passed the prospective common-window rule for both temperatures.",
+    "accepted_apparent_D": {
+      "300K": null,
+      "273K": null
+    }
+  },
+  "273K_segment_consistency": {
+    "fit_window_ps": [
+      0.75,
+      1.75
+    ],
+    "segment1": {
+      "start_ps": 0.75,
+      "end_ps": 1.75,
+      "n_lag_points": 21,
+      "slope_A2_per_ps": 1.9719932344495108,
+      "intercept_A2": 0.3573096429105643,
+      "D_A2_per_ps": 0.32866553907491847,
+      "D_cm2_per_s": 3.286655390749185e-05,
+      "R2": 0.9999583726970065,
+      "residual_RMSE_A2": 0.0038522043443742046,
+      "Durbin_Watson_descriptive_only": 0.3878204955934538,
+      "alpha_loglog": 0.8623817872132751,
+      "loglog_intercept": 0.8485790606829194,
+      "curvature_ratio": 0.017913692018657928,
+      "local_interval_slope_CV": 0.02557780640112881,
+      "valid_origin_count_range": [
+        25,
+        45
+      ],
+      "strong_lag_to_lag_residual_correlation": true
+    },
+    "segment2": {
+      "start_ps": 0.75,
+      "end_ps": 1.75,
+      "n_lag_points": 21,
+      "slope_A2_per_ps": 1.952325952714118,
+      "intercept_A2": 0.5321219568996172,
+      "D_A2_per_ps": 0.3253876587856863,
+      "D_cm2_per_s": 3.253876587856863e-05,
+      "R2": 0.9994448078053357,
+      "residual_RMSE_A2": 0.013931578130921794,
+      "Durbin_Watson_descriptive_only": 0.12533838852327933,
+      "alpha_loglog": 0.8143761479089328,
+      "loglog_intercept": 0.9122482067899785,
+      "curvature_ratio": 0.07958195303020266,
+      "local_interval_slope_CV": 0.05181399974691409,
+      "valid_origin_count_range": [
+        5,
+        25
+      ],
+      "strong_lag_to_lag_residual_correlation": true
+    },
+    "absolute_slope_difference_A2_per_ps": 0.019667281735392894,
+    "relative_slope_difference": 0.010023283426956802
+  },
+  "NPT_box_scaling_sensitivity": {
+    "method_A": "Cartesian frame-to-frame minimum-image increments using arithmetic-mean consecutive box lengths, followed by segment-local oxygen-centroid drift removal.",
+    "method_B": "Wrapped coordinates converted with each frame box to fractional coordinates; fractional increments minimum-imaged and converted using arithmetic-mean consecutive box lengths, followed by segment-local oxygen-centroid drift removal.",
+    "comparison_window_ps": [
+      0.75,
+      1.75
+    ],
+    "300K": {
+      "cartesian_slope_A2_per_ps": 3.0877822807888253,
+      "fractional_slope_A2_per_ps": 3.0874347316285315,
+      "absolute_slope_difference_A2_per_ps": -0.0003475491602937808,
+      "relative_slope_difference": -0.00011255623897323279
+    },
+    "273K": {
+      "cartesian_slope_A2_per_ps": 1.9420868457223124,
+      "fractional_slope_A2_per_ps": 1.9420111664570308,
+      "absolute_slope_difference_A2_per_ps": -7.567926528162516e-05,
+      "relative_slope_difference": -3.8968012912665644e-05
+    },
+    "MSD_difference_at_lags_A2": {
+      "1.0": {
+        "300K_fractional_minus_cartesian": -0.00025421911174428047,
+        "273K_fractional_minus_cartesian": 6.317193413263311e-06
+      },
+      "2.0": {
+        "300K_fractional_minus_cartesian": -0.0005698726201748272,
+        "273K_fractional_minus_cartesian": -0.00030954588789722237
+      },
+      "2.95": {
+        "300K_fractional_minus_cartesian": -0.0005860072109769021,
+        "273K_fractional_minus_cartesian": -0.0005323261986500682
+      }
+    }
+  },
+  "273K_restart_sensitivity": {
+    "max_common_lag_ps": 2.95,
+    "difference_at_max_lag_A2": -0.15314130482048682,
+    "relative_difference_at_max_lag": -0.0244414707872655
+  },
+  "scientific_decision": {
+    "robust_result": "300 K water has higher short-time oxygen mobility than 273 K water.",
+    "conditional_result": "A numerical fit is labelled an apparent short-time oxygen self-mobility / effective diffusion estimate under the simulated conditions only when the prospective diagnostics pass.",
+    "not_claimed": [
+      "converged bulk self-diffusion coefficient",
+      "experimental diffusion coefficient",
+      "long-time transport convergence",
+      "statistically independent uncertainty",
+      "causal transport coefficient free of thermostat or finite-size effects"
+    ]
+  },
+  "limitations": [
+    "Trajectories are only about 5 ps.",
+    "Adjacent lag points are correlated.",
+    "Overlapping time origins are correlated; SD is descriptive and naive SE is not inferential.",
+    "The periodic box is only about 30 Å.",
+    "No finite-size hydrodynamic correction is applied.",
+    "Dynamics use the same Middle-Langevin/NPT setup; thermostat and friction can affect transport.",
+    "Fitted values are not converged bulk self-diffusion constants."
+  ]
+}

@@ -1,0 +1,313 @@
+{
+  "repair": "15R presentation repair: dashes donor-H...acceptor-O; captions/footer; tighter framing",
+  "hbond_criterion": "donor-acceptor O...O distance < 3.5 A AND angle O_donor-H...O_acceptor > 150 deg (vertex at H), acceptor on a different molecule than donor",
+  "checks": {
+    "source_sha256_unchanged": {
+      "pass": true,
+      "mismatches": []
+    },
+    "whole_frame_hbond_recount": {
+      "pass": true,
+      "detail": {
+        "300K": {
+          "recomputed": 1109,
+          "expected": 1109,
+          "match": true
+        },
+        "273K": {
+          "recomputed": 1196,
+          "expected": 1196,
+          "match": true
+        }
+      }
+    },
+    "dash_pairs_geometry_and_counts": {
+      "pass": true,
+      "detail": {
+        "300K": {
+          "n_pairs": 15,
+          "expected": 15,
+          "count_ok": true,
+          "report_count_match": true,
+          "all_pairs_satisfy_criterion": true,
+          "pairs": [
+            {
+              "donor_H_serial": 6,
+              "acceptor_O_serial": 1,
+              "r_OO_A": 3.0285,
+              "angle_deg": 164.902,
+              "criterion_ok": true
+            },
+            {
+              "donor_H_serial": 5,
+              "acceptor_O_serial": 22,
+              "r_OO_A": 2.9714,
+              "angle_deg": 158.434,
+              "criterion_ok": true
+            },
+            {
+              "donor_H_serial": 29,
+              "acceptor_O_serial": 7,
+              "r_OO_A": 2.7695,
+              "angle_deg": 167.764,
+              "criterion_ok": true
+            },
+            {
+              "donor_H_serial": 9,
+              "acceptor_O_serial": 1,
+              "r_OO_A": 3.0117,
+              "angle_deg": 166.374,
+              "criterion_ok": true
+            },
+            {
+              "donor_H_serial": 8,
+              "acceptor_O_serial": 31,
+              "r_OO_A": 2.7352,
+              "angle_deg": 160.426,
+              "criterion_ok": true
+            },
+            {
+              "donor_H_serial": 3,
+              "acceptor_O_serial": 10,
+              "r_OO_A": 2.7635,
+              "angle_deg": 154.549,
+              "criterion_ok": true
+            },
+            {
+              "donor_H_serial": 2,
+              "acceptor_O_serial": 16,
+              "r_OO_A": 2.7628,
+              "angle_deg": 156.087,
+              "criterion_ok": true
+            },
+            {
+              "donor_H_serial": 11,
+              "acceptor_O_serial": 19,
+              "r_OO_A": 2.7536,
+              "angle_deg": 157.884,
+              "criterion_ok": true
+            },
+            {
+              "donor_H_serial": 12,
+              "acceptor_O_serial": 40,
+              "r_OO_A": 2.8678,
+              "angle_deg": 159.073,
+              "criterion_ok": true
+            },
+            {
+              "donor_H_serial": 36,
+              "acceptor_O_serial": 10,
+              "r_OO_A": 2.997,
+              "angle_deg": 165.488,
+              "criterion_ok": true
+            },
+            {
+              "donor_H_serial": 38,
+              "acceptor_O_serial": 16,
+              "r_OO_A": 2.8941,
+              "angle_deg": 162.25,
+              "criterion_ok": true
+            },
+            {
+              "donor_H_serial": 15,
+              "acceptor_O_serial": 19,
+              "r_OO_A": 2.9169,
+              "angle_deg": 173.313,
+              "criterion_ok": true
+            },
+            {
+              "donor_H_serial": 14,
+              "acceptor_O_serial": 1,
+              "r_OO_A": 2.7959,
+              "angle_deg": 166.684,
+              "criterion_ok": true
+            },
+            {
+              "donor_H_serial": 18,
+              "acceptor_O_serial": 25,
+              "r_OO_A": 2.845,
+              "angle_deg": 165.599,
+              "criterion_ok": true
+            },
+            {
+              "donor_H_serial": 17,
+              "acceptor_O_serial": 22,
+              "r_OO_A": 2.9065,
+              "angle_deg": 155.707,
+              "criterion_ok": true
+            }
+          ]
+        },
+        "273K": {
+          "n_pairs": 14,
+          "expected": 14,
+          "count_ok": true,
+          "report_count_match": true,
+          "all_pairs_satisfy_criterion": true,
+          "pairs": [
+            {
+              "donor_H_serial": 3,
+              "acceptor_O_serial": 10,
+              "r_OO_A": 2.7755,
+              "angle_deg": 171.519,
+              "criterion_ok": true
+            },
+            {
+              "donor_H_serial": 2,
+              "acceptor_O_serial": 16,
+              "r_OO_A": 2.907,
+              "angle_deg": 165.732,
+              "criterion_ok": true
+            },
+            {
+              "donor_H_serial": 23,
+              "acceptor_O_serial": 10,
+              "r_OO_A": 2.6319,
+              "angle_deg": 170.81,
+              "criterion_ok": true
+            },
+            {
+              "donor_H_serial": 5,
+              "acceptor_O_serial": 1,
+              "r_OO_A": 2.8314,
+              "angle_deg": 150.617,
+              "criterion_ok": true
+            },
+            {
+              "donor_H_serial": 6,
+              "acceptor_O_serial": 28,
+              "r_OO_A": 2.9285,
+              "angle_deg": 164.488,
+              "criterion_ok": true
+            },
+            {
+              "donor_H_serial": 33,
+              "acceptor_O_serial": 4,
+              "r_OO_A": 2.6219,
+              "angle_deg": 175.281,
+              "criterion_ok": true
+            },
+            {
+              "donor_H_serial": 32,
+              "acceptor_O_serial": 34,
+              "r_OO_A": 3.0175,
+              "angle_deg": 154.082,
+              "criterion_ok": true
+            },
+            {
+              "donor_H_serial": 36,
+              "acceptor_O_serial": 13,
+              "r_OO_A": 2.7637,
+              "angle_deg": 161.679,
+              "criterion_ok": true
+            },
+            {
+              "donor_H_serial": 38,
+              "acceptor_O_serial": 7,
+              "r_OO_A": 3.124,
+              "angle_deg": 158.308,
+              "criterion_ok": true
+            },
+            {
+              "donor_H_serial": 9,
+              "acceptor_O_serial": 1,
+              "r_OO_A": 3.4371,
+              "angle_deg": 163.234,
+              "criterion_ok": true
+            },
+            {
+              "donor_H_serial": 11,
+              "acceptor_O_serial": 19,
+              "r_OO_A": 2.6064,
+              "angle_deg": 156.008,
+              "criterion_ok": true
+            },
+            {
+              "donor_H_serial": 15,
+              "acceptor_O_serial": 1,
+              "r_OO_A": 2.8575,
+              "angle_deg": 168.968,
+              "criterion_ok": true
+            },
+            {
+              "donor_H_serial": 14,
+              "acceptor_O_serial": 40,
+              "r_OO_A": 2.8454,
+              "angle_deg": 174.074,
+              "criterion_ok": true
+            },
+            {
+              "donor_H_serial": 18,
+              "acceptor_O_serial": 25,
+              "r_OO_A": 2.6313,
+              "angle_deg": 163.533,
+              "criterion_ok": true
+            }
+          ]
+        }
+      }
+    },
+    "png_outputs": {
+      "pass": true,
+      "detail": {
+        "hbond_network_300K.png": {
+          "size_bytes": 181066,
+          "dimensions": [
+            2000,
+            1500
+          ],
+          "pass": true
+        },
+        "hbond_network_273K.png": {
+          "size_bytes": 196573,
+          "dimensions": [
+            2000,
+            1500
+          ],
+          "pass": true
+        },
+        "hbond_network_300K_zoom.png": {
+          "size_bytes": 149814,
+          "dimensions": [
+            2000,
+            1500
+          ],
+          "pass": true
+        },
+        "hbond_network_273K_zoom.png": {
+          "size_bytes": 176018,
+          "dimensions": [
+            2000,
+            1500
+          ],
+          "pass": true
+        },
+        "hbond_network_300K_labeled.png": {
+          "size_bytes": 152783,
+          "dimensions": [
+            2000,
+            1654
+          ],
+          "pass": true
+        },
+        "hbond_network_273K_labeled.png": {
+          "size_bytes": 166411,
+          "dimensions": [
+            2000,
+            1654
+          ],
+          "pass": true
+        },
+        "hbond_network_comparison_sidebyside.png": {
+          "size_bytes": 315432,
+          "dimensions": [
+            4008,
+            1654
+          ],
+          "pass": true
+        }
+      }
+    }
+  },
+  "overall_verdict": "PASS"
+}

@@ -1,0 +1,24 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260815103136
+Username: LAPTOP-5BN71S8A\Acer
+RunAs User: LAPTOP-5BN71S8A\Acer
+Configuration Name: 
+Machine: LAPTOP-5BN71S8A (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\Acer\Desktop\Chemistry Research Intern\First Experiment\11B_npt_production_segment02_4ps_20260815_100551\scripts\run_npt_production_segment02_4ps.ps1
+Process ID: 13776
+PSVersion: 5.1.26100.9168
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9168
+BuildVersion: 10.0.26100.9168
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is npt_production_segment02_4ps_console.log
+
+**********************
+Windows PowerShell transcript end
+End time: 20260815190745
+**********************

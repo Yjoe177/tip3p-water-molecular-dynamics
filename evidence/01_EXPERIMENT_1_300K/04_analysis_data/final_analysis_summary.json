@@ -1,0 +1,356 @@
+{
+  "validation": {
+    "seg01_mdout_exists": true,
+    "seg02_mdout_exists": true,
+    "seg01_traj_exists": true,
+    "seg02_traj_exists": true,
+    "seg01_box_exists": true,
+    "seg02_box_exists": true,
+    "seg01_rst_coord_exists": true,
+    "seg01_rst_vel_exists": true,
+    "seg02_rst_coord_exists": true,
+    "seg02_rst_vel_exists": true,
+    "atom_names_exists": true,
+    "residue_exists": true,
+    "console_log_state": {
+      "powershell_transcript_exists": true,
+      "full_console_output_exists": false
+    },
+    "seg01_rst_coord_header": "2586 108.6200000000 5999",
+    "seg01_rst_vel_header": "2586 108.6200000000 5999",
+    "seg02_rst_coord_header": "2586 112.6200000000 3999",
+    "seg02_rst_vel_header": "2586 112.6200000000 3999",
+    "seg01_rst_headers_synchronized": true,
+    "seg02_rst_headers_synchronized": true,
+    "seg02_rst_coord_sha256": "E6DDAF9DEB248D5076B2AD783843456AB697D8456B1E42B85130D82A57DFAA81",
+    "seg02_rst_vel_sha256": "E43EA18C0569294A4FD644C80479AAF855D1737DCE8EA6808FDCBF6D2C71277B",
+    "seg01_total_records": 63,
+    "seg01_accepted_records": 60,
+    "seg01_excluded_tail_records": 3,
+    "seg01_excluded_tail_steps": "6100, 6200, 6300",
+    "seg02_total_records": 40,
+    "seg01_last_time_ps": 108.62,
+    "seg02_first_time_ps": 108.72,
+    "time_continuity_gap_ps": 0.09999999999999432,
+    "nan_or_inf_in_key_columns": false,
+    "finite_data_check": true,
+    "seg01_traj_frames": 6,
+    "seg02_traj_frames": 8,
+    "seg01_traj_expected_frames": 6,
+    "seg02_traj_expected_frames": 8,
+    "seg01_traj_frame_count_ok": true,
+    "seg02_traj_frame_count_ok": true,
+    "seg01_box_frames": 6,
+    "seg02_box_frames": 8,
+    "natoms": 2586,
+    "nmols": 862,
+    "n_oxygens": 862,
+    "n_hydrogens": 1724
+  },
+  "thermodynamic_statistics": {
+    "full_10ps": {
+      "time_range_ps": [
+        102.72,
+        112.62
+      ],
+      "n_records": 100,
+      "temperature_K": {
+        "mean": 299.36749999999995,
+        "std": 5.71902714319896,
+        "min": 283.13,
+        "max": 312.31,
+        "n": 100
+      },
+      "pressure_bar": {
+        "mean": -7.437900000000008,
+        "std": 427.80979990120034,
+        "min": -1335.12,
+        "max": 873.55,
+        "n": 100
+      },
+      "density_g_cm3": {
+        "mean": 0.9755360000000002,
+        "std": 0.0017521426997833317,
+        "min": 0.9726,
+        "max": 0.9798,
+        "n": 100
+      },
+      "potential_kcal_mol": {
+        "mean": -8212.3229,
+        "std": 37.1110779097867,
+        "min": -8280.82,
+        "max": -8135.6,
+        "n": 100
+      }
+    },
+    "burn_in_0_5ps": {
+      "time_range_ps": [
+        102.72,
+        107.62
+      ],
+      "n_records": 50,
+      "temperature_K": {
+        "mean": 298.3488,
+        "std": 5.628839602023329,
+        "min": 283.13,
+        "max": 311.97,
+        "n": 50
+      },
+      "pressure_bar": {
+        "mean": -24.24480000000001,
+        "std": 367.87554721915933,
+        "min": -739.98,
+        "max": 728.39,
+        "n": 50
+      },
+      "density_g_cm3": {
+        "mean": 0.9768339999999999,
+        "std": 0.0013437094559616723,
+        "min": 0.9744,
+        "max": 0.9798,
+        "n": 50
+      },
+      "potential_kcal_mol": {
+        "mean": -8221.1232,
+        "std": 38.22821350675918,
+        "min": -8280.82,
+        "max": -8141.33,
+        "n": 50
+      }
+    },
+    "primary_5_10ps": {
+      "time_range_ps": [
+        107.72,
+        112.62
+      ],
+      "n_records": 50,
+      "temperature_K": {
+        "mean": 300.38620000000003,
+        "std": 5.681579577001089,
+        "min": 287.47,
+        "max": 312.31,
+        "n": 50
+      },
+      "pressure_bar": {
+        "mean": 9.369000000000007,
+        "std": 483.5997160253466,
+        "min": -1335.12,
+        "max": 873.55,
+        "n": 50
+      },
+      "density_g_cm3": {
+        "mean": 0.974238,
+        "std": 0.0009791479011083467,
+        "min": 0.9726,
+        "max": 0.9762,
+        "n": 50
+      },
+      "potential_kcal_mol": {
+        "mean": -8203.522599999998,
+        "std": 34.10459037928423,
+        "min": -8272.19,
+        "max": -8135.6,
+        "n": 50
+      }
+    }
+  },
+  "box_statistics": {
+    "full_10ps": {
+      "a_A": {
+        "mean": 29.794487500000002,
+        "std": 0.017005433447306678,
+        "min": 29.753279,
+        "max": 29.81246,
+        "n": 14
+      },
+      "b_A": {
+        "mean": 29.79447128571428,
+        "std": 0.017005104421132577,
+        "min": 29.753263,
+        "max": 29.812443,
+        "n": 14
+      },
+      "c_A": {
+        "mean": 29.794516285714288,
+        "std": 0.017006523469759005,
+        "min": 29.753305,
+        "max": 29.81249,
+        "n": 14
+      },
+      "volume_A3": {
+        "mean": 26448.94391328229,
+        "std": 45.26446988290497,
+        "min": 26339.3255470133,
+        "max": 26496.812370788295,
+        "n": 14
+      },
+      "n_frames": 14,
+      "time_range_ps": [
+        103.62,
+        112.62
+      ]
+    },
+    "burn_in_0_5ps": {
+      "a_A": {
+        "mean": 29.78111,
+        "std": 0.017149658145281105,
+        "min": 29.753279,
+        "max": 29.799286,
+        "n": 5
+      },
+      "b_A": {
+        "mean": 29.781094799999998,
+        "std": 0.01715006385410864,
+        "min": 29.753263,
+        "max": 29.799271,
+        "n": 5
+      },
+      "c_A": {
+        "mean": 29.781136800000002,
+        "std": 0.01715006385410864,
+        "min": 29.753305,
+        "max": 29.799313,
+        "n": 5
+      },
+      "volume_A3": {
+        "mean": 26413.329974583397,
+        "std": 45.612075761536836,
+        "min": 26339.3255470133,
+        "max": 26461.700519852682,
+        "n": 5
+      },
+      "n_frames": 5,
+      "time_range_ps": [
+        103.62,
+        107.62
+      ]
+    },
+    "primary_5_10ps": {
+      "a_A": {
+        "mean": 29.801919444444447,
+        "std": 0.012201778324399443,
+        "min": 29.780983,
+        "max": 29.81246,
+        "n": 9
+      },
+      "b_A": {
+        "mean": 29.801902666666667,
+        "std": 0.012201829145665316,
+        "min": 29.780966,
+        "max": 29.812443,
+        "n": 9
+      },
+      "c_A": {
+        "mean": 29.80194933333333,
+        "std": 0.012201845167842106,
+        "min": 29.781013,
+        "max": 29.81249,
+        "n": 9
+      },
+      "volume_A3": {
+        "mean": 26468.729434781675,
+        "std": 32.49716972440443,
+        "min": 26412.97228403595,
+        "max": 26496.812370788295,
+        "n": 9
+      },
+      "n_frames": 9,
+      "time_range_ps": [
+        108.62,
+        112.62
+      ]
+    }
+  },
+  "trends": {
+    "temperature_slope_K_per_ps": -1.7865690276110306,
+    "pressure_slope_bar_per_ps": 45.871351740695395,
+    "density_slope_g_cm3_per_ps": 5.9495798319349095e-05,
+    "potential_slope_kcal_mol_per_ps": -16.914665066026345
+  },
+  "structure": {
+    "OH_distance_A": {
+      "mean": 0.957196580481961,
+      "std": 4.712624672208185e-05,
+      "min": 0.9571021131865634,
+      "max": 0.9572753575809809,
+      "n": 24136
+    },
+    "HH_distance_A": {
+      "mean": 1.5135945827147457,
+      "std": 7.449993226327945e-05,
+      "min": 1.513446952824659,
+      "max": 1.513717336590921,
+      "n": 12068
+    },
+    "HOH_angle_deg": {
+      "mean": 104.49060172796257,
+      "std": 9.125152444318046e-05,
+      "min": 104.49017915472267,
+      "max": 104.49107103930174,
+      "n": 12068
+    },
+    "min_inter_OO_A": {
+      "mean": 2.480371962307138,
+      "std": 0.012554312221464994,
+      "min": 2.457218423238217,
+      "max": 2.4999955683923702,
+      "n": 14
+    },
+    "min_inter_OH_A": {
+      "mean": 1.5371583937049027,
+      "std": 0.01717050268686211,
+      "min": 1.517573615422295,
+      "max": 1.5699476921334752,
+      "n": 14
+    },
+    "min_inter_HH_A": {
+      "mean": 1.621159396019816,
+      "std": 0.0528588339811516,
+      "min": 1.5217785153006522,
+      "max": 1.7142985754356557,
+      "n": 14
+    }
+  },
+  "rdf_peaks": {
+    "OO_first_local_peak_A": 2.75,
+    "OO_first_local_peak_g": 2.6072626899744287,
+    "OH_inter_first_local_peak_A": 1.85,
+    "OH_inter_first_local_peak_g": 1.2420078832973755,
+    "OH_inter_later_broad_maximum_A": 3.25,
+    "OH_inter_later_broad_maximum_g": 1.4451209194372554,
+    "HH_inter_first_local_peak_A": 2.45,
+    "HH_inter_first_local_peak_g": 1.2472646952454705,
+    "OO_first_minimum_A": 3.45,
+    "OO_first_minimum_g": 0.931250961667495,
+    "OH_inter_first_minimum_A": 2.45,
+    "OH_inter_first_minimum_g": 0.2844816390941373,
+    "HH_inter_first_minimum_A": 2.95,
+    "HH_inter_first_minimum_g": 0.8395777990815897,
+    "large_r_8_10_A_mean": {
+      "OO": 0.9996999247581704,
+      "OH": 0.9995659067551882,
+      "HH": 0.9998610905729608
+    },
+    "large_r_approaches_one": true
+  },
+  "final_classification": "FINAL_10PS_PRACTICAL_NPT_PRODUCTION_ANALYSIS_ACCEPTED_WITH_SHORT_SAMPLING_LIMITATION",
+  "output_directory": "04_analysis_data",
+  "generated_files": {
+    "report": "04_analysis_data/FINAL_10PS_NPT_PRODUCTION_ANALYSIS.md",
+    "thermodynamics_csv": "04_analysis_data/production_thermodynamics.csv",
+    "box_csv": "04_analysis_data/box_frames.csv",
+    "block_statistics_csv": "04_analysis_data/block_statistics.csv",
+    "structure_csv": "04_analysis_data/structure.csv",
+    "validation_csv": "04_analysis_data/validation.csv",
+    "rdf_intermolecular_normalized_csv": "04_analysis_data/rdf_intermolecular_normalized.csv",
+    "temperature_plot": "05_figures/temperature.png",
+    "pressure_plot": "05_figures/pressure.png",
+    "density_plot": "05_figures/density.png",
+    "potential_plot": "05_figures/potential.png",
+    "box_volume_plot": "05_figures/box_volume.png",
+    "rdf_plot": "05_figures/rdf_intermolecular_normalized.png",
+    "npt_equilibration_80ps_density_plot": "05_figures/npt_equilibration_80ps_density.png",
+    "npt_equilibration_80ps_temperature_plot": "05_figures/npt_equilibration_80ps_temperature.png"
+  },
+  "analysis_timestamp": "2026-08-17T08:13:22.498363+00:00"
+}

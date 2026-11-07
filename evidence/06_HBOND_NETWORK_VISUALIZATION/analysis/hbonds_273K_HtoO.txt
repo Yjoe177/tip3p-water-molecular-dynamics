@@ -1,0 +1,15 @@
+# donor_H_serial acceptor_O_serial (PDB serials in cluster_273K.pdb)
+3 10
+2 16
+23 10
+5 1
+6 28
+33 4
+32 34
+36 13
+38 7
+9 1
+11 19
+15 1
+14 40
+18 25

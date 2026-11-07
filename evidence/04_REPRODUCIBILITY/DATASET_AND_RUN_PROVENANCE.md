@@ -1,0 +1,3 @@
+# Dataset and run provenance
+
+Experiment 1 is a curated subset of frozen R7R, including accepted stage endpoints, 80 ps equilibration, and 6 ps + 4 ps production evidence. Its 300 K experiment is distinct from matched-study T1. The 273 K lineage proceeds through cooling and operationally accepted T3 equilibration to T4 production. T4 comprises a 60-frame segment and a 40-frame laptop-restart continuation. The step-3000 / 127.620 ps thermo record was buffered/lost and is not fabricated; RNG continuity across that restart is not claimed. Hash-pinned source-file mapping is in the two subset manifests; all nine deep-analysis raw-source hashes are recorded in `AUTHORITATIVE_RESULTS.json`.

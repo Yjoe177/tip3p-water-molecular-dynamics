@@ -1,0 +1,17 @@
+{
+  "classification": "NPT_PRODUCTION_SEGMENT01_6PS_ACCEPTED_LAPTOP_RESTART_INTERRUPTION",
+  "reason": "unexpected laptop/system restart",
+  "not_a_native_sponge_or_runtime_failure": true,
+  "accepted_steps": "100-6000",
+  "accepted_mdout_records": 60,
+  "absolute_time_range_ps": [
+    102.72,
+    108.62
+  ],
+  "synchronized_restart_header": "2586 108.6200000000 5999",
+  "coordinate_sha256": "B4AC947DF619322B15C6F2FF4728E77664348C29CC741B94F012D7271074477D",
+  "velocity_sha256": "FCD42A09943905EF22877E4AC1E92AE0ACD13FF330304E1CD0D02E9F8711667A",
+  "excluded_tail_steps": "6100-6300",
+  "excluded_tail_records": 3,
+  "console_log_available": "NO"
+}

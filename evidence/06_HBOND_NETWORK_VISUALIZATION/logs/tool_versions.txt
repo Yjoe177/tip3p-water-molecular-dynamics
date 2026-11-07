@@ -1,0 +1,4 @@
+python: 3.11.15 | packaged by Anaconda, Inc. | (main, Jun 11 2026, 15:12:53) [MSC v.1942 64 bit (AMD64)]
+numpy: 2.4.6
+pillow: 12.3.0
+pymol-open-source: 3.2.0a0

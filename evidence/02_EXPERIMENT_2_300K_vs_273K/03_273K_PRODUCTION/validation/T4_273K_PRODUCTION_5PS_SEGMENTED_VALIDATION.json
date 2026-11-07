@@ -1,0 +1,472 @@
+{
+  "pass": "T4_273K_production_5ps_segmented_validation",
+  "readonly": true,
+  "verdict": "T4_273K_PRODUCTION_SEGMENTED_VALIDATED",
+  "accepted_dataset_structure": {
+    "segment_1": "run/tempcomp_273K_production_5ps (INTERRUPTED_PRODUCTION_SEGMENT_PRESERVED_UNCHANGED)",
+    "transition": "validated step-3000 restart pair, header 2586 127.6200000000 2999, coordinate sha256 29BC5D429879AD74DE2072325D69A6451F4301A1E59A4EB3F10FB19D1B399CDA, velocity sha256 256B838B7D5111551A1012CAACB3E56459F998BC71D2078E5DA26CF04A1C7A38",
+    "segment_2": "run/tempcomp_273K_production_5ps_resume (T4R2, 2000 steps, seed 20260907)",
+    "trajectory_frames_total": 100,
+    "box_records_total": 100,
+    "mdout_records_total": 99,
+    "mdout_records_note": "99 mdout records instead of 100: the step-3000 record was buffered and lost at the laptop restart. It is NOT fabricated.",
+    "step3000_trajectory_frame": "PRESENT (flushed before restart; segment 1 holds 60 frames)",
+    "no_raw_files_merged_or_rewritten": true
+  },
+  "rng_continuity_note": "SPONGE does not checkpoint the middle-Langevin RNG state; uninterrupted Langevin RNG continuity across the laptop restart is explicitly NOT claimed.",
+  "verdict_meaning": "5 ps 273 K production accepted as interrupted segment + validated step-3000 restart transition + 2 ps continuation; all integrity and settings checks passed; statistics are informational, not equilibrium proof",
+  "failed_checks": [],
+  "checks": [
+    {
+      "check": "seg1_classified_interrupted",
+      "passed": true,
+      "detail": "run/tempcomp_273K_production_5ps = INTERRUPTED_PRODUCTION_SEGMENT_PRESERVED_UNCHANGED"
+    },
+    {
+      "check": "seg1_command_matches_T4_original",
+      "passed": true,
+      "detail": "step_limit=5000 seed=20260906"
+    },
+    {
+      "check": "seg1_mdout_record_count_59",
+      "passed": true,
+      "detail": "n=59"
+    },
+    {
+      "check": "seg1_mdout_50step_cadence_50_to_2950",
+      "passed": true,
+      "detail": "50..2950"
+    },
+    {
+      "check": "seg1_mdout_time_span_124.670_to_127.570",
+      "passed": true,
+      "detail": "124.67..127.57"
+    },
+    {
+      "check": "seg1_mdout_step3000_record_absent_as_expected",
+      "passed": true,
+      "detail": "step-3000 mdout record was buffered and lost at the laptop restart; not fabricated"
+    },
+    {
+      "check": "seg1_mdout_all_finite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg1_traj_exact_60_frames",
+      "passed": true,
+      "detail": "frames=60 exact=True"
+    },
+    {
+      "check": "seg1_traj_all_finite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg1_traj_step3000_frame_present_flushed",
+      "passed": true,
+      "detail": "the step-3000 trajectory frame WAS flushed before the restart and exists"
+    },
+    {
+      "check": "seg1_box_60_records",
+      "passed": true,
+      "detail": "n=60"
+    },
+    {
+      "check": "seg1_box_all_finite_positive",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg1_box_step3000_record_present",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "transition_restart_coordinate_hash_pinned",
+      "passed": true,
+      "detail": "29BC5D429879AD74DE2072325D69A6451F4301A1E59A4EB3F10FB19D1B399CDA"
+    },
+    {
+      "check": "transition_restart_velocity_hash_pinned",
+      "passed": true,
+      "detail": "256B838B7D5111551A1012CAACB3E56459F998BC71D2078E5DA26CF04A1C7A38"
+    },
+    {
+      "check": "transition_headers_synchronized",
+      "passed": true,
+      "detail": "2586 127.6200000000 2999"
+    },
+    {
+      "check": "transition_header_exact_step3000",
+      "passed": true,
+      "detail": "2586 127.6200000000 2999"
+    },
+    {
+      "check": "transition_time_exact_127.620",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "transition_coord_body_finite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "transition_vel_body_finite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "transition_box_valid",
+      "passed": true,
+      "detail": "[29.7773705, 29.7773361, 29.7774372, 90.0, 90.0, 90.0]"
+    },
+    {
+      "check": "transition_box_consistent_with_last_flushed_box_record",
+      "passed": true,
+      "detail": "rst=[29.7773705, 29.7773361, 29.7774372] last_box=[29.77737, 29.777336, 29.777437]"
+    },
+    {
+      "check": "seg2_velocity_not_regenerated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_transition_hashes_match_recorded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_transition_synchronized_recorded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_start_coordinate_hash_eq_pinned_step3000_rst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_start_velocity_hash_eq_pinned_step3000_rst",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_transition_provenance_consistent_with_files",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_start_headers_synchronized",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_start_header_exact_127.620ps",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_exit_code_0",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "check": "seg2_meta_target_temperature_273",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_meta_thermostat_seed_20260907",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_mdinfo_target_temperature_273",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_mdinfo_dt_0.001",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_mdinfo_barostat_bussi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_mdinfo_target_pressure_1bar",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_mdinfo_barostat_tau_1ps",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_mdinfo_barostat_isotropic",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_mdinfo_barostat_update_10",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_mdinfo_thermostat_friction_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_mdinfo_seed_20260907",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_mdinfo_pme_initialized",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_mdinfo_settle_initialized_862",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_mdinfo_shake_not_initialized",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_cmd_mode_npt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_cmd_thermostat_middle_langevin",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_cmd_seed_20260907",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_cmd_barostat_bussi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_cmd_cutoff_8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_cmd_dt_0.001",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_cmd_step_limit_2000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_cmd_target_temperature_273",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_cmd_target_pressure_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_cmd_constrain_shake",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_mdout_record_count_40",
+      "passed": true,
+      "detail": "n=40"
+    },
+    {
+      "check": "seg2_mdout_50step_cadence",
+      "passed": true,
+      "detail": "50..2000"
+    },
+    {
+      "check": "seg2_mdout_time_span_127.670_to_129.620",
+      "passed": true,
+      "detail": "127.67..129.62"
+    },
+    {
+      "check": "seg2_mdout_all_finite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_mdout_final_time_exact_129.620",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_traj_exact_40_frames",
+      "passed": true,
+      "detail": "frames=40 exact=True"
+    },
+    {
+      "check": "seg2_traj_all_finite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_box_40_records",
+      "passed": true,
+      "detail": "n=40"
+    },
+    {
+      "check": "seg2_box_all_finite_positive",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_final_restart_headers_synchronized",
+      "passed": true,
+      "detail": "2586 129.6200000000 1999"
+    },
+    {
+      "check": "seg2_final_restart_header_exact",
+      "passed": true,
+      "detail": "2586 129.6200000000 1999"
+    },
+    {
+      "check": "seg2_final_restart_time_exact_129.620",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_final_restart_coord_body_finite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_final_restart_vel_body_finite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "seg2_final_restart_box_valid",
+      "passed": true,
+      "detail": "[29.7764645, 29.7764301, 29.776535, 90.0, 90.0, 90.0]"
+    },
+    {
+      "check": "accepted_dataset_100_trajectory_frames",
+      "passed": true,
+      "detail": "60 (segment 1) + 40 (segment 2) = 100; step-3000 frame exists (flushed before restart)"
+    },
+    {
+      "check": "accepted_dataset_100_box_records",
+      "passed": true,
+      "detail": "n=100"
+    },
+    {
+      "check": "accepted_dataset_99_mdout_records_step3000_lost",
+      "passed": true,
+      "detail": "59 (segment 1) + 40 (segment 2) = 99; the step-3000 mdout record was buffered and lost at the laptop restart"
+    },
+    {
+      "check": "accepted_time_coverage_124.670_to_129.620",
+      "passed": true,
+      "detail": "mdout gap at 127.620 (step 3000) only; no fabricated record"
+    },
+    {
+      "check": "T1_resume_only_allowed_setting_differences",
+      "passed": true,
+      "detail": "only target_temperature, thermostat_seed and step_limit differ"
+    },
+    {
+      "check": "cadence_matched_to_T1",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "statistics": {
+    "temperature": {
+      "mean": 269.961,
+      "sample_sd": 4.7604,
+      "n": 99
+    },
+    "pressure": {
+      "mean": -592.702,
+      "sample_sd": 357.7834,
+      "n": 99
+    },
+    "density": {
+      "mean": 0.9761,
+      "sample_sd": 0.0008,
+      "n": 99
+    },
+    "potential": {
+      "mean": -8518.8839,
+      "sample_sd": 27.1919,
+      "n": 99
+    },
+    "volume_A3": {
+      "mean": 26415.9445,
+      "sample_sd": 21.3167,
+      "n": 100
+    },
+    "trends_info_only": {
+      "temperature": {
+        "slope_per_ps": -1.3958,
+        "t_stat": -4.65
+      },
+      "density": {
+        "slope_per_ps": 0.0005,
+        "t_stat": 18.65
+      },
+      "potential": {
+        "slope_per_ps": -6.9006,
+        "t_stat": -3.92
+      },
+      "pressure": {
+        "slope_per_ps": 30.1835,
+        "t_stat": 1.22
+      }
+    },
+    "note": "Statistics combine 59 segment-1 mdout records (124.670..127.570 ps) and 40 segment-2 records (127.670..129.620 ps); the step-3000 mdout record was lost at the laptop restart. Half-split/trend diagnostics are informational only, not proof of rigorous long-timescale equilibrium."
+  },
+  "t1_resume_matching_audit": {
+    "setting_differences": [
+      {
+        "flag": "-step_limit",
+        "T1_300K": "5000",
+        "T4R2_273K_resume": "2000"
+      },
+      {
+        "flag": "-target_temperature",
+        "T1_300K": "300",
+        "T4R2_273K_resume": "273"
+      },
+      {
+        "flag": "-thermostat_seed",
+        "T1_300K": "20260826",
+        "T4R2_273K_resume": "20260907"
+      }
+    ],
+    "unexpected_differences": [],
+    "cadence": {
+      "information_interval": 50,
+      "trajectory_interval": 50,
+      "restart_interval": 1000
+    }
+  }
+}

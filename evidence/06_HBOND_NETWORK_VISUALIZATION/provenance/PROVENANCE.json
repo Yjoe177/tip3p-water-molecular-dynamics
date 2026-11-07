@@ -1,0 +1,181 @@
+{
+  "branch": "15_HBOND_NETWORK_VISUALIZATION_20260922_104453",
+  "note": "READ-ONLY: no source file modified; SPONGE never run",
+  "sources": [
+    {
+      "key": "traj_300K",
+      "absolute_path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\02_300K_reference\\run\\tempcomp_300K_reference\\tempcomp_300K_reference_traj.dat",
+      "bytes": 3103200,
+      "sha256": "5d0378efc122a9cb34e1999ad9d2bb3dec04becc3fa338e701af6f25a47ea8a1",
+      "role": "trajectory, 300 K branch, 100 frames",
+      "originating_branch": "12_TEMPERATURE_COMPARISON_300K_273K/02_300K_reference",
+      "acceptance_verdict": "T1_300K_REFERENCE_POSTRUN_PASS"
+    },
+    {
+      "key": "box_300K",
+      "absolute_path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\02_300K_reference\\run\\tempcomp_300K_reference\\tempcomp_300K_reference_traj.box",
+      "bytes": 6100,
+      "sha256": "d2552807af8627aad6ee7cc95113cdcfc7ad66783a01c651d8885e2050fd04d1",
+      "role": "per-frame box, 300 K branch",
+      "originating_branch": "12_TEMPERATURE_COMPARISON_300K_273K/02_300K_reference",
+      "acceptance_verdict": "T1_300K_REFERENCE_POSTRUN_PASS"
+    },
+    {
+      "key": "traj_273K_seg1",
+      "absolute_path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps\\tempcomp_273K_production_5ps_traj.dat",
+      "bytes": 1861920,
+      "sha256": "559fd6de0659fdeb805e2db06cf08127bab75397143fb579b9a27dc692404fe2",
+      "role": "trajectory, 273 K branch segment 1 (frames 0-59)",
+      "originating_branch": "12_TEMPERATURE_COMPARISON_300K_273K/07_273K_production_5ps",
+      "acceptance_verdict": "T4_273K_PRODUCTION_SEGMENTED_VALIDATED"
+    },
+    {
+      "key": "box_273K_seg1",
+      "absolute_path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps\\tempcomp_273K_production_5ps_traj.box",
+      "bytes": 3660,
+      "sha256": "96fcd1e237811585ec1c4a4e7b66ff2295ec229990981770b5e4017fe2a20c0b",
+      "role": "per-frame box, 273 K segment 1",
+      "originating_branch": "12_TEMPERATURE_COMPARISON_300K_273K/07_273K_production_5ps",
+      "acceptance_verdict": "T4_273K_PRODUCTION_SEGMENTED_VALIDATED"
+    },
+    {
+      "key": "traj_273K_seg2",
+      "absolute_path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps_resume\\tempcomp_273K_production_5ps_resume_traj.dat",
+      "bytes": 1241280,
+      "sha256": "0d5fc88d8205750619a9854bb73d205e618a210c28e739d189da90a17621ef78",
+      "role": "trajectory, 273 K branch segment 2 (frames 60-99)",
+      "originating_branch": "12_TEMPERATURE_COMPARISON_300K_273K/07_273K_production_5ps",
+      "acceptance_verdict": "T4_273K_PRODUCTION_SEGMENTED_VALIDATED"
+    },
+    {
+      "key": "box_273K_seg2",
+      "absolute_path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps_resume\\tempcomp_273K_production_5ps_resume_traj.box",
+      "bytes": 2440,
+      "sha256": "5edafd1b07ac60f74c8f547a319e3b4c81f71a1b3669df782db0afef2cf7619b",
+      "role": "per-frame box, 273 K segment 2",
+      "originating_branch": "12_TEMPERATURE_COMPARISON_300K_273K/07_273K_production_5ps",
+      "acceptance_verdict": "T4_273K_PRODUCTION_SEGMENTED_VALIDATED"
+    },
+    {
+      "key": "hbond_timeseries",
+      "absolute_path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\11_T5R1R2_FINAL_EXTERNAL_REVIEW_CLOSURE\\outputs\\hbond_timeseries.csv",
+      "bytes": 15177,
+      "sha256": "2d84d077b9067bacd7170a6cbb7fb524144fe6f4519de9ddbfcfe5a7a4dcb58f",
+      "role": "accepted per-frame H-bond counts used for objective frame selection",
+      "originating_branch": "12_TEMPERATURE_COMPARISON_300K_273K/11_T5R1R2_FINAL_EXTERNAL_REVIEW_CLOSURE",
+      "acceptance_verdict": "T5R1R2_FINAL_EXTERNAL_REVIEW_CLOSURE_VALIDATED"
+    },
+    {
+      "key": "analysis_results",
+      "absolute_path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\11_T5R1R2_FINAL_EXTERNAL_REVIEW_CLOSURE\\ANALYSIS_RESULTS.json",
+      "bytes": 43672,
+      "sha256": "5fcdd103f21034d12508dd1eab47b9637a68db9b8922ec8c0c5e7954af322dfb",
+      "role": "accepted analysis results (branch means)",
+      "originating_branch": "12_TEMPERATURE_COMPARISON_300K_273K/11_T5R1R2_FINAL_EXTERNAL_REVIEW_CLOSURE",
+      "acceptance_verdict": "T5R1R2_FINAL_EXTERNAL_REVIEW_CLOSURE_VALIDATED"
+    }
+  ],
+  "tools": {
+    "python_sponge_cpu": {
+      "path": "C:/Users/Acer/miniconda3/envs/sponge-cpu/python.exe",
+      "version": "3.11.15",
+      "used_for": "scripts/select_frames_and_clusters.py (numpy 1.26.4 in that env; no installs)"
+    },
+    "branch_venv": {
+      "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\15_HBOND_NETWORK_VISUALIZATION_20260922_104453\\venv\\Scripts\\python.exe",
+      "python": "3.11.15",
+      "pymol_open_source": "3.2.0a0",
+      "pillow": "12.3.0",
+      "numpy": "2.4.6",
+      "used_for": "render.py, label_and_compose.py, validate_visualization.py"
+    },
+    "native_dlls": "venv/pymol_dlls assembled from freetype-py 2.5.1 wheel, netCDF4 1.7.4 wheel libs, conda-forge glew 2.3.0 / libpng 1.6.58 package binaries, and read-only copies of libxml2.dll/iconv.dll from the sponge-cpu env; registered via os.add_dll_directory at runtime"
+  },
+  "artifacts": {
+    "scripts/select_frames_and_clusters.py": {
+      "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\15_HBOND_NETWORK_VISUALIZATION_20260922_104453\\scripts\\select_frames_and_clusters.py",
+      "bytes": 11578,
+      "sha256": "acb392bd4462a3a1a39050b3cbea0d13e532b3d891b8121c584860074d0fd6c7"
+    },
+    "scripts/render.py": {
+      "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\15_HBOND_NETWORK_VISUALIZATION_20260922_104453\\scripts\\render.py",
+      "bytes": 3714,
+      "sha256": "06b64a3633c38417a615efb4f7a20a4e8a2bcfa81d621d61bc744a6575591a7b"
+    },
+    "scripts/label_and_compose.py": {
+      "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\15_HBOND_NETWORK_VISUALIZATION_20260922_104453\\scripts\\label_and_compose.py",
+      "bytes": 2468,
+      "sha256": "e54726b1870e394cd83099ead129f50737e973892b57ac653cf762420f5de139"
+    },
+    "validation/validate_visualization.py": {
+      "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\15_HBOND_NETWORK_VISUALIZATION_20260922_104453\\validation\\validate_visualization.py",
+      "bytes": 8087,
+      "sha256": "255619ce3cb896067a9eacb7ec297938dbd4a5953088b43c58159345228edc71"
+    },
+    "analysis/selection_results.json": {
+      "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\15_HBOND_NETWORK_VISUALIZATION_20260922_104453\\analysis\\selection_results.json",
+      "bytes": 5793,
+      "sha256": "dc894a1286ac88a7703214ebc1b1cdd964817a1e929c060502f4e318f537dfb9"
+    },
+    "analysis/cluster_300K.pdb": {
+      "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\15_HBOND_NETWORK_VISUALIZATION_20260922_104453\\analysis\\cluster_300K.pdb",
+      "bytes": 3434,
+      "sha256": "d746e2cc1f7b8413a4ae0654b4509cb6d00d051b5d7a691f4d5db81a2e155160"
+    },
+    "analysis/cluster_273K.pdb": {
+      "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\15_HBOND_NETWORK_VISUALIZATION_20260922_104453\\analysis\\cluster_273K.pdb",
+      "bytes": 3434,
+      "sha256": "f63cb1f99bb82efc57f11964f7c06e208a501d3a9a210910fc76292ac2eb0f34"
+    },
+    "analysis/hbonds_300K.txt": {
+      "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\15_HBOND_NETWORK_VISUALIZATION_20260922_104453\\analysis\\hbonds_300K.txt",
+      "bytes": 165,
+      "sha256": "f0f11f872c88601a97ea9ac46cd2670e401bfb44d7a0fc70554294336b61f3ba"
+    },
+    "analysis/hbonds_273K.txt": {
+      "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\15_HBOND_NETWORK_VISUALIZATION_20260922_104453\\analysis\\hbonds_273K.txt",
+      "bytes": 158,
+      "sha256": "b673b6bb59ae0f73dd7512e90f36a42cc8abc6017cc591558e78a26be17d4730"
+    },
+    "renders/hbond_network_300K.png": {
+      "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\15_HBOND_NETWORK_VISUALIZATION_20260922_104453\\renders\\hbond_network_300K.png",
+      "bytes": 206048,
+      "sha256": "8266bcd28a3cdf845a4bbe99d0fea63f764101dc7583f531b74b96335aaf3790"
+    },
+    "renders/hbond_network_273K.png": {
+      "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\15_HBOND_NETWORK_VISUALIZATION_20260922_104453\\renders\\hbond_network_273K.png",
+      "bytes": 215275,
+      "sha256": "8d8cbc6d1fa992a53a7e234d5d564d4d5486878bab724954e28f41edaeceb504"
+    },
+    "renders/hbond_network_300K_zoom.png": {
+      "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\15_HBOND_NETWORK_VISUALIZATION_20260922_104453\\renders\\hbond_network_300K_zoom.png",
+      "bytes": 176156,
+      "sha256": "4cb6f2569311bc51660e5aa767d2d0ab6c7a776e6e6a783fdf0f6e7768c76aea"
+    },
+    "renders/hbond_network_273K_zoom.png": {
+      "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\15_HBOND_NETWORK_VISUALIZATION_20260922_104453\\renders\\hbond_network_273K_zoom.png",
+      "bytes": 197820,
+      "sha256": "67b5c9dc5e56410e3c220f0317a69a470295b55972c73d47144248cdbb413c4f"
+    },
+    "renders/hbond_network_300K_labeled.png": {
+      "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\15_HBOND_NETWORK_VISUALIZATION_20260922_104453\\renders\\hbond_network_300K_labeled.png",
+      "bytes": 169449,
+      "sha256": "c9e8a0eb6da322b8d809dc64d042c86e749bad42c28978a1cc9df76a40794881"
+    },
+    "renders/hbond_network_273K_labeled.png": {
+      "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\15_HBOND_NETWORK_VISUALIZATION_20260922_104453\\renders\\hbond_network_273K_labeled.png",
+      "bytes": 175555,
+      "sha256": "fe2c3ca318306e77b0cac8d88745592e9d1b8df8e0389c60112fe5ac26a1b837"
+    },
+    "renders/hbond_network_comparison_sidebyside.png": {
+      "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\15_HBOND_NETWORK_VISUALIZATION_20260922_104453\\renders\\hbond_network_comparison_sidebyside.png",
+      "bytes": 346277,
+      "sha256": "fc367c381a1098000c7d44d1328ce1fb44424efba2def8f2f27b1ace31c08b68"
+    },
+    "validation/VALIDATION.json": {
+      "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\15_HBOND_NETWORK_VISUALIZATION_20260922_104453\\validation\\VALIDATION.json",
+      "bytes": 9283,
+      "sha256": "ce22c48b626697500c6280bf36a8d53089978c1bfd7c3ff840595a8cebf8f2c6"
+    }
+  }
+}

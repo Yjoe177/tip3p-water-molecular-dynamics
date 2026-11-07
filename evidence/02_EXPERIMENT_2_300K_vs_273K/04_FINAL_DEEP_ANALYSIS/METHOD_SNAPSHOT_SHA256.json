@@ -1,0 +1,8 @@
+{
+  "registry_scope": "Exact method-script snapshots retained for reproducibility; not current final verdicts.",
+  "snapshots": {
+    "analyze_t5r1_matched_water.py": "011F2EDA38B873F5AB6C52F805A7008343125CE3DC179D58D75D0F9F4C6264CB",
+    "build_provenance_receipt.py": "DEBCFDEF8BA68370EAE079C0FA851EB5892C1CB7F5C35AC989B029D62D52B66D",
+    "validate_t5r1.py": "3C31F20DA2ABEF89F362D022833600910034A363EDC1CF8632AD0B3ADC11ED1F"
+  }
+}

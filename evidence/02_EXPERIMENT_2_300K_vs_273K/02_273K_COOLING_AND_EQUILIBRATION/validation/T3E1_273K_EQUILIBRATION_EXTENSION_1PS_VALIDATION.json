@@ -1,0 +1,377 @@
+{
+  "pass": "T3E1_273K_equilibration_extension_1ps_validation",
+  "readonly": true,
+  "verdict": "T3_273K_EQUILIBRATION_OPERATIONALLY_ACCEPTED",
+  "verdict_meaning": "acceptable for proceeding to the matched 273 K production run; NOT proof of rigorous long-timescale equilibrium",
+  "failed_checks": [],
+  "checks": [
+    {
+      "check": "exists_mdinfo",
+      "passed": true,
+      "detail": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\06_273K_equilibration_extension_1ps\\run\\tempcomp_273K_equilibration_extension1ps\\tempcomp_273K_equilibration_extension1ps.mdinfo"
+    },
+    {
+      "check": "exists_mdout",
+      "passed": true,
+      "detail": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\06_273K_equilibration_extension_1ps\\run\\tempcomp_273K_equilibration_extension1ps\\tempcomp_273K_equilibration_extension1ps.mdout"
+    },
+    {
+      "check": "exists_console",
+      "passed": true,
+      "detail": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\06_273K_equilibration_extension_1ps\\run\\tempcomp_273K_equilibration_extension1ps\\tempcomp_273K_equilibration_extension1ps_console.log"
+    },
+    {
+      "check": "exists_meta",
+      "passed": true,
+      "detail": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\06_273K_equilibration_extension_1ps\\run\\tempcomp_273K_equilibration_extension1ps\\tempcomp_273K_equilibration_extension1ps_meta.json"
+    },
+    {
+      "check": "exists_rst_coord",
+      "passed": true,
+      "detail": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\06_273K_equilibration_extension_1ps\\run\\tempcomp_273K_equilibration_extension1ps\\tempcomp_273K_equilibration_extension1ps_rst_coordinate.txt"
+    },
+    {
+      "check": "exists_rst_vel",
+      "passed": true,
+      "detail": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\06_273K_equilibration_extension_1ps\\run\\tempcomp_273K_equilibration_extension1ps\\tempcomp_273K_equilibration_extension1ps_rst_velocity.txt"
+    },
+    {
+      "check": "exists_start_coord",
+      "passed": true,
+      "detail": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\06_273K_equilibration_extension_1ps\\run\\tempcomp_273K_equilibration_extension1ps\\tempcomp_273K_equilibration_extension1ps_start_coordinate.txt"
+    },
+    {
+      "check": "exists_start_vel",
+      "passed": true,
+      "detail": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\06_273K_equilibration_extension_1ps\\run\\tempcomp_273K_equilibration_extension1ps\\tempcomp_273K_equilibration_extension1ps_start_velocity.txt"
+    },
+    {
+      "check": "exists_traj",
+      "passed": true,
+      "detail": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\06_273K_equilibration_extension_1ps\\run\\tempcomp_273K_equilibration_extension1ps\\tempcomp_273K_equilibration_extension1ps_traj.dat"
+    },
+    {
+      "check": "exists_box",
+      "passed": true,
+      "detail": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\06_273K_equilibration_extension_1ps\\run\\tempcomp_273K_equilibration_extension1ps\\tempcomp_273K_equilibration_extension1ps_traj.box"
+    },
+    {
+      "check": "exists_transition",
+      "passed": true,
+      "detail": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\06_273K_equilibration_extension_1ps\\run\\tempcomp_273K_equilibration_extension1ps\\transition_provenance.json"
+    },
+    {
+      "check": "exists_src_rst_coord",
+      "passed": true,
+      "detail": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\05_273K_equilibration_checkpoint02\\run\\tempcomp_273K_equilibration_checkpoint02_resume\\tempcomp_273K_equilibration_checkpoint02_resume_rst_coordinate.txt"
+    },
+    {
+      "check": "exists_src_rst_vel",
+      "passed": true,
+      "detail": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\05_273K_equilibration_checkpoint02\\run\\tempcomp_273K_equilibration_checkpoint02_resume\\tempcomp_273K_equilibration_checkpoint02_resume_rst_velocity.txt"
+    },
+    {
+      "check": "exists_src_mdout",
+      "passed": true,
+      "detail": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\05_273K_equilibration_checkpoint02\\run\\tempcomp_273K_equilibration_checkpoint02_resume\\tempcomp_273K_equilibration_checkpoint02_resume.mdout"
+    },
+    {
+      "check": "exists_cp2_mdout",
+      "passed": true,
+      "detail": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\05_273K_equilibration_checkpoint02\\run\\tempcomp_273K_equilibration_checkpoint02\\tempcomp_273K_equilibration_checkpoint02.mdout"
+    },
+    {
+      "check": "transition_velocity_not_regenerated",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "transition_hashes_match_recorded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "transition_synchronized_recorded",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "start_coordinate_hash_eq_checkpoint02_resume_rst",
+      "passed": true,
+      "detail": "start=337F28334BB5F386476DF9D28FC98BFEB99E5A95E6EB7C7081CCE2568BB3E2ED src=337F28334BB5F386476DF9D28FC98BFEB99E5A95E6EB7C7081CCE2568BB3E2ED"
+    },
+    {
+      "check": "start_velocity_hash_eq_checkpoint02_resume_rst",
+      "passed": true,
+      "detail": "start=91BD5D97B6A197CF2136FF762104BF7B1F0E95D57CC88683DB86D581895B36B3 src=91BD5D97B6A197CF2136FF762104BF7B1F0E95D57CC88683DB86D581895B36B3"
+    },
+    {
+      "check": "transition_provenance_hashes_consistent_with_files",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "start_headers_synchronized",
+      "passed": true,
+      "detail": "2586 123.6200000000 499"
+    },
+    {
+      "check": "start_header_exact_123.620ps",
+      "passed": true,
+      "detail": "2586 123.6200000000 499"
+    },
+    {
+      "check": "start_header_eq_source_header",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "start_time_exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "start_coord_body_finite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "start_vel_body_finite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "start_box_valid",
+      "passed": true,
+      "detail": "[29.7943573, 29.7943268, 29.7944145, 90.0, 90.0, 90.0]"
+    },
+    {
+      "check": "mdinfo_target_temperature_273",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mdinfo_dt_0.001",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mdinfo_barostat_bussi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mdinfo_target_pressure_1bar",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mdinfo_pme_initialized",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmd_mode_npt",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmd_thermostat_middle_langevin",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmd_seed_20260905",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmd_barostat_bussi",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmd_cutoff_8",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmd_dt_0.001",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmd_step_limit_1000",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmd_target_temperature_273",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "cmd_target_pressure_1",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "meta_target_temperature_273",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "meta_thermostat_seed_20260905",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mdinfo_settle_initialized",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "mdinfo_shake_not_initialized",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "exit_code_0",
+      "passed": true,
+      "detail": "0"
+    },
+    {
+      "check": "mdout_record_count_20",
+      "passed": true,
+      "detail": "n=20"
+    },
+    {
+      "check": "mdout_50step_cadence",
+      "passed": true,
+      "detail": "50..1000"
+    },
+    {
+      "check": "mdout_time_span_123.670_to_124.620",
+      "passed": true,
+      "detail": "123.67..124.62"
+    },
+    {
+      "check": "mdout_all_finite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "traj_exact_20_frames",
+      "passed": true,
+      "detail": "bytes=620640 frames=20"
+    },
+    {
+      "check": "traj_all_finite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "box_20_records",
+      "passed": true,
+      "detail": "n=20"
+    },
+    {
+      "check": "box_all_finite_positive",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final_restart_headers_synchronized",
+      "passed": true,
+      "detail": "2586 124.6200000000 999"
+    },
+    {
+      "check": "final_restart_header_exact",
+      "passed": true,
+      "detail": "2586 124.6200000000 999"
+    },
+    {
+      "check": "final_restart_time_exact",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final_restart_coord_body_finite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final_restart_vel_body_finite",
+      "passed": true,
+      "detail": ""
+    },
+    {
+      "check": "final_restart_box_valid",
+      "passed": true,
+      "detail": "[29.794035, 29.7940025, 29.794096, 90.0, 90.0, 90.0]"
+    },
+    {
+      "check": "thermal_full_1ps_within_5K",
+      "passed": true,
+      "detail": "272.440"
+    },
+    {
+      "check": "thermal_last_0p5ps_within_5K",
+      "passed": true,
+      "detail": "270.520"
+    },
+    {
+      "check": "thermal_two_means_within_3K",
+      "passed": true,
+      "detail": "-1.920"
+    }
+  ],
+  "statistics": {
+    "temperature_full_1ps": {
+      "mean": 272.4395,
+      "sample_sd": 5.1138,
+      "n": 20
+    },
+    "temperature_last_0p5ps": {
+      "mean": 270.52,
+      "sample_sd": 5.8371,
+      "n": 10
+    },
+    "mean_difference_last0p5_minus_full": -1.9195,
+    "density_first_half": 0.97467,
+    "density_second_half": 0.97514,
+    "density_half_difference": 0.00047,
+    "potential_first_half": -8514.629,
+    "potential_second_half": -8502.447,
+    "potential_half_difference": 12.182,
+    "trend_temperature_info_only": {
+      "slope_per_ps": -7.0678,
+      "t_stat": -1.9
+    },
+    "trend_density_info_only": {
+      "slope_per_ps": 0.0006,
+      "t_stat": 2.29
+    },
+    "trend_potential_info_only": {
+      "slope_per_ps": 10.0989,
+      "t_stat": 0.53
+    },
+    "trailing_with_checkpoint02": {
+      "span_ps": [
+        121.67,
+        124.62
+      ],
+      "n_total": 59,
+      "temperature_last_1ps": {
+        "mean": 272.4395,
+        "sample_sd": 5.1138,
+        "n": 20
+      },
+      "temperature_last_0p5ps": {
+        "mean": 270.52,
+        "sample_sd": 5.8371,
+        "n": 10
+      }
+    }
+  }
+}

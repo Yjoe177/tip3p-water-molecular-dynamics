@@ -1,0 +1,3 @@
+# Final methods
+
+Both experiments use 862-water TIP3P inputs, 1 fs integration, PME, 8 A cutoff, runtime SETTLE, and the accepted NVT/NPT sequence. Experiment 1 finishes with Bussi-NPT 6 ps + 4 ps production after accepted 80 ps Bussi-NPT equilibration. The matched study compares T1 300 K and T4 273 K 5 ps production with 0.05 ps structural sampling. RDFs use intermolecular pairs with normalization; H-bonds require O_D...O_A < 3.5 A and O_D-H...O_A > 150 degrees (H is the angle vertex). Tetrahedral q uses the four nearest oxygen neighbors; coordination is direct and integrated OO coordination, reported at a common 3.5 A. Samples: T1 100 frames/100 thermo; T4 100 structural/box frames and 99 real thermo records.

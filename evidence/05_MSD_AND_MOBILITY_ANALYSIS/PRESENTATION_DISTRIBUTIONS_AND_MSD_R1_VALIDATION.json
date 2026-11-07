@@ -1,0 +1,457 @@
+{
+  "verdict": "PRESENTATION_DISTRIBUTIONS_AND_MSD_R1_VALIDATED",
+  "passed": 90,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "FINAL ZIP SHA-256",
+      "pass": true,
+      "detail": "82B687D8DCD423E7AFC4121DB5E6F15C7C28D3C40D60B6B2DE7B14314D29AFCB"
+    },
+    {
+      "name": "raw source hash 300K trajectory tempcomp_300K_reference_traj.dat",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "raw source hash 300K box tempcomp_300K_reference_traj.box",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "raw source hash 300K mdout tempcomp_300K_reference.mdout",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "raw source hash 273K trajectory tempcomp_273K_production_5ps_traj.dat",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "raw source hash 273K trajectory tempcomp_273K_production_5ps_resume_traj.dat",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "raw source hash 273K box tempcomp_273K_production_5ps_traj.box",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "raw source hash 273K box tempcomp_273K_production_5ps_resume_traj.box",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "raw source hash 273K mdout tempcomp_273K_production_5ps.mdout",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "raw source hash 273K mdout tempcomp_273K_production_5ps_resume.mdout",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "nine frozen raw sources",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "H-bond source hash",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "branch 13 file set unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "branch 13 hashes unchanged",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "mdout rectangular tempcomp_300K_reference.mdout",
+      "pass": true,
+      "detail": "100"
+    },
+    {
+      "name": "unique numeric header field temperature in tempcomp_300K_reference.mdout",
+      "pass": true,
+      "detail": "numeric candidates=1"
+    },
+    {
+      "name": "unique numeric header field pressure in tempcomp_300K_reference.mdout",
+      "pass": true,
+      "detail": "numeric candidates=1"
+    },
+    {
+      "name": "unique numeric header field potential in tempcomp_300K_reference.mdout",
+      "pass": true,
+      "detail": "numeric candidates=1"
+    },
+    {
+      "name": "unique numeric header field density in tempcomp_300K_reference.mdout",
+      "pass": true,
+      "detail": "numeric candidates=1"
+    },
+    {
+      "name": "mdout rectangular tempcomp_273K_production_5ps.mdout",
+      "pass": true,
+      "detail": "59"
+    },
+    {
+      "name": "unique numeric header field temperature in tempcomp_273K_production_5ps.mdout",
+      "pass": true,
+      "detail": "numeric candidates=1"
+    },
+    {
+      "name": "unique numeric header field pressure in tempcomp_273K_production_5ps.mdout",
+      "pass": true,
+      "detail": "numeric candidates=1"
+    },
+    {
+      "name": "unique numeric header field potential in tempcomp_273K_production_5ps.mdout",
+      "pass": true,
+      "detail": "numeric candidates=1"
+    },
+    {
+      "name": "unique numeric header field density in tempcomp_273K_production_5ps.mdout",
+      "pass": true,
+      "detail": "numeric candidates=1"
+    },
+    {
+      "name": "mdout rectangular tempcomp_273K_production_5ps_resume.mdout",
+      "pass": true,
+      "detail": "40"
+    },
+    {
+      "name": "unique numeric header field temperature in tempcomp_273K_production_5ps_resume.mdout",
+      "pass": true,
+      "detail": "numeric candidates=1"
+    },
+    {
+      "name": "unique numeric header field pressure in tempcomp_273K_production_5ps_resume.mdout",
+      "pass": true,
+      "detail": "numeric candidates=1"
+    },
+    {
+      "name": "unique numeric header field potential in tempcomp_273K_production_5ps_resume.mdout",
+      "pass": true,
+      "detail": "numeric candidates=1"
+    },
+    {
+      "name": "unique numeric header field density in tempcomp_273K_production_5ps_resume.mdout",
+      "pass": true,
+      "detail": "numeric candidates=1"
+    },
+    {
+      "name": "thermo record counts 100 and 99",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "box records tempcomp_300K_reference_traj.box",
+      "pass": true,
+      "detail": "(100, 3)"
+    },
+    {
+      "name": "box records tempcomp_273K_production_5ps_traj.box",
+      "pass": true,
+      "detail": "(60, 3)"
+    },
+    {
+      "name": "box records tempcomp_273K_production_5ps_resume_traj.box",
+      "pass": true,
+      "detail": "(40, 3)"
+    },
+    {
+      "name": "distribution source values temperature",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "common histogram bins and unit integrals temperature",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "distribution source values density",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "common histogram bins and unit integrals density",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "distribution source values potential",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "common histogram bins and unit integrals potential",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "distribution source values pressure",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "common histogram bins and unit integrals pressure",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "distribution source values box_volume",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "common histogram bins and unit integrals box_volume",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "distribution source values hbond_count",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "common histogram bins and unit integrals hbond_count",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "distribution source values hbonds_per_water",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "common histogram bins and unit integrals hbonds_per_water",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "trajectory size tempcomp_300K_reference_traj.dat",
+      "pass": true,
+      "detail": "frames=100"
+    },
+    {
+      "name": "trajectory size tempcomp_273K_production_5ps_traj.dat",
+      "pass": true,
+      "detail": "frames=60"
+    },
+    {
+      "name": "trajectory size tempcomp_273K_production_5ps_resume_traj.dat",
+      "pass": true,
+      "detail": "frames=40"
+    },
+    {
+      "name": "oxygen count 862",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "COM drift independently recomputed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "COM-corrected centroids stationary",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "primary 300K MSD independently recomputed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "primary 273K MSD independently recomputed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "273K segment-specific MSD independently recomputed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no primary 273K restart crossing",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "NPT de-affined MSD independently recomputed",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "common fit table window 1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "alpha and slope diagnostics window 1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "origin ranges window 1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "slope to D conversion window 1",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "common fit table window 2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "alpha and slope diagnostics window 2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "origin ranges window 2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "slope to D conversion window 2",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "common fit table window 3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "alpha and slope diagnostics window 3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "origin ranges window 3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "slope to D conversion window 3",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "common fit table window 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "alpha and slope diagnostics window 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "origin ranges window 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "slope to D conversion window 4",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "common fit table window 5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "alpha and slope diagnostics window 5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "origin ranges window 5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "slope to D conversion window 5",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "common fit table window 6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "alpha and slope diagnostics window 6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "origin ranges window 6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "slope to D conversion window 6",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "prospective selection faithfully applied",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "273K second segment cutoff explicit",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "scientific label present",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "limitations wording complete",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "no accepted D when common rule fails",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "UTF-8 text files",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "all required figures exist",
+      "pass": true,
+      "detail": "fig_msd_comparison_repaired.png, fig_msd_fit_diagnostics_repaired.png, fig_msd_273K_segment_consistency.png, fig_msd_COM_drift_sensitivity.png, fig_msd_NPT_box_scaling_sensitivity.png, fig_msd_273K_restart_sensitivity_repaired.png, fig_temperature_distribution.png, fig_density_distribution.png, fig_potential_distribution.png, fig_pressure_distribution.png, fig_box_volume_distribution.png, fig_hbond_count_distribution.png, fig_hbonds_per_water_distribution.png"
+    },
+    {
+      "name": "all source hashes remain unchanged at validation end",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}

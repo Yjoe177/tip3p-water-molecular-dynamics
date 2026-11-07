@@ -1,0 +1,14 @@
+{
+    "stage":  "stage02_280K_ATTEMPT2",
+    "resume_pass":  "T2R1",
+    "coord_source":  "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\03_273K_cooling\\stage01_290K\\run\\tempcomp_273K_cooling_stage01_290K\\tempcomp_273K_cooling_stage01_290K_rst_coordinate.txt",
+    "vel_source":  "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\03_273K_cooling\\stage01_290K\\run\\tempcomp_273K_cooling_stage01_290K\\tempcomp_273K_cooling_stage01_290K_rst_velocity.txt",
+    "coord_source_sha256":  "4BDF95F05237DF450597EAE8263B6FEB1D3AC34B412CC2B742FA58EFF20C4F15",
+    "vel_source_sha256":  "14CA8CB3EA6A48CA8DB49E7AF149DD655A93B645FF3E7A75EF144631F3AE7759",
+    "coord_copy_sha256":  "4BDF95F05237DF450597EAE8263B6FEB1D3AC34B412CC2B742FA58EFF20C4F15",
+    "vel_copy_sha256":  "14CA8CB3EA6A48CA8DB49E7AF149DD655A93B645FF3E7A75EF144631F3AE7759",
+    "hashes_match":  true,
+    "synchronized":  true,
+    "velocity_regenerated":  false,
+    "start_header":  "2586 118.1200000000 499"
+}

@@ -1,0 +1,16 @@
+# donor_H_serial acceptor_O_serial (PDB serials in cluster_300K.pdb)
+6 1
+5 22
+29 7
+9 1
+8 31
+3 10
+2 16
+11 19
+12 40
+36 10
+38 16
+15 19
+14 1
+18 25
+17 22

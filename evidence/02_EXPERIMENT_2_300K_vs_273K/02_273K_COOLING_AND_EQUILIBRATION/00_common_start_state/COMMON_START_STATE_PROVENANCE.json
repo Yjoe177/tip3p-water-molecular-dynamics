@@ -1,0 +1,121 @@
+{
+  "created_utc": "2026-08-26",
+  "purpose": "Common starting state for TIP3P 300K vs 273K temperature-comparison study. Must remain unchanged; feeds both branches.",
+  "provenance_source": {
+    "r7r_directory": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\FINAL_MD_PROJECT_PACKAGE_R7R",
+    "r7r_zip": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\FINAL_MD_PROJECT_PACKAGE_R7R.zip",
+    "r7r_zip_sha256": "91463032E3CF1BC5A718EAA767383CBC56CD2752631E9CD63C3865F96BC31186",
+    "r7r_zip_sha256_sidecar_matches": true
+  },
+  "atom_count": 2586,
+  "water_molecule_count": 862,
+  "restart_header": "2586 112.6200000000 3999",
+  "restart_header_meaning": "2586 atoms; 112.620 ps absolute time; production step label 3999 (final frame of accepted 10 ps NPT production)",
+  "expected_hashes_verified": {
+    "coordinate_expected": "E6DDAF9DEB248D5076B2AD783843456AB697D8456B1E42B85130D82A57DFAA81",
+    "velocity_expected": "E43EA18C0569294A4FD644C80479AAF855D1737DCE8EA6808FDCBF6D2C71277B",
+    "coordinate_match": true,
+    "velocity_match": true
+  },
+  "files": [
+    {
+      "kind": "restart_state",
+      "source_path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\FINAL_MD_PROJECT_PACKAGE_R7R\\02_final_state\\npt_production_segment02_4ps_rst_coordinate.txt",
+      "copied_path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\01_common_start_state\\common_start_coordinate.txt",
+      "source_sha256": "E6DDAF9DEB248D5076B2AD783843456AB697D8456B1E42B85130D82A57DFAA81",
+      "copied_sha256": "E6DDAF9DEB248D5076B2AD783843456AB697D8456B1E42B85130D82A57DFAA81",
+      "header": "2586 112.6200000000 3999",
+      "byte_equal": true
+    },
+    {
+      "kind": "restart_state",
+      "source_path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\FINAL_MD_PROJECT_PACKAGE_R7R\\02_final_state\\npt_production_segment02_4ps_rst_velocity.txt",
+      "copied_path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\01_common_start_state\\common_start_velocity.txt",
+      "source_sha256": "E43EA18C0569294A4FD644C80479AAF855D1737DCE8EA6808FDCBF6D2C71277B",
+      "copied_sha256": "E43EA18C0569294A4FD644C80479AAF855D1737DCE8EA6808FDCBF6D2C71277B",
+      "header": "2586 112.6200000000 3999",
+      "byte_equal": true
+    },
+    {
+      "kind": "forcefield_system_input",
+      "source_path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\FINAL_MD_PROJECT_PACKAGE_R7R\\01_system_and_forcefield\\water_30A_randomized_LJ.txt",
+      "copied_path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\01_common_start_state\\water_30A_randomized_LJ.txt",
+      "source_sha256": "09020A864DFF9562E55D3F645DAEBBDA4874E1D42E850D9C7CF436A96E3E3AAD",
+      "copied_sha256": "09020A864DFF9562E55D3F645DAEBBDA4874E1D42E850D9C7CF436A96E3E3AAD",
+      "byte_equal": true
+    },
+    {
+      "kind": "forcefield_system_input",
+      "source_path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\FINAL_MD_PROJECT_PACKAGE_R7R\\01_system_and_forcefield\\water_30A_randomized_atom_name.txt",
+      "copied_path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\01_common_start_state\\water_30A_randomized_atom_name.txt",
+      "source_sha256": "38789B9BB294AC9EBEDA5A17597CED2D382AFC279B2D879E7D04E0B2DE8C3AFF",
+      "copied_sha256": "38789B9BB294AC9EBEDA5A17597CED2D382AFC279B2D879E7D04E0B2DE8C3AFF",
+      "byte_equal": true
+    },
+    {
+      "kind": "forcefield_system_input",
+      "source_path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\FINAL_MD_PROJECT_PACKAGE_R7R\\01_system_and_forcefield\\water_30A_randomized_atom_type_name.txt",
+      "copied_path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\01_common_start_state\\water_30A_randomized_atom_type_name.txt",
+      "source_sha256": "D395300C92DECC3FBFFF9995B02553F02839A57CEEFC7D4794B3CFBD18A34454",
+      "copied_sha256": "D395300C92DECC3FBFFF9995B02553F02839A57CEEFC7D4794B3CFBD18A34454",
+      "byte_equal": true
+    },
+    {
+      "kind": "forcefield_system_input",
+      "source_path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\FINAL_MD_PROJECT_PACKAGE_R7R\\01_system_and_forcefield\\water_30A_randomized_bond.txt",
+      "copied_path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\01_common_start_state\\water_30A_randomized_bond.txt",
+      "source_sha256": "C81B6473C427B588708B401218CE2D18BABAAC67AAE538486303B2E99937883A",
+      "copied_sha256": "C81B6473C427B588708B401218CE2D18BABAAC67AAE538486303B2E99937883A",
+      "byte_equal": true
+    },
+    {
+      "kind": "forcefield_system_input",
+      "source_path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\FINAL_MD_PROJECT_PACKAGE_R7R\\01_system_and_forcefield\\water_30A_randomized_charge.txt",
+      "copied_path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\01_common_start_state\\water_30A_randomized_charge.txt",
+      "source_sha256": "23E98B5AA08D88DE45B0E971B2E48174C04D00D6DEAC5F22B40682423CA79B91",
+      "copied_sha256": "23E98B5AA08D88DE45B0E971B2E48174C04D00D6DEAC5F22B40682423CA79B91",
+      "byte_equal": true
+    },
+    {
+      "kind": "forcefield_system_input",
+      "source_path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\FINAL_MD_PROJECT_PACKAGE_R7R\\01_system_and_forcefield\\water_30A_randomized_coordinate.txt",
+      "copied_path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\01_common_start_state\\water_30A_randomized_coordinate.txt",
+      "source_sha256": "67B606CEC95BC220AD7A473A20555D4BC005DA84DFB53AB9A0C6323E8F89C862",
+      "copied_sha256": "67B606CEC95BC220AD7A473A20555D4BC005DA84DFB53AB9A0C6323E8F89C862",
+      "byte_equal": true
+    },
+    {
+      "kind": "forcefield_system_input",
+      "source_path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\FINAL_MD_PROJECT_PACKAGE_R7R\\01_system_and_forcefield\\water_30A_randomized_exclude.txt",
+      "copied_path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\01_common_start_state\\water_30A_randomized_exclude.txt",
+      "source_sha256": "2B274AA6F3A5431A444C15D85AA0516869B551038361C502CF39FF3C22613647",
+      "copied_sha256": "2B274AA6F3A5431A444C15D85AA0516869B551038361C502CF39FF3C22613647",
+      "byte_equal": true
+    },
+    {
+      "kind": "forcefield_system_input",
+      "source_path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\FINAL_MD_PROJECT_PACKAGE_R7R\\01_system_and_forcefield\\water_30A_randomized_mass.txt",
+      "copied_path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\01_common_start_state\\water_30A_randomized_mass.txt",
+      "source_sha256": "B900ABB82F1CD5E764100BBEE5EF025EB157956DF17B07AD493015CF436DE426",
+      "copied_sha256": "B900ABB82F1CD5E764100BBEE5EF025EB157956DF17B07AD493015CF436DE426",
+      "byte_equal": true
+    },
+    {
+      "kind": "forcefield_system_input",
+      "source_path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\FINAL_MD_PROJECT_PACKAGE_R7R\\01_system_and_forcefield\\water_30A_randomized_residue.txt",
+      "copied_path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\01_common_start_state\\water_30A_randomized_residue.txt",
+      "source_sha256": "A68B76DC03CD2D80B9E89D70BD29CAAA60A2273EBDF099043C9CC5A5A423D5DA",
+      "copied_sha256": "A68B76DC03CD2D80B9E89D70BD29CAAA60A2273EBDF099043C9CC5A5A423D5DA",
+      "byte_equal": true
+    },
+    {
+      "kind": "forcefield_system_input",
+      "source_path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\FINAL_MD_PROJECT_PACKAGE_R7R\\01_system_and_forcefield\\water_30A_randomized_resname.txt",
+      "copied_path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\01_common_start_state\\water_30A_randomized_resname.txt",
+      "source_sha256": "507945C2B0024532D75C3948AB9934E59CBC5C3629D3F228FD837AB5BAFE4D7C",
+      "copied_sha256": "507945C2B0024532D75C3948AB9934E59CBC5C3629D3F228FD837AB5BAFE4D7C",
+      "byte_equal": true
+    }
+  ],
+  "all_byte_equal": true
+}

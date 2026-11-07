@@ -1,0 +1,34 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260827153717
+Username: LAPTOP-5BN71S8A\Acer
+RunAs User: LAPTOP-5BN71S8A\Acer
+Configuration Name: 
+Machine: LAPTOP-5BN71S8A (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoProfile -ExecutionPolicy Bypass -File C:\Users\Acer\Desktop\Chemistry Research Intern\First Experiment\12_TEMPERATURE_COMPARISON_300K_273K\03_273K_cooling\RUN_273K_COOLING_RESUME_T2R1.ps1
+Process ID: 25024
+PSVersion: 5.1.26100.9168
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.9168
+BuildVersion: 10.0.26100.9168
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is C:\Users\Acer\Desktop\Chemistry Research Intern\First Experiment\12_TEMPERATURE_COMPARISON_300K_273K\03_273K_cooling\stage03_273K\run\tempcomp_273K_cooling_stage03_273K\tempcomp_273K_cooling_stage03_273K_console.log
+             LJ =         1193.44,              PM =        -9586.07,            bond =            0.00,
+------------------------------------------------------------------------------------------------------------
+Time Summary:
+Rank   0    |         Initialization         |      0.210198 seconds
+Rank   0    |           Iteration            |      2.524027 seconds
+Rank   0    |       neighbor searching       |      2.652887 seconds
+Rank   0    |        Calculate_Force         |      4.510471 hours
+------------------------------------------------------------------------------------------------------------
+Stop Wall Time: Thu Aug 27 20:08:12 2026
+Core Run Wall Time: 16240.934044 seconds (4.511371 hours)
+Core Run Speed: 0.005325 ns/day
+**********************
+Windows PowerShell transcript end
+End time: 20260827200814
+**********************

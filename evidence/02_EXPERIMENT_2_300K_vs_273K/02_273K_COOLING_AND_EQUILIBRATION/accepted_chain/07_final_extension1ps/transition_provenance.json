@@ -1,0 +1,15 @@
+{
+    "stage":  "tempcomp_273K_equilibration_extension1ps",
+    "pass":  "T3E1",
+    "recovery":  "1ps_extension_from_validated_123.620ps_restart",
+    "coord_source":  "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\06_273K_equilibration_extension_1ps\\..\\05_273K_equilibration_checkpoint02\\run\\tempcomp_273K_equilibration_checkpoint02_resume\\tempcomp_273K_equilibration_checkpoint02_resume_rst_coordinate.txt",
+    "vel_source":  "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\06_273K_equilibration_extension_1ps\\..\\05_273K_equilibration_checkpoint02\\run\\tempcomp_273K_equilibration_checkpoint02_resume\\tempcomp_273K_equilibration_checkpoint02_resume_rst_velocity.txt",
+    "coord_source_sha256":  "337F28334BB5F386476DF9D28FC98BFEB99E5A95E6EB7C7081CCE2568BB3E2ED",
+    "vel_source_sha256":  "91BD5D97B6A197CF2136FF762104BF7B1F0E95D57CC88683DB86D581895B36B3",
+    "coord_copy_sha256":  "337F28334BB5F386476DF9D28FC98BFEB99E5A95E6EB7C7081CCE2568BB3E2ED",
+    "vel_copy_sha256":  "91BD5D97B6A197CF2136FF762104BF7B1F0E95D57CC88683DB86D581895B36B3",
+    "hashes_match":  true,
+    "synchronized":  true,
+    "velocity_regenerated":  false,
+    "start_header":  "2586 123.6200000000 499"
+}

@@ -1,0 +1,44 @@
+key,value
+seg01_mdout_exists,True
+seg02_mdout_exists,True
+seg01_traj_exists,True
+seg02_traj_exists,True
+seg01_box_exists,True
+seg02_box_exists,True
+seg01_rst_coord_exists,True
+seg01_rst_vel_exists,True
+seg02_rst_coord_exists,True
+seg02_rst_vel_exists,True
+atom_names_exists,True
+residue_exists,True
+console_log_state,"{'powershell_transcript_exists': True, 'full_console_output_exists': False}"
+seg01_rst_coord_header,2586 108.6200000000 5999
+seg01_rst_vel_header,2586 108.6200000000 5999
+seg02_rst_coord_header,2586 112.6200000000 3999
+seg02_rst_vel_header,2586 112.6200000000 3999
+seg01_rst_headers_synchronized,True
+seg02_rst_headers_synchronized,True
+seg02_rst_coord_sha256,E6DDAF9DEB248D5076B2AD783843456AB697D8456B1E42B85130D82A57DFAA81
+seg02_rst_vel_sha256,E43EA18C0569294A4FD644C80479AAF855D1737DCE8EA6808FDCBF6D2C71277B
+seg01_total_records,63
+seg01_accepted_records,60
+seg01_excluded_tail_records,3
+seg01_excluded_tail_steps,"6100, 6200, 6300"
+seg02_total_records,40
+seg01_last_time_ps,108.62
+seg02_first_time_ps,108.72
+time_continuity_gap_ps,0.09999999999999432
+nan_or_inf_in_key_columns,False
+finite_data_check,True
+seg01_traj_frames,6
+seg02_traj_frames,8
+seg01_traj_expected_frames,6
+seg02_traj_expected_frames,8
+seg01_traj_frame_count_ok,True
+seg02_traj_frame_count_ok,True
+seg01_box_frames,6
+seg02_box_frames,8
+natoms,2586
+nmols,862
+n_oxygens,862
+n_hydrogens,1724

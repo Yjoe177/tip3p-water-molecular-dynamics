@@ -1,0 +1,127 @@
+{
+  "status": "T1_300K_REFERENCE_POSTRUN_PASS",
+  "frame_count_semantics": "Expected frames = floor(step_limit / write_trajectory_interval) = floor(5000/50) = 100, the exact convention used and validated by the accepted R7R production runner. The .box file is written by the same trajectory writer at the same cadence, so coordinate and box frame counts must be identical. If SPONGE deviates from this convention, record the actual count and investigate before accepting.",
+  "checks": {
+    "sponge_exit_code_zero": {
+      "passed": true,
+      "detail": "exit_code=0"
+    },
+    "final_restart_coordinate_exists": {
+      "passed": true,
+      "detail": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\02_300K_reference\\run\\tempcomp_300K_reference\\tempcomp_300K_reference_rst_coordinate.txt"
+    },
+    "final_coordinate_atom_count": {
+      "passed": true,
+      "detail": "2586 117.6200000000 4999"
+    },
+    "final_coordinate_line_count": {
+      "passed": true,
+      "detail": "2586 data lines"
+    },
+    "final_coordinate_finite_values": {
+      "passed": true,
+      "detail": ""
+    },
+    "final_restart_velocity_exists": {
+      "passed": true,
+      "detail": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\02_300K_reference\\run\\tempcomp_300K_reference\\tempcomp_300K_reference_rst_velocity.txt"
+    },
+    "final_velocity_atom_count": {
+      "passed": true,
+      "detail": "2586 117.6200000000 4999"
+    },
+    "final_velocity_line_count": {
+      "passed": true,
+      "detail": "2586 data lines"
+    },
+    "final_velocity_finite_values": {
+      "passed": true,
+      "detail": ""
+    },
+    "trajectory_dat_exact_frame_multiple": {
+      "passed": true,
+      "detail": "3103200 bytes, 31032 bytes/frame, remainder 0"
+    },
+    "trajectory_frame_count": {
+      "passed": true,
+      "detail": "100 frames, expected 100 (floor(5000/50) per accepted R7R runner convention)"
+    },
+    "trajectory_all_finite": {
+      "passed": true,
+      "detail": ""
+    },
+    "box_records_wellformed_finite": {
+      "passed": true,
+      "detail": "100 box records"
+    },
+    "box_frame_count_matches_trajectory": {
+      "passed": true,
+      "detail": "box=100 traj=100"
+    },
+    "box_volume_finite_positive": {
+      "passed": true,
+      "detail": "mean volume 26409.27 A^3"
+    },
+    "structural_spacing_ps": {
+      "passed": true,
+      "detail": "0.05 ps between saved frames"
+    },
+    "mdout_header_found": {
+      "passed": true,
+      "detail": "header at line 1"
+    },
+    "mdout_required_labels_present": {
+      "passed": true,
+      "detail": "column map: {'step': 0, 'time': 1, 'temperature': 2, 'pressure': 3, 'potential': 10, 'density': 11}"
+    },
+    "mdout_finite": {
+      "passed": true,
+      "detail": "100 data records"
+    },
+    "mdout_record_count": {
+      "passed": true,
+      "detail": "100 records, expected 100"
+    },
+    "mdout_first_middle_final_records_correct": {
+      "passed": true,
+      "detail": "record[0]: step=50 (exp 50), time=112.670 ps, T=298.72 K, P=485.70 bar, Epot=-8219.71, density=0.9764 | record[50]: step=2550 (exp 2550), time=115.170 ps, T=300.36 K, P=312.30 bar, Epot=-8207.14, density=0.9749 | record[99]: step=5000 (exp 5000), time=117.620 ps, T=298.97 K, P=-621.14 bar, Epot=-8271.36, density=0.9738"
+    },
+    "temperature_centered_near_300K": {
+      "passed": true,
+      "detail": "mean T = 301.79 K, sample SD = 5.30 K over 100 records (loose |mean-300|<10 K check)"
+    },
+    "thermo_stats": {
+      "passed": true,
+      "detail": "{\"temperature\": {\"mean\": 301.7867, \"sample_sd\": 5.3031, \"n\": 100}, \"pressure\": {\"mean\": -75.2467, \"sample_sd\": 395.9432, \"n\": 100}, \"density\": {\"mean\": 0.9763, \"sample_sd\": 0.0014, \"n\": 100}, \"potential\": {\"mean\": -8214.3944, \"sample_sd\": 36.2132, \"n\": 100}}",
+      "note": "Pressure mean/SD reported for information only; short 5 ps NPT windows are not expected to centre on the 1 bar target."
+    },
+    "mdinfo_present": {
+      "passed": true,
+      "detail": "6455 chars"
+    },
+    "simulation_length_5ps": {
+      "passed": true,
+      "detail": "5000 steps = 5.000 ps, expected 5000 steps = 5.0 ps"
+    },
+    "run_input_coordinate_hash_unchanged": {
+      "passed": true,
+      "detail": ""
+    },
+    "run_input_velocity_hash_unchanged": {
+      "passed": true,
+      "detail": ""
+    },
+    "common_start_coordinate_hash_unchanged": {
+      "passed": true,
+      "detail": ""
+    },
+    "common_start_velocity_hash_unchanged": {
+      "passed": true,
+      "detail": ""
+    },
+    "common_start_header_unchanged": {
+      "passed": true,
+      "detail": "2586 112.6200000000 3999"
+    }
+  }
+}

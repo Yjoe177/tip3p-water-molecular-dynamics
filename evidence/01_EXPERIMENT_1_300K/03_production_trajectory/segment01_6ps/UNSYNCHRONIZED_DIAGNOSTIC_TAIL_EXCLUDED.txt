@@ -1,0 +1,4 @@
+Segment 01 11A production was interrupted by an unexpected laptop/system restart.
+Only the first 6,000 steps (60 mdout records, time 102.720-108.620 ps) are accepted.
+Records 6100, 6200, and 6300 (3 records) are preserved in the _full_evidence file
+but are labelled UNSYNCHRONIZED_DIAGNOSTIC_TAIL_EXCLUDED and must NOT be used.

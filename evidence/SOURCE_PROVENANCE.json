@@ -1,0 +1,42 @@
+{
+  "assembly": "assembly only \u2014 no SPONGE run, no MD rerun, no scientific recomputation; base package contents byte-identical",
+  "date": "2026-09-22",
+  "tools": {
+    "python": {
+      "path": "C:/Users/Acer/miniconda3/envs/sponge-cpu/python.exe",
+      "version": "3.11.15 (stdlib only)"
+    },
+    "zip": "python zipfile (deflate)"
+  },
+  "source_packages": [
+    {
+      "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\FINAL_TIP3P_WATER_300K_273K_PROJECT_PACKAGE_FINAL.zip",
+      "bytes": 25090778,
+      "sha256": "82b687d8dcd423e7afc4121db5e6f15c7c28d3c40d60b6b2de7b14314d29afcb",
+      "role": "frozen base project package (sections 00-04; not modified)"
+    },
+    {
+      "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\PRESENTATION_DISTRIBUTIONS_AND_MSD_FINAL.zip",
+      "bytes": 3917725,
+      "sha256": "433f7ae5178005726638256425780df6817cc58e9433240d5baa207993cc7983",
+      "role": "accepted presentation/MSD package (section 05; presentation figs copied to 07)"
+    },
+    {
+      "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\15R_HBOND_NETWORK_VISUALIZATION_PRESENTATION_REPAIR_20260922_181921\\HBOND_NETWORK_VISUALIZATION_FINAL_PACKAGE.zip",
+      "bytes": 1280777,
+      "sha256": "30fd73bd6d7a5abd71c1643810c917bd50b5f8db092e24b4142c086a2a9d5307",
+      "role": "accepted H-bond network visualization package (section 06; render PNGs copied to 07)"
+    }
+  ],
+  "section_mapping": {
+    "00_PROJECT_OVERVIEW": "base 00_PROJECT_OVERVIEW (unchanged) + base root bookkeeping as BASE_PACKAGE_* + base summary archived as BASE_PACKAGE_FINAL_PROJECT_SUMMARY.md + updated FINAL_PROJECT_SUMMARY.md",
+    "01_EXPERIMENT_1_300K": "base 01_EXPERIMENT_1_ORIGINAL_300K (byte-identical)",
+    "02_EXPERIMENT_2_300K_vs_273K": "base 02_EXPERIMENT_2_TEMPERATURE_COMPARISON (byte-identical)",
+    "03_FINAL_DEEP_ANALYSIS": "base 03_FINAL_RESULTS (byte-identical; section renamed)",
+    "04_REPRODUCIBILITY": "base 04_REPRODUCIBILITY (byte-identical)",
+    "05_MSD_AND_MOBILITY_ANALYSIS": "full contents of PRESENTATION_DISTRIBUTIONS_AND_MSD_FINAL.zip",
+    "06_HBOND_NETWORK_VISUALIZATION": "full contents of HBOND_NETWORK_VISUALIZATION_FINAL_PACKAGE.zip",
+    "07_PRESENTATION_ASSETS": "presentation subset (fig_*.png from source 2, hbond_network_*.png from source 3)"
+  },
+  "manifest_policy": "FINAL_PACKAGE_MANIFEST_SHA256.csv lists every package file except itself; validator accounts for this"
+}

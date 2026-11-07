@@ -1,0 +1,109 @@
+{
+  "FINAL_zip_sha256": "82B687D8DCD423E7AFC4121DB5E6F15C7C28D3C40D60B6B2DE7B14314D29AFCB",
+  "raw_inputs": {
+    "300K": [
+      {
+        "package_relative_current_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/01_300K_MATCHED_REFERENCE/run/tempcomp_300K_reference/tempcomp_300K_reference_traj.dat",
+        "original_path_from_provenance": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\02_300K_reference\\run\\tempcomp_300K_reference\\tempcomp_300K_reference_traj.dat",
+        "sha256": "5D0378EFC122A9CB34E1999AD9D2BB3DEC04BECC3FA338E701AF6F25A47EA8A1",
+        "role": "trajectory",
+        "verified_sha256": "5D0378EFC122A9CB34E1999AD9D2BB3DEC04BECC3FA338E701AF6F25A47EA8A1"
+      },
+      {
+        "package_relative_current_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/01_300K_MATCHED_REFERENCE/run/tempcomp_300K_reference/tempcomp_300K_reference_traj.box",
+        "original_path_from_provenance": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\02_300K_reference\\run\\tempcomp_300K_reference\\tempcomp_300K_reference_traj.box",
+        "sha256": "D2552807AF8627AAD6EE7CC95113CDCFC7AD66783A01C651D8885E2050FD04D1",
+        "role": "box",
+        "verified_sha256": "D2552807AF8627AAD6EE7CC95113CDCFC7AD66783A01C651D8885E2050FD04D1"
+      },
+      {
+        "package_relative_current_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/01_300K_MATCHED_REFERENCE/run/tempcomp_300K_reference/tempcomp_300K_reference.mdout",
+        "original_path_from_provenance": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\02_300K_reference\\run\\tempcomp_300K_reference\\tempcomp_300K_reference.mdout",
+        "sha256": "BEA8001AF75187CE09DB1488A82AD1732DA46A4E533E88365A65C2142556431B",
+        "role": "mdout",
+        "verified_sha256": "BEA8001AF75187CE09DB1488A82AD1732DA46A4E533E88365A65C2142556431B"
+      }
+    ],
+    "273K": [
+      {
+        "package_relative_current_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/03_273K_PRODUCTION/segment01_60_frames/tempcomp_273K_production_5ps_traj.dat",
+        "original_path_from_provenance": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps\\tempcomp_273K_production_5ps_traj.dat",
+        "sha256": "559FD6DE0659FDEB805E2DB06CF08127BAB75397143FB579B9A27DC692404FE2",
+        "role": "trajectory",
+        "verified_sha256": "559FD6DE0659FDEB805E2DB06CF08127BAB75397143FB579B9A27DC692404FE2"
+      },
+      {
+        "package_relative_current_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/03_273K_PRODUCTION/segment02_40_frames/tempcomp_273K_production_5ps_resume_traj.dat",
+        "original_path_from_provenance": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps_resume\\tempcomp_273K_production_5ps_resume_traj.dat",
+        "sha256": "0D5FC88D8205750619A9854BB73D205E618A210C28E739D189DA90A17621EF78",
+        "role": "trajectory",
+        "verified_sha256": "0D5FC88D8205750619A9854BB73D205E618A210C28E739D189DA90A17621EF78"
+      },
+      {
+        "package_relative_current_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/03_273K_PRODUCTION/segment01_60_frames/tempcomp_273K_production_5ps_traj.box",
+        "original_path_from_provenance": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps\\tempcomp_273K_production_5ps_traj.box",
+        "sha256": "96FCD1E237811585EC1C4A4E7B66FF2295EC229990981770B5E4017FE2A20C0B",
+        "role": "box",
+        "verified_sha256": "96FCD1E237811585EC1C4A4E7B66FF2295EC229990981770B5E4017FE2A20C0B"
+      },
+      {
+        "package_relative_current_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/03_273K_PRODUCTION/segment02_40_frames/tempcomp_273K_production_5ps_resume_traj.box",
+        "original_path_from_provenance": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps_resume\\tempcomp_273K_production_5ps_resume_traj.box",
+        "sha256": "5EDAFD1B07AC60F74C8F547A319E3B4C81F71A1B3669DF782DB0AFEF2CF7619B",
+        "role": "box",
+        "verified_sha256": "5EDAFD1B07AC60F74C8F547A319E3B4C81F71A1B3669DF782DB0AFEF2CF7619B"
+      },
+      {
+        "package_relative_current_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/03_273K_PRODUCTION/segment01_60_frames/tempcomp_273K_production_5ps.mdout",
+        "original_path_from_provenance": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps\\tempcomp_273K_production_5ps.mdout",
+        "sha256": "E95EEDB805B8089028AD086761C5AB3B530DB05C53F04FE76D2069F6262CD070",
+        "role": "mdout",
+        "verified_sha256": "E95EEDB805B8089028AD086761C5AB3B530DB05C53F04FE76D2069F6262CD070"
+      },
+      {
+        "package_relative_current_path": "02_EXPERIMENT_2_TEMPERATURE_COMPARISON/03_273K_PRODUCTION/segment02_40_frames/tempcomp_273K_production_5ps_resume.mdout",
+        "original_path_from_provenance": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps_resume\\tempcomp_273K_production_5ps_resume.mdout",
+        "sha256": "9C65423B991B99F6DE1701F2D1BB66F1850556B87D812DCF7170F6104233D1B7",
+        "role": "mdout",
+        "verified_sha256": "9C65423B991B99F6DE1701F2D1BB66F1850556B87D812DCF7170F6104233D1B7"
+      }
+    ]
+  },
+  "hbond_sha256": "2D84D077B9067BACD7170A6CBB7FB524144FE6F4519DE9DDBFCFE5A7A4DCB58F",
+  "immutable_branch_13_manifest": {
+    "analyze_presentation_distributions_and_msd.py": "3ED39745644F0156009A6B5E4C18F51D8314FA7F67B0B6C27959DB0CE53FCD39",
+    "INPUT_PROVENANCE.json": "193B1466E794D2337D3CC38E8FA2C96CDC23F60A7BDF1D16A767C50DAE6F765E",
+    "outputs/box_volume_distribution.csv": "A5029A610B3B8E76A03014EA3DFFA05A3164C02B74D109E52148A69D0CD3D442",
+    "outputs/box_volume_raw_values.csv": "3DE148C2A95699C2FA1E29EA3546831810051392361290900F3003B698924595",
+    "outputs/density_distribution.csv": "7EE2E77330E23EA413E9D43C9A7675C28A929754C2B135DEB0AF91480BBE2DB8",
+    "outputs/density_raw_values.csv": "4EA9328D04D502B8CF74CA483B530568EDA76BC43356499CBA9CB4D59D131A64",
+    "outputs/fig_box_volume_distribution.png": "9897EFDFDC30DFAC257C5A9F8A2AF05E491BEBFBA633180D19BEBF934BA0218A",
+    "outputs/fig_density_distribution.png": "04263B094B418CD0C78EF48A59A35D0F9F9C184F895DF6590A13B95E86AAF4F5",
+    "outputs/fig_hbond_count_distribution.png": "083AC7C4DB0CC5286EEEE0FA04361FD61A3EEC709266C64894F65ABF45E204BC",
+    "outputs/fig_hbonds_per_water_distribution.png": "BD88DB4DF99242EA20C97AF73649A83B01782E9D1800FF4B845B423697FF2DD2",
+    "outputs/fig_msd_273K_restart_sensitivity.png": "5C2FEF1795F5F8AAF692DDC0CFA30CD2A22E5BDB6377B98A889D8D89A65B6C1E",
+    "outputs/fig_msd_comparison.png": "C1D247DB2FC2D8C82265D648789E8B4AE5A6230A766F41BEBED444973B4488C4",
+    "outputs/fig_msd_fit_diagnostics.png": "5ED60FDA96F7117D00DCE39D2E540DB9AC72092F80173113DAB52E789ED62AB9",
+    "outputs/fig_potential_distribution.png": "9D5A3FF554FEEDF9E381143CA60E1E326A362130541D6EDB913BED1278B32270",
+    "outputs/fig_pressure_distribution.png": "FEF0856CCD18033C7590D2A25C5DBEAB81CFA9B2FD6C997992101527264D973C",
+    "outputs/fig_temperature_distribution.png": "7361519FCDF11A2DFC201F14C2B65FE64BB20500198314A670DFCB81C08266C7",
+    "outputs/hbond_count_distribution.csv": "5C5533175B29D5B639B3FA4446A98DCC47A71ABBC427B3BE9F8CAD28E9518D0C",
+    "outputs/hbond_count_raw_values.csv": "5713E31A8CB30FACF15C05DA09C2B30C7F73383205AB79D54EE95CEC29426FB3",
+    "outputs/hbonds_per_water_distribution.csv": "7FE2C98920B6ECDCC39B376A73563173B90F861976312F50C8E547168B7869D8",
+    "outputs/hbonds_per_water_raw_values.csv": "A4BDC9A36B3924CBDBAB3B25383850E0D24021D55B949EC3FB716B073AB55450",
+    "outputs/msd_273K_concatenated_sensitivity.csv": "597D9FAA5047DEFFC945C1204E422C36D8DC2AF3EB590A627202D04B04C74A5E",
+    "outputs/msd_273K_segmented_primary.csv": "32720B3A052CDC4C6C0C7B24CE77633886983FAEDFFD38446E70B08CCA27DAF7",
+    "outputs/msd_300K.csv": "D16EB8FCA8523529DC8E434DEDDDF3D942436B42A980411244FE4610C94C7377",
+    "outputs/msd_intermediate_unwrapped_oxygen.npz": "4D4F215E0C84F7BC51F021485E86369A614D643F3CDC3E5F4402C3FFFE6F69DB",
+    "outputs/potential_distribution.csv": "27F14F1EEFEC2649C205135666706DB05D70584EF159A11CA97D37F26A2EEA97",
+    "outputs/potential_raw_values.csv": "B73E525212D9D741C4A666ECA2499A1D989BCAEFB425BC3D891D9616DC985FFC",
+    "outputs/pressure_distribution.csv": "2F7816D03F6321D1C171D7AD0D2AC45D161489918E4E2F0D7A75794457A31650",
+    "outputs/pressure_raw_values.csv": "E5156BC35C61048D97CD4CC548251B048B3CEF6D973AAA334BC7E80941402EE0",
+    "outputs/temperature_distribution.csv": "F20CF18081492595DB19B5435AFB086877A2C8E780A2F78BC95ABF7C5CD82292",
+    "outputs/temperature_raw_values.csv": "64E73BDA74BDDA91D038F0C399815D800D6BB2E4365F719CE1882274D9A1AAE4",
+    "PRESENTATION_DISTRIBUTIONS_AND_MSD_INTERPRETATION.md": "FABB37E0658B31D0340369AA5CB40810BC87DB65FC0EA072A7BEC6444A97DD34",
+    "PRESENTATION_DISTRIBUTIONS_AND_MSD_RESULTS.json": "3DDC8E5633ECF7DC7435467E27FE09DFB5C055F711B52D66E81D356444EB677D",
+    "PRESENTATION_DISTRIBUTIONS_AND_MSD_VALIDATION.json": "02840C6150E3D031458201A51A51D629A8C57D8E8AFE9657006E7FBA52BBB7C5",
+    "validate_presentation_distributions_and_msd.py": "428275227BA7301C1C11BCAB765A848214F19D67B0DFD086312FCF6215CE7EA1"
+  }
+}

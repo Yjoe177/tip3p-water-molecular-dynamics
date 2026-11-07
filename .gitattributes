@@ -1,0 +1,9 @@
+# Preserve frozen evidence bytes across platforms and Git configurations.
+evidence/** -text whitespace=-blank-at-eol
+*.pdf binary
+*.pptx binary
+README.md text eol=lf
+AUDIT.md text eol=lf
+scripts/*.py text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf

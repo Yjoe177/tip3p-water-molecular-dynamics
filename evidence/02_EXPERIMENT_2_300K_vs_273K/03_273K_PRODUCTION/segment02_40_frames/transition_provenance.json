@@ -1,0 +1,15 @@
+{
+    "stage":  "tempcomp_273K_production_5ps_resume",
+    "pass":  "T4R2",
+    "recovery":  "resume_from_pinned_interrupted_T4_step3000_127.620ps_restart",
+    "coord_source":  "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps\\tempcomp_273K_production_5ps_rst_coordinate.txt",
+    "vel_source":  "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps\\tempcomp_273K_production_5ps_rst_velocity.txt",
+    "coord_source_sha256":  "29BC5D429879AD74DE2072325D69A6451F4301A1E59A4EB3F10FB19D1B399CDA",
+    "vel_source_sha256":  "256B838B7D5111551A1012CAACB3E56459F998BC71D2078E5DA26CF04A1C7A38",
+    "coord_copy_sha256":  "29BC5D429879AD74DE2072325D69A6451F4301A1E59A4EB3F10FB19D1B399CDA",
+    "vel_copy_sha256":  "256B838B7D5111551A1012CAACB3E56459F998BC71D2078E5DA26CF04A1C7A38",
+    "hashes_match":  true,
+    "synchronized":  true,
+    "velocity_regenerated":  false,
+    "start_header":  "2586 127.6200000000 2999"
+}

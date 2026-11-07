@@ -1,0 +1,192 @@
+ ____  ____   ___  _   _  ____ _____
+/ ___||  _ \ / _ \| \ | |/ ___| ____|
+\___ \| |_) | | | |  \| | |  _|  _|
+ ___) |  __/| |_| | |\  | |_| | |___
+|____/|_|    \___/|_| \_|\____|_____|
+
+SPONGE Version:
+    v2.0.0 2026-02-16 Spring Festive
+
+Sub-package:
+    SPONGE, for general-purpose molecular dynamics simulations
+
+Citation:
+    Huang, Y. - P., Xia, Y., Yang, L., Wei, J., Yang, Y.I.and Gao, Y.Q. (2022), SPONGE: A GPU - Accelerated Molecular Dynamics Package with Enhanced Sampling and AI - Driven Algorithms.Chin.J.Chem., 40 : 160 - 168. https ://doi.org/10.1002/cjoc.202100456
+
+
+Working Directory:
+    C:\Users\Acer\Desktop\Chemistry Research Intern\First Experiment\12_TEMPERATURE_COMPARISON_300K_273K\03_273K_cooling\stage02_280K\run\tempcomp_273K_cooling_stage02_280K_ATTEMPT2
+
+SPONGE Path:
+    C:\Users\Acer\miniconda3\envs\sponge-cpu\bin\SPONGE.exe
+
+Start Wall Time:
+    Thu Aug 27 13:17:43 2026
+
+MD TASK NAME:
+    Default SPONGE MD Task Name
+
+Terminal Commands:
+    SPONGE -mode NPT -thermostat middle_langevin -barostat bussi_barostat -target_temperature 280 -target_pressure 1.0 -thermostat_seed 20260831 -thermostat_tau 1.0 -barostat_tau 1.0 -barostat_update_interval 10 -barostat_isotropy isotropic -default_in_file_prefix ..\..\..\input\water_30A_randomized -coordinate_in_file .\tempcomp_273K_cooling_stage02_280K_ATTEMPT2_start_coordinate.txt -velocity_in_file .\tempcomp_273K_cooling_stage02_280K_ATTEMPT2_start_velocity.txt -step_limit 500 -dt 0.001 -constrain_mode SHAKE -cutoff 8 -write_information_interval 50 -write_trajectory_interval 50 -write_restart_file_interval 500 -print_pressure 1 -mdout tempcomp_273K_cooling_stage02_280K_ATTEMPT2.mdout -mdinfo tempcomp_273K_cooling_stage02_280K_ATTEMPT2.mdinfo -rst tempcomp_273K_cooling_stage02_280K_ATTEMPT2_rst -default_out_file_prefix tempcomp_273K_cooling_stage02_280K_ATTEMPT2_traj 
+
+START INITIALIZING CONTROLLER
+    Start initializing OpenMP
+        Rank 0: 12 OpenMP Thread(s)
+    End initializing OpenMP
+    MPI is not enabled
+    structure last modify date is 20260216
+END INITIALIZING CONTROLLER
+
+START INITIALIZING CV CONTROLLER:
+CV CONTROLLER IS NOT INITIALIZING
+
+START INITIALIZING MD CORE:
+    Mode set to NPT
+    skin set to 2.00 Angstrom
+    cutoff set to 8.00 Angstrom
+    Start reading excluded list from Xponge:
+    End reading excluded list from Xponge
+
+    Start reading residue list from Xponge:
+        residue_numbers is 862
+    End reading residue list from Xponge
+
+    dt set to 0.001000 ps
+    structure last modify date is 20260216
+END INITIALIZING MD CORE
+
+START INITIALIZING MIDDLE LANGEVIN DYNAMICS:
+    atom_numbers is 2586
+    target temperature is 280.00 K
+    friction coefficient is 1.00 ps^-1
+    random seed is 20260831
+    structure last modify date is 20260216
+END INITIALIZING MIDDLE LANGEVIN DYNAMICS
+
+START INITIALIZING PRESSURE BASED BAROSTAT:
+    The algorithm is Bussi
+    The target pressure is 1.00 bar
+    The isotropy is isotropic
+    The time constant tau is 1.000000 ps
+    The compressibility constant is 0.000045 bar^-1
+    The update interval is 10
+    The piston mass is 588184832.000000 bar ps^2 / A^3
+    The initial box velocity is (in A^3/(1/20.455 fs))
+        0.000000e+00 0.000000e+00 0.000000e+00
+        0.000000e+00 0.000000e+00 0.000000e+00
+        0.000000e+00 0.000000e+00 0.000000e+00
+END INITIALIZING ANDERSEN BAROSTAT
+
+START INITIALIZING LENNADR JONES INFORMATION:
+    atom_numbers is 2586
+    atom_LJ_type_number is 2
+    Start initializing long range LJ correction
+        long range correction factor is: -1.807975e+06
+    End initializing long range LJ correction
+    structure last modify date is 20260216
+END INITIALIZING LENNADR JONES INFORMATION
+
+START INITIALIZING FEP SOFT CORE FOR LJ AND COULOMB:
+END INITIALIZING LENNADR JONES SOFT CORE INFORMATION
+
+START INITIALIZING PME:
+    PME backend library: MKL-FFT
+    grid_spacing: 1.000000 Angstrom
+    fftx: 32
+    ffty: 32
+    fftz: 32
+    beta: 0.348639
+    structure last modify date is 20260216
+END INITIALIZING PME
+
+PAIRWISE FORCE IS NOT INITIALIZED
+
+NB14 IS NOT INITIALIZED
+
+LISTED FORCES IS NOT INITIALIZED
+
+STILLINGER WEBER FORCE IS NOT INITIALIZED
+
+EDIP FORCE IS NOT INITIALIZED
+
+EAM FORCE IS NOT INITIALIZED
+
+ANGLE IS NOT INITIALIZED
+
+UREY BRADLEY IS NOT INITIALIZED
+
+START INITIALIZING BOND (Xponge::system):
+    bond_numbers is 2586
+    structure last modify date is 20260216
+END INITIALIZING BOND
+
+CMAP IS NOT INITIALIZED
+
+DIHEDRAL IS NOT INITIALIZED
+
+IMPROPER DIHEDRAL IS NOT INITIALIZED
+
+RESTRAIN IS NOT INITIALIZED
+
+START INITIALIZING HARD WALL:
+END INITIALIZING HARD WALL
+
+SOFT WALLS ARE NOT INITIALIZED
+
+START INITIALIZING CONSTRAIN:
+    constrain pair number is 2586
+END INITIALIZING CONSTRAIN
+
+START INITIALIZING SETTLE:
+    rigid triangle numbers is 862
+    rigid pair numbers is 0
+    remaining simple constrain pair numbers is 0
+END INITIALIZING SETTLE
+
+SHAKE IS NOT INITIALIZED
+
+VIRTUAL ATOM IS NOT INITIALIZED
+
+START INITIALIZING NEIGHBOR LIST:
+    Max number of neighbors for one atom: 1200
+    initializing grids
+        Nx: 5        Ny: 5        Nz: 5
+        Max number of atoms in one grid: 150
+        Max number of ghosts in one grid: 150
+    initializing updator
+        The interval to refresh the neighbor list: 0
+        The permit of the skin to refresh the neighbor list: 0.500000
+    is_needed_half: true
+    is_needed_full: false
+END INITIALIZING NEIGHBOR LIST
+
+START INITIALIZING STEER CV:
+    0 CV(s) found for steer
+STEER CV IS NOT INITIALIZED
+
+START INITIALIZING RESTRAIN CV:
+    0 CV(s) found for restrain
+RESTRAIN CV IS NOT INITIALIZED
+
+META IS NOT INITIALIZED
+
+    Molecule numbers: 862
+SOLVENT LJ IS NOT INITIALIZED
+
+MPI process total: MPI_size=1, PP_MPI_size=1, PM_MPI_size=1
+MPI process partition: MPI_rank=0, PP_MPI_rank=0, PM_MPI_rank=0
+DOMAIN DECOMPOSITION BEGIN
+    domain decomposition update_interval = 100
+DOMAIN DECOMPOSITION END
+nx=1, ny=1, nz=1
+max_atom_numbers=2586, max_res_numbers=862
+------------------------------------------------------------------------------------------------------------
+Time Summary:
+Rank   0    |         Initialization         |      0.256697 seconds
+Rank   0    |           Iteration            |      1.233990 seconds
+Rank   0    |       neighbor searching       |      1.409703 seconds
+Rank   0    |        Calculate_Force         |      2.323709 hours
+------------------------------------------------------------------------------------------------------------
+Stop Wall Time: Thu Aug 27 15:37:10 2026
+Core Run Wall Time: 8366.862709 seconds (2.324129 hours)
+Core Run Speed: 0.005174 ns/day

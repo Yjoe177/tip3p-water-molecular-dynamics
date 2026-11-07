@@ -1,0 +1,54 @@
+{
+  "300K": {
+    "trajectory_files": [
+      {
+        "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\02_300K_reference\\run\\tempcomp_300K_reference\\tempcomp_300K_reference_traj.dat",
+        "sha256": "5D0378EFC122A9CB34E1999AD9D2BB3DEC04BECC3FA338E701AF6F25A47EA8A1"
+      }
+    ],
+    "box_files": [
+      {
+        "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\02_300K_reference\\run\\tempcomp_300K_reference\\tempcomp_300K_reference_traj.box",
+        "sha256": "D2552807AF8627AAD6EE7CC95113CDCFC7AD66783A01C651D8885E2050FD04D1"
+      }
+    ],
+    "mdout_files": [
+      {
+        "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\02_300K_reference\\run\\tempcomp_300K_reference\\tempcomp_300K_reference.mdout",
+        "sha256": "BEA8001AF75187CE09DB1488A82AD1732DA46A4E533E88365A65C2142556431B"
+      }
+    ]
+  },
+  "273K": {
+    "trajectory_files": [
+      {
+        "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps\\tempcomp_273K_production_5ps_traj.dat",
+        "sha256": "559FD6DE0659FDEB805E2DB06CF08127BAB75397143FB579B9A27DC692404FE2"
+      },
+      {
+        "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps_resume\\tempcomp_273K_production_5ps_resume_traj.dat",
+        "sha256": "0D5FC88D8205750619A9854BB73D205E618A210C28E739D189DA90A17621EF78"
+      }
+    ],
+    "box_files": [
+      {
+        "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps\\tempcomp_273K_production_5ps_traj.box",
+        "sha256": "96FCD1E237811585EC1C4A4E7B66FF2295EC229990981770B5E4017FE2A20C0B"
+      },
+      {
+        "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps_resume\\tempcomp_273K_production_5ps_resume_traj.box",
+        "sha256": "5EDAFD1B07AC60F74C8F547A319E3B4C81F71A1B3669DF782DB0AFEF2CF7619B"
+      }
+    ],
+    "mdout_files": [
+      {
+        "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps\\tempcomp_273K_production_5ps.mdout",
+        "sha256": "E95EEDB805B8089028AD086761C5AB3B530DB05C53F04FE76D2069F6262CD070"
+      },
+      {
+        "path": "C:\\Users\\Acer\\Desktop\\Chemistry Research Intern\\First Experiment\\12_TEMPERATURE_COMPARISON_300K_273K\\07_273K_production_5ps\\run\\tempcomp_273K_production_5ps_resume\\tempcomp_273K_production_5ps_resume.mdout",
+        "sha256": "9C65423B991B99F6DE1701F2D1BB66F1850556B87D812DCF7170F6104233D1B7"
+      }
+    ]
+  }
+}

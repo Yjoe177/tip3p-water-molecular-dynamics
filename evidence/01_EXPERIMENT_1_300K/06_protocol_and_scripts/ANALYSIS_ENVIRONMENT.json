@@ -1,0 +1,9 @@
+{
+  "python_version": "3.14.0",
+  "python_implementation": "CPython",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy_version": "2.4.0",
+  "matplotlib_version": "3.10.8",
+  "reproducer_sha256": "03D164E4A1834E7306C4976E79CFAFBC8B0B4077B3D7D4E06B22AC0978AEB741",
+  "generated_at": "2026-08-17T07:17:24.198500+00:00"
+}

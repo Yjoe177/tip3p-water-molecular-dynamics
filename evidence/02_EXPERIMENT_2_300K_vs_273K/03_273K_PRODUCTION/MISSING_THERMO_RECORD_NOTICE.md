@@ -1,0 +1,1 @@
+The step-3000 / 127.620 ps mdout record was buffered/lost at laptop restart and is intentionally absent. Structural/box evidence is 60 + 40 = 100 frames; 99 real thermo records remain. RNG continuity across the restart is not claimed.
